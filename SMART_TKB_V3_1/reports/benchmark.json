@@ -1,0 +1,7 @@
+{
+  "fair": "FAIR_BENCHMARK.json",
+  "extended": "EXTENDED_BENCHMARK.json",
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}

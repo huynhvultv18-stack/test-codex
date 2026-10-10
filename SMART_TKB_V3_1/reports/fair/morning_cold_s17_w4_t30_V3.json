@@ -1,0 +1,21 @@
+{
+  "status": "INFEASIBLE",
+  "lessons": [],
+  "required": 972,
+  "placed": 0,
+  "conflicts": 0,
+  "elapsed_seconds": 0.006,
+  "diagnostics": [
+    "GV GV015 — Thầy Độ: cần 40, sức chứa 30 tiết (am)"
+  ],
+  "metrics": null,
+  "phases": [],
+  "global_optimal_proven": false,
+  "lexicographic_optimal_proven": false,
+  "optimality_scope": "full_model",
+  "technical_only": true,
+  "production_ready": false,
+  "unscheduled_special": 111,
+  "proof": "Necessary capacity bound",
+  "independent_check": null
+}

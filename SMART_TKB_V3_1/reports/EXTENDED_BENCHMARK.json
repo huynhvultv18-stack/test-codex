@@ -1,0 +1,4142 @@
+{
+  "cases": [
+    {
+      "mode": "morning",
+      "config": {
+        "mode": "morning",
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "special_mode": "SCENARIO",
+        "special_scenario": {
+          "enabled": true,
+          "activity_ids": [
+            "SP_C06A01_HD01",
+            "SP_C06A01_HD02",
+            "SP_C06A02_HD01",
+            "SP_C06A02_HD02",
+            "SP_C06A03_HD01",
+            "SP_C06A03_HD02",
+            "SP_C06A04_HD01",
+            "SP_C06A04_HD02",
+            "SP_C06A05_HD01",
+            "SP_C06A05_HD02",
+            "SP_C06A06_HD01",
+            "SP_C06A06_HD02",
+            "SP_C06A07_HD01",
+            "SP_C06A07_HD02",
+            "SP_C06A08_HD01",
+            "SP_C06A08_HD02",
+            "SP_C06A09_HD01",
+            "SP_C06A09_HD02",
+            "SP_C07A01_HD01",
+            "SP_C07A01_HD02",
+            "SP_C07A02_HD01",
+            "SP_C07A02_HD02",
+            "SP_C07A03_HD01",
+            "SP_C07A03_HD02",
+            "SP_C07A04_HD01",
+            "SP_C07A04_HD02",
+            "SP_C07A05_HD01",
+            "SP_C07A05_HD02",
+            "SP_C07A06_HD01",
+            "SP_C07A06_HD02",
+            "SP_C07A07_HD01",
+            "SP_C07A07_HD02",
+            "SP_C07A08_HD01",
+            "SP_C07A08_HD02",
+            "SP_C07A09_HD01",
+            "SP_C07A09_HD02",
+            "SP_C08A01_HD01",
+            "SP_C08A01_HD02",
+            "SP_C08A02_HD01",
+            "SP_C08A02_HD02",
+            "SP_C08A03_HD01",
+            "SP_C08A03_HD02",
+            "SP_C08A04_HD01",
+            "SP_C08A04_HD02",
+            "SP_C08A05_HD01",
+            "SP_C08A05_HD02",
+            "SP_C08A06_HD01",
+            "SP_C08A06_HD02",
+            "SP_C08A07_HD01",
+            "SP_C08A07_HD02",
+            "SP_C08A08_HD01",
+            "SP_C08A08_HD02",
+            "SP_C08A09_HD01",
+            "SP_C08A09_HD02",
+            "SP_C09A01_HD01",
+            "SP_C09A01_HD02",
+            "SP_C09A02_HD01",
+            "SP_C09A02_HD02",
+            "SP_C09A03_HD01",
+            "SP_C09A03_HD02",
+            "SP_C09A04_HD01",
+            "SP_C09A04_HD02",
+            "SP_C09A05_HD01",
+            "SP_C09A05_HD02",
+            "SP_C09A06_HD01",
+            "SP_C09A06_HD02",
+            "SP_C09A07_HD01",
+            "SP_C09A07_HD02",
+            "SP_C09A08_HD01",
+            "SP_C09A08_HD02",
+            "SP_C09A09_HD01",
+            "SP_C09A09_HD02",
+            "SP_C09A10_HD01",
+            "SP_C09A10_HD02"
+          ],
+          "teacher_required": false,
+          "teacher_id": null,
+          "scheduling_policy": "independent",
+          "assumption_label": "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+        }
+      },
+      "result": {
+        "status": "INFEASIBLE",
+        "required": 972,
+        "placed": 0,
+        "conflicts": null,
+        "elapsed_seconds": 0.01,
+        "diagnostics": [
+          "GV GV015 — Thầy Độ: cần 40, sức chứa 30 tiết (am)"
+        ],
+        "metrics": null,
+        "phases": [],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "full_model",
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111,
+        "proof": "Necessary capacity bound",
+        "special_report": {
+          "total": 111,
+          "verified": 0,
+          "scheduled_verified": 0,
+          "scheduled_scenario": 0,
+          "scheduled": 0,
+          "pending": 111,
+          "unscheduled_pending": 0,
+          "pending_details": [
+            {
+              "activity_id": "SP_C06A01_HD01",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A01_HD02",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A02_HD01",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A02_HD02",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A03_HD01",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A03_HD02",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A04_HD01",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A04_HD02",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A05_HD01",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A05_HD02",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A06_HD01",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A06_HD02",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A07_HD01",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A07_HD02",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A08_HD01",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A08_HD02",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A09_HD01",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A09_HD02",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A01_HD01",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A01_HD02",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A02_HD01",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A02_HD02",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A03_HD01",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A03_HD02",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A04_HD01",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A04_HD02",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A05_HD01",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A05_HD02",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A06_HD01",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A06_HD02",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A07_HD01",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A07_HD02",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A08_HD01",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A08_HD02",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A09_HD01",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A09_HD02",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A01_HD01",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A01_HD02",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A02_HD01",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A02_HD02",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A03_HD01",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A03_HD02",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A04_HD01",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A04_HD02",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A05_HD01",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A05_HD02",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A06_HD01",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A06_HD02",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A07_HD01",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A07_HD02",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A08_HD01",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A08_HD02",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A09_HD01",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A09_HD02",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A01_HD01",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A01_HD02",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A02_HD01",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A02_HD02",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A03_HD01",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A03_HD02",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A04_HD01",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A04_HD02",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A05_HD01",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A05_HD02",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A06_HD01",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A06_HD02",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A07_HD01",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A07_HD02",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A08_HD01",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A08_HD02",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A09_HD01",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A09_HD02",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A10_HD01",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A10_HD02",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            }
+          ],
+          "mode": "SCENARIO",
+          "assumptions": [
+            "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+          ],
+          "official_complete": false,
+          "simulation": false
+        },
+        "simulation": false,
+        "scenario_assumptions": [
+          "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+        ],
+        "scheduled_class_periods": 0,
+        "model_required": 1083,
+        "scenario_placed": 0,
+        "all_source_periods": 1083,
+        "official_complete": false,
+        "data_accepted": false,
+        "windows_accepted": false
+      }
+    },
+    {
+      "mode": "both",
+      "config": {
+        "mode": "both",
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "special_mode": "SCENARIO",
+        "special_scenario": {
+          "enabled": true,
+          "activity_ids": [
+            "SP_C06A01_HD01",
+            "SP_C06A01_HD02",
+            "SP_C06A02_HD01",
+            "SP_C06A02_HD02",
+            "SP_C06A03_HD01",
+            "SP_C06A03_HD02",
+            "SP_C06A04_HD01",
+            "SP_C06A04_HD02",
+            "SP_C06A05_HD01",
+            "SP_C06A05_HD02",
+            "SP_C06A06_HD01",
+            "SP_C06A06_HD02",
+            "SP_C06A07_HD01",
+            "SP_C06A07_HD02",
+            "SP_C06A08_HD01",
+            "SP_C06A08_HD02",
+            "SP_C06A09_HD01",
+            "SP_C06A09_HD02",
+            "SP_C07A01_HD01",
+            "SP_C07A01_HD02",
+            "SP_C07A02_HD01",
+            "SP_C07A02_HD02",
+            "SP_C07A03_HD01",
+            "SP_C07A03_HD02",
+            "SP_C07A04_HD01",
+            "SP_C07A04_HD02",
+            "SP_C07A05_HD01",
+            "SP_C07A05_HD02",
+            "SP_C07A06_HD01",
+            "SP_C07A06_HD02",
+            "SP_C07A07_HD01",
+            "SP_C07A07_HD02",
+            "SP_C07A08_HD01",
+            "SP_C07A08_HD02",
+            "SP_C07A09_HD01",
+            "SP_C07A09_HD02",
+            "SP_C08A01_HD01",
+            "SP_C08A01_HD02",
+            "SP_C08A02_HD01",
+            "SP_C08A02_HD02",
+            "SP_C08A03_HD01",
+            "SP_C08A03_HD02",
+            "SP_C08A04_HD01",
+            "SP_C08A04_HD02",
+            "SP_C08A05_HD01",
+            "SP_C08A05_HD02",
+            "SP_C08A06_HD01",
+            "SP_C08A06_HD02",
+            "SP_C08A07_HD01",
+            "SP_C08A07_HD02",
+            "SP_C08A08_HD01",
+            "SP_C08A08_HD02",
+            "SP_C08A09_HD01",
+            "SP_C08A09_HD02",
+            "SP_C09A01_HD01",
+            "SP_C09A01_HD02",
+            "SP_C09A02_HD01",
+            "SP_C09A02_HD02",
+            "SP_C09A03_HD01",
+            "SP_C09A03_HD02",
+            "SP_C09A04_HD01",
+            "SP_C09A04_HD02",
+            "SP_C09A05_HD01",
+            "SP_C09A05_HD02",
+            "SP_C09A06_HD01",
+            "SP_C09A06_HD02",
+            "SP_C09A07_HD01",
+            "SP_C09A07_HD02",
+            "SP_C09A08_HD01",
+            "SP_C09A08_HD02",
+            "SP_C09A09_HD01",
+            "SP_C09A09_HD02",
+            "SP_C09A10_HD01",
+            "SP_C09A10_HD02"
+          ],
+          "teacher_required": false,
+          "teacher_id": null,
+          "scheduling_policy": "independent",
+          "assumption_label": "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+        }
+      },
+      "result": {
+        "status": "FEASIBLE",
+        "required": 972,
+        "placed": 972,
+        "conflicts": 0,
+        "metrics": {
+          "gaps": 0,
+          "visits": 217,
+          "distribution": 595,
+          "concentration": 222,
+          "preferences": 0,
+          "changes": 0
+        },
+        "verification": {
+          "valid": true,
+          "conflicts": 0,
+          "errors": [],
+          "required": 1083,
+          "placed": 1083
+        },
+        "initial_metrics": {
+          "gaps": 64,
+          "visits": 298,
+          "distribution": 772,
+          "concentration": 389,
+          "preferences": 0,
+          "changes": 0
+        },
+        "visit_lower_bound": 217,
+        "incumbent_locks": {
+          "distribution": 595,
+          "concentration": 222
+        },
+        "conditional_optimal_priorities": [
+          "preferences",
+          "changes"
+        ],
+        "elapsed_seconds": 28.897,
+        "phases": [
+          {
+            "name": "feasibility",
+            "status": "OPTIMAL",
+            "seconds": 0.982,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "gaps",
+            "status": "OPTIMAL",
+            "seconds": 3.136,
+            "objective": 0.0,
+            "best_bound": 0.0,
+            "proof_scope": "lexicographic_prefix"
+          },
+          {
+            "name": "visits",
+            "status": "OPTIMAL",
+            "seconds": 15.301,
+            "objective": 217.0,
+            "best_bound": 217.0,
+            "proof_scope": "lexicographic_prefix"
+          },
+          {
+            "name": "distribution",
+            "status": "FEASIBLE",
+            "seconds": 5.922,
+            "objective": 595.0,
+            "best_bound": 339.0,
+            "proof_scope": "lexicographic_prefix"
+          },
+          {
+            "name": "concentration",
+            "status": "UNKNOWN",
+            "seconds": 1.418,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "preferences",
+            "status": "CONSTANT",
+            "seconds": 0,
+            "objective": 0,
+            "best_bound": 0
+          },
+          {
+            "name": "changes",
+            "status": "CONSTANT",
+            "seconds": 0,
+            "objective": 0,
+            "best_bound": 0
+          }
+        ],
+        "proven_priorities": [
+          "gaps",
+          "visits"
+        ],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "full_model",
+        "diagnostics": [],
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111,
+        "special_report": {
+          "total": 111,
+          "verified": 0,
+          "scheduled_verified": 0,
+          "scheduled_scenario": 111,
+          "scheduled": 111,
+          "pending": 111,
+          "unscheduled_pending": 0,
+          "pending_details": [
+            {
+              "activity_id": "SP_C06A01_HD01",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A01_HD02",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A02_HD01",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A02_HD02",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A03_HD01",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A03_HD02",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A04_HD01",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A04_HD02",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A05_HD01",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A05_HD02",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A06_HD01",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A06_HD02",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A07_HD01",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A07_HD02",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A08_HD01",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A08_HD02",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A09_HD01",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A09_HD02",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A01_HD01",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A01_HD02",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A02_HD01",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A02_HD02",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A03_HD01",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A03_HD02",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A04_HD01",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A04_HD02",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A05_HD01",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A05_HD02",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A06_HD01",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A06_HD02",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A07_HD01",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A07_HD02",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A08_HD01",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A08_HD02",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A09_HD01",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A09_HD02",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A01_HD01",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A01_HD02",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A02_HD01",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A02_HD02",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A03_HD01",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A03_HD02",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A04_HD01",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A04_HD02",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A05_HD01",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A05_HD02",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A06_HD01",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A06_HD02",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A07_HD01",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A07_HD02",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A08_HD01",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A08_HD02",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A09_HD01",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A09_HD02",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A01_HD01",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A01_HD02",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A02_HD01",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A02_HD02",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A03_HD01",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A03_HD02",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A04_HD01",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A04_HD02",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A05_HD01",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A05_HD02",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A06_HD01",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A06_HD02",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A07_HD01",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A07_HD02",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A08_HD01",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A08_HD02",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A09_HD01",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A09_HD02",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A10_HD01",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A10_HD02",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            }
+          ],
+          "mode": "SCENARIO",
+          "assumptions": [
+            "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+          ],
+          "official_complete": false,
+          "simulation": true
+        },
+        "simulation": true,
+        "scenario_assumptions": [
+          "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+        ],
+        "scheduled_class_periods": 1083,
+        "model_required": 1083,
+        "scenario_placed": 111,
+        "all_source_periods": 1083,
+        "official_complete": false,
+        "data_accepted": false,
+        "windows_accepted": false
+      }
+    },
+    {
+      "mode": "mixed",
+      "config": {
+        "mode": "mixed",
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "special_mode": "SCENARIO",
+        "special_scenario": {
+          "enabled": true,
+          "activity_ids": [
+            "SP_C06A01_HD01",
+            "SP_C06A01_HD02",
+            "SP_C06A02_HD01",
+            "SP_C06A02_HD02",
+            "SP_C06A03_HD01",
+            "SP_C06A03_HD02",
+            "SP_C06A04_HD01",
+            "SP_C06A04_HD02",
+            "SP_C06A05_HD01",
+            "SP_C06A05_HD02",
+            "SP_C06A06_HD01",
+            "SP_C06A06_HD02",
+            "SP_C06A07_HD01",
+            "SP_C06A07_HD02",
+            "SP_C06A08_HD01",
+            "SP_C06A08_HD02",
+            "SP_C06A09_HD01",
+            "SP_C06A09_HD02",
+            "SP_C07A01_HD01",
+            "SP_C07A01_HD02",
+            "SP_C07A02_HD01",
+            "SP_C07A02_HD02",
+            "SP_C07A03_HD01",
+            "SP_C07A03_HD02",
+            "SP_C07A04_HD01",
+            "SP_C07A04_HD02",
+            "SP_C07A05_HD01",
+            "SP_C07A05_HD02",
+            "SP_C07A06_HD01",
+            "SP_C07A06_HD02",
+            "SP_C07A07_HD01",
+            "SP_C07A07_HD02",
+            "SP_C07A08_HD01",
+            "SP_C07A08_HD02",
+            "SP_C07A09_HD01",
+            "SP_C07A09_HD02",
+            "SP_C08A01_HD01",
+            "SP_C08A01_HD02",
+            "SP_C08A02_HD01",
+            "SP_C08A02_HD02",
+            "SP_C08A03_HD01",
+            "SP_C08A03_HD02",
+            "SP_C08A04_HD01",
+            "SP_C08A04_HD02",
+            "SP_C08A05_HD01",
+            "SP_C08A05_HD02",
+            "SP_C08A06_HD01",
+            "SP_C08A06_HD02",
+            "SP_C08A07_HD01",
+            "SP_C08A07_HD02",
+            "SP_C08A08_HD01",
+            "SP_C08A08_HD02",
+            "SP_C08A09_HD01",
+            "SP_C08A09_HD02",
+            "SP_C09A01_HD01",
+            "SP_C09A01_HD02",
+            "SP_C09A02_HD01",
+            "SP_C09A02_HD02",
+            "SP_C09A03_HD01",
+            "SP_C09A03_HD02",
+            "SP_C09A04_HD01",
+            "SP_C09A04_HD02",
+            "SP_C09A05_HD01",
+            "SP_C09A05_HD02",
+            "SP_C09A06_HD01",
+            "SP_C09A06_HD02",
+            "SP_C09A07_HD01",
+            "SP_C09A07_HD02",
+            "SP_C09A08_HD01",
+            "SP_C09A08_HD02",
+            "SP_C09A09_HD01",
+            "SP_C09A09_HD02",
+            "SP_C09A10_HD01",
+            "SP_C09A10_HD02"
+          ],
+          "teacher_required": false,
+          "teacher_id": null,
+          "scheduling_policy": "independent",
+          "assumption_label": "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+        }
+      },
+      "result": {
+        "status": "FEASIBLE",
+        "required": 972,
+        "placed": 972,
+        "conflicts": 0,
+        "metrics": {
+          "gaps": 0,
+          "visits": 262,
+          "distribution": 654,
+          "concentration": 285,
+          "preferences": 0,
+          "changes": 0
+        },
+        "verification": {
+          "valid": true,
+          "conflicts": 0,
+          "errors": [],
+          "required": 1083,
+          "placed": 1083
+        },
+        "initial_metrics": {
+          "gaps": 143,
+          "visits": 409,
+          "distribution": 697,
+          "concentration": 310,
+          "preferences": 0,
+          "changes": 0
+        },
+        "visit_lower_bound": 239,
+        "incumbent_locks": {
+          "visits": 262,
+          "distribution": 654,
+          "concentration": 285
+        },
+        "conditional_optimal_priorities": [
+          "preferences",
+          "changes"
+        ],
+        "elapsed_seconds": 29.457,
+        "phases": [
+          {
+            "name": "feasibility",
+            "status": "OPTIMAL",
+            "seconds": 0.405,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "gaps",
+            "status": "OPTIMAL",
+            "seconds": 1.748,
+            "objective": 0.0,
+            "best_bound": 0.0,
+            "proof_scope": "lexicographic_prefix"
+          },
+          {
+            "name": "visits",
+            "status": "FEASIBLE",
+            "seconds": 18.073,
+            "objective": 262.0,
+            "best_bound": 239.0,
+            "proof_scope": "lexicographic_prefix"
+          },
+          {
+            "name": "distribution",
+            "status": "FEASIBLE",
+            "seconds": 5.62,
+            "objective": 654.0,
+            "best_bound": 153.0,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "concentration",
+            "status": "UNKNOWN",
+            "seconds": 1.927,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "preferences",
+            "status": "CONSTANT",
+            "seconds": 0,
+            "objective": 0,
+            "best_bound": 0
+          },
+          {
+            "name": "changes",
+            "status": "CONSTANT",
+            "seconds": 0,
+            "objective": 0,
+            "best_bound": 0
+          }
+        ],
+        "proven_priorities": [
+          "gaps"
+        ],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "full_model",
+        "diagnostics": [],
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111,
+        "special_report": {
+          "total": 111,
+          "verified": 0,
+          "scheduled_verified": 0,
+          "scheduled_scenario": 111,
+          "scheduled": 111,
+          "pending": 111,
+          "unscheduled_pending": 0,
+          "pending_details": [
+            {
+              "activity_id": "SP_C06A01_HD01",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A01_HD02",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A02_HD01",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A02_HD02",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A03_HD01",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A03_HD02",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A04_HD01",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A04_HD02",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A05_HD01",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A05_HD02",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A06_HD01",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A06_HD02",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A07_HD01",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A07_HD02",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A08_HD01",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A08_HD02",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A09_HD01",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A09_HD02",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A01_HD01",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A01_HD02",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A02_HD01",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A02_HD02",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A03_HD01",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A03_HD02",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A04_HD01",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A04_HD02",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A05_HD01",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A05_HD02",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A06_HD01",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A06_HD02",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A07_HD01",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A07_HD02",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A08_HD01",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A08_HD02",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A09_HD01",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A09_HD02",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A01_HD01",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A01_HD02",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A02_HD01",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A02_HD02",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A03_HD01",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A03_HD02",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A04_HD01",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A04_HD02",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A05_HD01",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A05_HD02",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A06_HD01",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A06_HD02",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A07_HD01",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A07_HD02",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A08_HD01",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A08_HD02",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A09_HD01",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A09_HD02",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A01_HD01",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A01_HD02",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A02_HD01",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A02_HD02",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A03_HD01",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A03_HD02",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A04_HD01",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A04_HD02",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A05_HD01",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A05_HD02",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A06_HD01",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A06_HD02",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A07_HD01",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A07_HD02",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A08_HD01",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A08_HD02",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A09_HD01",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A09_HD02",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A10_HD01",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 2,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A10_HD02",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 1,
+              "reasons": [
+                "Chỉ có giả định SCENARIO, chưa xác minh để dùng chính thức"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            }
+          ],
+          "mode": "SCENARIO",
+          "assumptions": [
+            "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+          ],
+          "official_complete": false,
+          "simulation": true
+        },
+        "simulation": true,
+        "scenario_assumptions": [
+          "FIXTURE KỸ THUẬT: người viết test chọn 111 hoạt động độc lập không cần GV; không phải quy tắc nhà trường đã xác minh."
+        ],
+        "scheduled_class_periods": 1083,
+        "model_required": 1083,
+        "scenario_placed": 111,
+        "all_source_periods": 1083,
+        "official_complete": false,
+        "data_accepted": false,
+        "windows_accepted": false
+      }
+    },
+    {
+      "mode": "both_local_37",
+      "config": {
+        "mode": "both",
+        "time_limit": 10,
+        "workers": 4,
+        "seed": 17,
+        "priorities": [
+          "changes",
+          "gaps",
+          "visits",
+          "distribution",
+          "concentration",
+          "preferences"
+        ]
+      },
+      "result": {
+        "status": "FEASIBLE",
+        "required": 972,
+        "placed": 972,
+        "conflicts": 0,
+        "metrics": {
+          "gaps": 0,
+          "visits": 217,
+          "distribution": 498,
+          "concentration": 100,
+          "preferences": 0,
+          "changes": 0
+        },
+        "verification": {
+          "valid": true,
+          "conflicts": 0,
+          "errors": [],
+          "required": 972,
+          "placed": 972
+        },
+        "initial_metrics": {
+          "gaps": 0,
+          "visits": 217,
+          "distribution": 498,
+          "concentration": 100,
+          "preferences": 0,
+          "changes": 0
+        },
+        "visit_lower_bound": 217,
+        "incumbent_locks": {
+          "changes": 0
+        },
+        "conditional_optimal_priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "concentration",
+          "preferences"
+        ],
+        "elapsed_seconds": 4.626,
+        "phases": [
+          {
+            "name": "feasibility",
+            "status": "OPTIMAL",
+            "seconds": 0.542,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "changes",
+            "status": "UNKNOWN",
+            "seconds": 0.069,
+            "proof_scope": "lexicographic_prefix"
+          },
+          {
+            "name": "gaps",
+            "status": "OPTIMAL",
+            "seconds": 0.213,
+            "objective": 0.0,
+            "best_bound": 0.0,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "visits",
+            "status": "OPTIMAL",
+            "seconds": 0.215,
+            "objective": 217.0,
+            "best_bound": 217.0,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "distribution",
+            "status": "OPTIMAL",
+            "seconds": 0.226,
+            "objective": 498.0,
+            "best_bound": 498.0,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "concentration",
+            "status": "OPTIMAL",
+            "seconds": 0.227,
+            "objective": 100.0,
+            "best_bound": 100.0,
+            "proof_scope": "conditional_on_incumbent_locks"
+          },
+          {
+            "name": "preferences",
+            "status": "CONSTANT",
+            "seconds": 0,
+            "objective": 0,
+            "best_bound": 0
+          }
+        ],
+        "proven_priorities": [],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "local_frozen",
+        "diagnostics": [],
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111,
+        "special_report": {
+          "total": 111,
+          "verified": 0,
+          "scheduled_verified": 0,
+          "scheduled_scenario": 0,
+          "scheduled": 0,
+          "pending": 111,
+          "unscheduled_pending": 111,
+          "pending_details": [
+            {
+              "activity_id": "SP_C06A01_HD01",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A01_HD02",
+              "class_ids": [
+                "C06A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A02_HD01",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A02_HD02",
+              "class_ids": [
+                "C06A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A03_HD01",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A03_HD02",
+              "class_ids": [
+                "C06A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A04_HD01",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A04_HD02",
+              "class_ids": [
+                "C06A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A05_HD01",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A05_HD02",
+              "class_ids": [
+                "C06A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A06_HD01",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A06_HD02",
+              "class_ids": [
+                "C06A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A07_HD01",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A07_HD02",
+              "class_ids": [
+                "C06A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A08_HD01",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A08_HD02",
+              "class_ids": [
+                "C06A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C06A09_HD01",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C06A09_HD02",
+              "class_ids": [
+                "C06A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A01_HD01",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A01_HD02",
+              "class_ids": [
+                "C07A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A02_HD01",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A02_HD02",
+              "class_ids": [
+                "C07A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A03_HD01",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A03_HD02",
+              "class_ids": [
+                "C07A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A04_HD01",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A04_HD02",
+              "class_ids": [
+                "C07A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A05_HD01",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A05_HD02",
+              "class_ids": [
+                "C07A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A06_HD01",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A06_HD02",
+              "class_ids": [
+                "C07A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A07_HD01",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A07_HD02",
+              "class_ids": [
+                "C07A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A08_HD01",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A08_HD02",
+              "class_ids": [
+                "C07A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C07A09_HD01",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C07A09_HD02",
+              "class_ids": [
+                "C07A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A01_HD01",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A01_HD02",
+              "class_ids": [
+                "C08A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A02_HD01",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A02_HD02",
+              "class_ids": [
+                "C08A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A03_HD01",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A03_HD02",
+              "class_ids": [
+                "C08A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A04_HD01",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A04_HD02",
+              "class_ids": [
+                "C08A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A05_HD01",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A05_HD02",
+              "class_ids": [
+                "C08A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A06_HD01",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A06_HD02",
+              "class_ids": [
+                "C08A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A07_HD01",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A07_HD02",
+              "class_ids": [
+                "C08A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A08_HD01",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A08_HD02",
+              "class_ids": [
+                "C08A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C08A09_HD01",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C08A09_HD02",
+              "class_ids": [
+                "C08A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A01_HD01",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A01_HD02",
+              "class_ids": [
+                "C09A01"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A02_HD01",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A02_HD02",
+              "class_ids": [
+                "C09A02"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A03_HD01",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A03_HD02",
+              "class_ids": [
+                "C09A03"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A04_HD01",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A04_HD02",
+              "class_ids": [
+                "C09A04"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A05_HD01",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A05_HD02",
+              "class_ids": [
+                "C09A05"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A06_HD01",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A06_HD02",
+              "class_ids": [
+                "C09A06"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A07_HD01",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A07_HD02",
+              "class_ids": [
+                "C09A07"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A08_HD01",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A08_HD02",
+              "class_ids": [
+                "C09A08"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A09_HD01",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A09_HD02",
+              "class_ids": [
+                "C09A09"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            },
+            {
+              "activity_id": "SP_C09A10_HD01",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 2,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+            },
+            {
+              "activity_id": "SP_C09A10_HD02",
+              "class_ids": [
+                "C09A10"
+              ],
+              "count": 1,
+              "reasons": [
+                "Quy tắc chưa được xác minh",
+                "Chưa rõ có cần giáo viên",
+                "Thiếu chính sách tổ chức hợp lệ"
+              ],
+              "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+            }
+          ],
+          "mode": "STRICT",
+          "assumptions": [],
+          "official_complete": false,
+          "simulation": false
+        },
+        "simulation": false,
+        "scenario_assumptions": [],
+        "scheduled_class_periods": 972,
+        "model_required": 972,
+        "scenario_placed": 0,
+        "all_source_periods": 1083,
+        "official_complete": false,
+        "data_accepted": false,
+        "windows_accepted": false
+      }
+    }
+  ],
+  "official_eligible_special": 0,
+  "simulation_is_not_acceptance": true
+}
