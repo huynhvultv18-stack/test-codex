@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Reference exactly41actualslots,9sessions; TueThuSat afternoons closed; SatAM4",
+    "Selecting0..5creates exact cells only1..N",
+    "Entire day0renders NGHI and no slots",
+    "Per-class override and copy affect selectedclasses only",
+    "Classviewer honors own calendar; reset uses gradecalendar",
+    "Applygrade copies exact displayedcalendar to all selectedclasses",
+    "Save/restore/reload preserve counts including zeros",
+    "Calendar JSON download/import; malformed import atomic",
+    "OptionalSunday defaults0; cannot silentlyerase chosenSunday count",
+    "Newreference CP solve independently verifies fixture and frozen grades",
+    "Changedcalendar persistsreload; coldsolve still needsconfirmation; cancelpreservesrows",
+    "Confirmation startsselectedgradeonly; zero-period and immutablelock verified",
+    "Server blocks unconfirmed affectedschedule before CP",
+    "Schedule CSV/XLSX exports carry explicit rested sessions",
+    "Changingfuturegrade freezes exact perclasszero calendar without anygrade9solve",
+    "No native JavaScript errors"
+  ],
+  "errors": []
+}

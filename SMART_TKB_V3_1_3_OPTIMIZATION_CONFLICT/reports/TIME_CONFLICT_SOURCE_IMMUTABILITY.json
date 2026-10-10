@@ -1,0 +1,13 @@
+{
+  "baseline_sha256": "7a0792453802b257764d320aae8a969904a67427955a31d6214f84ddbcdff5e8",
+  "baseline_immutable_files": 1635,
+  "baseline_unchanged": true,
+  "windows_runtime_wheels_preserved": 1334,
+  "source_unchanged": true,
+  "source_sha256": {
+    "PCCM_INPUT_CODEX_5_NHOM.xlsx": "a16a18b40388bb22ba2c86d4fabb2807c80a3e9088489d50fbbc017dda3674fd",
+    "SMART_TKB_THCS_V2_3_CHE_DO.html": "fd4c1d0ac5f4ef98b415ef2d9dc1dc80c539af306192fd7c766f9399d91ba5ba"
+  },
+  "windows_execution": "UNTESTED",
+  "production_ready": false
+}

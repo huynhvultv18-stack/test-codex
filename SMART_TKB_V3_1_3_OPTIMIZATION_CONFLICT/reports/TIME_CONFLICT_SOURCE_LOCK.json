@@ -1,0 +1,8 @@
+{
+  "source": "/workspace/SMART_TKB_THCS_V3_1_2_SESSION_CONFIG_CANDIDATE.zip",
+  "sha256": "7a0792453802b257764d320aae8a969904a67427955a31d6214f84ddbcdff5e8",
+  "baseline_tree_files": 1635,
+  "baseline_manifest": "PASS",
+  "baseline_tree": "PASS",
+  "immutable": true
+}

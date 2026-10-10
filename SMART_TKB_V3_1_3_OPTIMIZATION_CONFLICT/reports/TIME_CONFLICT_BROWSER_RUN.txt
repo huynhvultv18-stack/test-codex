@@ -1,0 +1,19 @@
+PASS New default teacher optimization enabled, BALANCED, 10 priorities
+PASS CP-SAT proof profile + automatic PASS in complete synthetic scope
+PASS Valid confirmation rechecks current hash and hard constraints
+PASS Per-teacher days/visits/gaps, explicit PROXY and proven phase scope visible
+PASS Config edit invalidates prior PASS, recheck required
+PASS Manual cross-grade collision auto FAIL, frozen rows unchanged, proof cleared
+PASS Error click locates exact schedule cell
+PASS Server blocks forged PASS and recomputes actual conflict
+PASS Detailed error XLSX downloaded
+PASS Dedicated error print view activated and restored
+PASS FAIL can save explicitly labeled draft, never valid confirmation
+PASS Draft reload reruns independent verification and retains error rows
+PASS Repair then automatic recheck restores PASS
+PASS Waiting toggle, multi-seed warm optimize and automatic post-check
+PASS Excel/CSV exchange automatically rechecks, no historical proof inheritance
+PASS Custom priority and fairness change invalidate certificate
+PASS Actual PCCM234 periods stays INCOMPLETE, identity warnings, no full confirmation
+PASS New time/conflict panels fit mobile/tablet/desktop
+PASS No JavaScript errors

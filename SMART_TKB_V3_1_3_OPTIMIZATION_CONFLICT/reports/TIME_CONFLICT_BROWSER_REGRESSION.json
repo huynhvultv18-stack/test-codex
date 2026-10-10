@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "legacy_grade_checks": 20,
+  "legacy_session_checks": 16,
+  "new_checks": 19,
+  "total": 55,
+  "errors": []
+}

@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "name": "uniform5am4pm",
+      "status": "PASS",
+      "solver_status": "FEASIBLE",
+      "placed": 234,
+      "calendar_capacity": 486,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "variable_days",
+      "status": "PASS",
+      "solver_status": "FEASIBLE",
+      "placed": 234,
+      "calendar_capacity": 378,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "reference_rest_sessions",
+      "status": "PASS",
+      "solver_status": "FEASIBLE",
+      "placed": 234,
+      "calendar_capacity": 369,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "different_classes",
+      "status": "PASS",
+      "solver_status": "FEASIBLE",
+      "placed": 234,
+      "calendar_capacity": 360,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "reference_morning",
+      "status": "PASS",
+      "solver_status": "FEASIBLE",
+      "placed": 234,
+      "calendar_capacity": 261,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "reference_mixed",
+      "status": "PASS",
+      "solver_status": "FEASIBLE",
+      "placed": 234,
+      "calendar_capacity": 261,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "incomplete_background_default_blocked",
+      "status": "PASS",
+      "solver_status": "BLOCKED",
+      "placed": 0,
+      "calendar_capacity": 369,
+      "locked_unchanged": true,
+      "closed_session_lessons": null
+    },
+    {
+      "name": "over_capacity_infeasible",
+      "status": "PASS",
+      "solver_status": "INFEASIBLE",
+      "placed": 0,
+      "calendar_capacity": 54,
+      "locked_unchanged": true,
+      "closed_session_lessons": null
+    }
+  ],
+  "exports": [
+    {
+      "file": "SESSION_UI_EXPORT.csv",
+      "placed": 3,
+      "valid": true
+    },
+    {
+      "file": "SESSION_UI_EXPORT.xlsx",
+      "placed": 3,
+      "valid": true
+    },
+    {
+      "file": "SESSION_ZERO_EXPORT.csv",
+      "placed": 3,
+      "valid": true
+    },
+    {
+      "file": "SESSION_ZERO_EXPORT.xlsx",
+      "placed": 3,
+      "valid": true
+    },
+    {
+      "file": "SESSION_REAL_UI_EXPORT.xlsx",
+      "placed": 234,
+      "valid": true
+    }
+  ],
+  "known_resource_conflicts": 0,
+  "source_background_hash": "78c694059cec4f6d41579e5c8589dd36b9f60eb1304354a03b57f27934b2face",
+  "zero_period": "PASS",
+  "school_conflicts": "UNKNOWN: incomplete background",
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}

@@ -1,0 +1,50 @@
+test_all_three_modes (test_solver.SolverTests.test_all_three_modes) ... ok
+test_class_conflict_fixed_infeasible (test_solver.SolverTests.test_class_conflict_fixed_infeasible) ... ok
+test_complete_counts_and_no_teacher_class_overlap (test_solver.SolverTests.test_complete_counts_and_no_teacher_class_overlap) ... ok
+test_double_period_and_function_room (test_solver.SolverTests.test_double_period_and_function_room) ... ok
+test_duplicate_and_missing_excel_ids (test_solver.SolverTests.test_duplicate_and_missing_excel_ids) ... ok
+test_empty_local_scope_does_not_turn_into_full_reoptimization (test_solver.SolverTests.test_empty_local_scope_does_not_turn_into_full_reoptimization) ... ok
+test_hard_unavailability_and_fixed (test_solver.SolverTests.test_hard_unavailability_and_fixed) ... ok
+test_invalid_double_count (test_solver.SolverTests.test_invalid_double_count) ... ok
+test_invalid_room_not_silently_ignored (test_solver.SolverTests.test_invalid_room_not_silently_ignored) ... ok
+test_local_reopt_conflicting_freeze_not_relaxed (test_solver.SolverTests.test_local_reopt_conflicting_freeze_not_relaxed) ... ok
+test_max_session_is_hard (test_solver.SolverTests.test_max_session_is_hard) ... ok
+test_morning_37_class_capacity_diagnosis (test_solver.SolverTests.test_morning_37_class_capacity_diagnosis) ... ok
+test_preference_lexicographic_optimal (test_solver.SolverTests.test_preference_lexicographic_optimal) ... ok
+test_reported_objectives_match_independent_metrics (test_solver.SolverTests.test_reported_objectives_match_independent_metrics) ... ok
+test_room_conflict_proven_infeasible (test_solver.SolverTests.test_room_conflict_proven_infeasible) ... ok
+test_source_import_exact_and_totals_not_double_counted (test_solver.SolverTests.test_source_import_exact_and_totals_not_double_counted) ... ok
+test_special_assignment_can_be_supplied_without_inventing_identity (test_solver.SolverTests.test_special_assignment_can_be_supplied_without_inventing_identity) ... ok
+test_teacher_conflict_fixed_infeasible (test_solver.SolverTests.test_teacher_conflict_fixed_infeasible) ... ok
+test_unknown_is_not_infeasible (test_solver.SolverTests.test_unknown_is_not_infeasible) ... ok
+test_unverified_real_use_rejected (test_solver.SolverTests.test_unverified_real_use_rejected) ... ok
+test_v2_migration_separate_state (test_solver.SolverTests.test_v2_migration_separate_state) ... ok
+test_verifier_detects_conflicts_and_missing (test_solver.SolverTests.test_verifier_detects_conflicts_and_missing) ... ok
+test_warm_start_local_freeze_and_minimal_change (test_solver.SolverTests.test_warm_start_local_freeze_and_minimal_change) ... ok
+test_collective_opposite_class_shifts_infeasible (test_v3_1.V31Tests.test_collective_opposite_class_shifts_infeasible) ... ok
+test_collective_shared_teacher_one_event_multiple_classes (test_v3_1.V31Tests.test_collective_shared_teacher_one_event_multiple_classes) ... ok
+test_configured_adjacency_double_exemption_and_preferred_heavy (test_v3_1.V31Tests.test_configured_adjacency_double_exemption_and_preferred_heavy) ... ok
+test_disabled_goals_and_normalized_bounds (test_v3_1.V31Tests.test_disabled_goals_and_normalized_bounds) ... ok
+test_distribution_enabled_improves_warm_incumbent (test_v3_1.V31Tests.test_distribution_enabled_improves_warm_incumbent) ... ok
+test_exchange_rejects_tampered_identity (test_v3_1.V31Tests.test_exchange_rejects_tampered_identity) ... ok
+test_export_import_csv_excel_and_json_recomputes_counts (test_v3_1.V31Tests.test_export_import_csv_excel_and_json_recomputes_counts) ... ok
+test_grade_rules_and_overlapping_rule_rejected (test_v3_1.V31Tests.test_grade_rules_and_overlapping_rule_rejected) ... ok
+test_inventory_all_111_literal_classification (test_v3_1.V31Tests.test_inventory_all_111_literal_classification) ... ok
+test_opt_in_hard_daily_limit_independent_verifier (test_v3_1.V31Tests.test_opt_in_hard_daily_limit_independent_verifier) ... ok
+test_real_teacher_overlap_not_relaxed_for_independent_events (test_v3_1.V31Tests.test_real_teacher_overlap_not_relaxed_for_independent_events) ... ok
+test_required_teacher_missing_stays_pending (test_v3_1.V31Tests.test_required_teacher_missing_stays_pending) ... ok
+test_scenario_explicit_selection_not_official (test_v3_1.V31Tests.test_scenario_explicit_selection_not_official) ... ok
+test_scenario_requires_label_and_selection (test_v3_1.V31Tests.test_scenario_requires_label_and_selection) ... ok
+test_source_type_count_class_cannot_be_overridden (test_v3_1.V31Tests.test_source_type_count_class_cannot_be_overridden) ... ok
+test_special_counts_against_class_capacity (test_v3_1.V31Tests.test_special_counts_against_class_capacity) ... ok
+test_special_fixed_room_and_holiday (test_v3_1.V31Tests.test_special_fixed_room_and_holiday) ... ok
+test_strict_missing_rules_pending_not_scheduled (test_v3_1.V31Tests.test_strict_missing_rules_pending_not_scheduled) ... ok
+test_subject_period_preference_is_soft_and_separate_from_concentration (test_v3_1.V31Tests.test_subject_period_preference_is_soft_and_separate_from_concentration) ... ok
+test_unknown_no_conflict_claim (test_v3_1.V31Tests.test_unknown_no_conflict_claim) ... ok
+test_verified_rules_null_teacher_no_fake_id (test_v3_1.V31Tests.test_verified_rules_null_teacher_no_fake_id) ... ok
+test_verifier_rejects_duplicate_class_units_and_tampered_special_flags (test_v3_1.V31Tests.test_verifier_rejects_duplicate_class_units_and_tampered_special_flags) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 3.075s
+
+OK

@@ -1,0 +1,1450 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "source_background_hash": "78c694059cec4f6d41579e5c8589dd36b9f60eb1304354a03b57f27934b2face",
+  "scope": "Grade8 only; frozen grades6/7/9; Linux measurement; Windows untested",
+  "runs": [
+    {
+      "name": "uniform5am4pm",
+      "config": {
+        "mode": "both",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/uniform5am4pm.json",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "capacity": 486,
+      "weekly_slots": 486,
+      "weekly_sessions": 108,
+      "rest_sessions": 0,
+      "conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 0,
+      "visits": 223,
+      "elapsed_seconds": 29.753,
+      "wall_seconds": 29.92,
+      "diagnostics": [],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "PASS",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "variable_days",
+      "config": {
+        "mode": "both",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 4,
+              "pm": 3
+            },
+            {
+              "am": 5,
+              "pm": 2
+            },
+            {
+              "am": 3,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 1
+            },
+            {
+              "am": 4,
+              "pm": 2
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/variable_days.json",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "capacity": 378,
+      "weekly_slots": 378,
+      "weekly_sessions": 108,
+      "rest_sessions": 0,
+      "conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 3,
+      "visits": 228,
+      "elapsed_seconds": 29.731,
+      "wall_seconds": 29.87,
+      "diagnostics": [],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "PASS",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "reference_rest_sessions",
+      "config": {
+        "mode": "both",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 4,
+              "pm": 0
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/reference_rest_sessions.json",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "capacity": 369,
+      "weekly_slots": 369,
+      "weekly_sessions": 81,
+      "rest_sessions": 27,
+      "conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 3,
+      "visits": 224,
+      "elapsed_seconds": 29.691,
+      "wall_seconds": 29.816,
+      "diagnostics": [],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "PASS",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "different_classes",
+      "config": {
+        "mode": "both",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 4,
+              "pm": 0
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {
+            "C08A01": [
+              {
+                "am": 4,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A02": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 2
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A03": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 4,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A04": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 2
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A05": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 4,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A06": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 2
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 3,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A07": [
+              {
+                "am": 4,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A08": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 2
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ],
+            "C08A09": [
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 4,
+                "pm": 4
+              },
+              {
+                "am": 5,
+                "pm": 0
+              },
+              {
+                "am": 5,
+                "pm": 4
+              },
+              {
+                "am": 4,
+                "pm": 0
+              },
+              {
+                "am": 0,
+                "pm": 0
+              }
+            ]
+          }
+        }
+      },
+      "file": "reports/sessions/different_classes.json",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "capacity": 360,
+      "weekly_slots": 360,
+      "weekly_sessions": 83,
+      "rest_sessions": 25,
+      "conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 3,
+      "visits": 223,
+      "elapsed_seconds": 29.813,
+      "wall_seconds": 29.946,
+      "diagnostics": [],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "PASS",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "reference_morning",
+      "config": {
+        "mode": "morning",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 10,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 4,
+              "pm": 0
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/reference_morning.json",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "capacity": 261,
+      "weekly_slots": 261,
+      "weekly_sessions": 54,
+      "rest_sessions": 54,
+      "conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 9,
+      "visits": 231,
+      "elapsed_seconds": 9.994,
+      "wall_seconds": 10.129,
+      "diagnostics": [],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "PASS",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "reference_mixed",
+      "config": {
+        "mode": "mixed",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 10,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 4,
+              "pm": 0
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/reference_mixed.json",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "capacity": 261,
+      "weekly_slots": 261,
+      "weekly_sessions": 54,
+      "rest_sessions": 54,
+      "conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 9,
+      "visits": 230,
+      "elapsed_seconds": 10.0,
+      "wall_seconds": 10.148,
+      "diagnostics": [],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "PASS",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "incomplete_background_default_blocked",
+      "config": {
+        "mode": "both",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": false,
+        "background_assumption": "",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 5,
+              "pm": 0
+            },
+            {
+              "am": 5,
+              "pm": 4
+            },
+            {
+              "am": 4,
+              "pm": 0
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/incomplete_background_default_blocked.json",
+      "status": "BLOCKED",
+      "required": 234,
+      "placed": 0,
+      "capacity": 369,
+      "weekly_slots": 369,
+      "weekly_sessions": 81,
+      "rest_sessions": 27,
+      "conflicts": null,
+      "known_cross_grade_conflicts": null,
+      "school_conflicts": null,
+      "gaps": null,
+      "visits": null,
+      "elapsed_seconds": 0,
+      "wall_seconds": 0.074,
+      "diagnostics": [
+        "Lịch nền chưa đầy đủ: thiếu0 tiết đã có phân công và84 tiết đặc biệt chưa có quy tắc. Không xác minh0 xung đột toàn trường.",
+        "26 mã GV của khối chưa xác minh; dùng nguyên mã, không gộp theo tên.",
+        "Nạp đủ lịch nền hoặc chọn mô phỏng kỹ thuật có nhãn giả định rõ ràng."
+      ],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "NOT_SOLVED",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    },
+    {
+      "name": "over_capacity_infeasible",
+      "config": {
+        "mode": "both",
+        "days": 7,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true,
+        "rooms": [],
+        "unavailable": [],
+        "fixed": [],
+        "preferences": [],
+        "priorities": [
+          "gaps",
+          "visits",
+          "distribution",
+          "preferences",
+          "concentration",
+          "changes"
+        ],
+        "phase_fractions": {
+          "gaps": 0.25,
+          "visits": 0.5,
+          "distribution": 0.16,
+          "concentration": 0.06,
+          "preferences": 0.02,
+          "changes": 0.01
+        },
+        "advance_on_incumbent": true,
+        "search_mode": "portfolio",
+        "objective_settings": {
+          "gaps": {
+            "enabled": true,
+            "weight": 1
+          },
+          "visits": {
+            "enabled": true,
+            "weight": 1
+          },
+          "distribution": {
+            "enabled": true,
+            "weight": 1
+          },
+          "concentration": {
+            "enabled": true,
+            "weight": 1
+          },
+          "preferences": {
+            "enabled": true,
+            "weight": 1
+          },
+          "changes": {
+            "enabled": true,
+            "weight": 1
+          }
+        },
+        "subject_rules": [],
+        "subject_hard_limits": [],
+        "heavy_subjects": [],
+        "heavy_run_limit": 2,
+        "heavy_weight": 0,
+        "special_mode": "STRICT",
+        "special_overrides": [],
+        "special_scenario": {},
+        "target_grade": 8,
+        "active_days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "session_periods": {
+          "am": 5,
+          "pm": 4
+        },
+        "allow_incomplete_background": true,
+        "background_assumption": "Technical conditional PCCM: 26 grade8 teacher IDs unverified; 84 frozen-background special periods unknown; no official acceptance",
+        "session_config": {
+          "schema_version": 1,
+          "max_periods": 5,
+          "include_sunday": false,
+          "week": [
+            {
+              "am": 1,
+              "pm": 0
+            },
+            {
+              "am": 1,
+              "pm": 0
+            },
+            {
+              "am": 1,
+              "pm": 0
+            },
+            {
+              "am": 1,
+              "pm": 0
+            },
+            {
+              "am": 1,
+              "pm": 0
+            },
+            {
+              "am": 1,
+              "pm": 0
+            },
+            {
+              "am": 0,
+              "pm": 0
+            }
+          ],
+          "class_weeks": {}
+        }
+      },
+      "file": "reports/sessions/over_capacity_infeasible.json",
+      "status": "INFEASIBLE",
+      "required": 234,
+      "placed": 0,
+      "capacity": 54,
+      "weekly_slots": 54,
+      "weekly_sessions": 54,
+      "rest_sessions": 54,
+      "conflicts": null,
+      "known_cross_grade_conflicts": null,
+      "school_conflicts": null,
+      "gaps": null,
+      "visits": null,
+      "elapsed_seconds": 0.006,
+      "wall_seconds": 0.072,
+      "diagnostics": [
+        "Lớp 8A/1: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/2: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/3: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/4: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/5: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/6: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/7: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/8: cần 26, sức chứa 6 tiết",
+        "Lớp 8A/9: cần 26, sức chứa 6 tiết",
+        "GV GV013 — Thầy Vũ: cần 10, sức chứa 5 tiết (am/pm)",
+        "GV GV014 — Cô K Anh: cần 8, sức chứa 5 tiết (am/pm)",
+        "GV GV020 — Cô Hưng: cần 10, sức chứa 5 tiết (am/pm)",
+        "GV GV022 — Thầy Thư: cần 9, sức chứa 6 tiết (am/pm)",
+        "GV GV033 — T. Thắng: cần 18, sức chứa 6 tiết (am/pm)",
+        "GV GV035 — Cô V Hằng: cần 9, sức chứa 6 tiết (am/pm)",
+        "GV GV042 — Cô PLiễu: cần 8, sức chứa 6 tiết (am/pm)",
+        "GV GV043 — Cô Thắng: cần 7, sức chứa 4 tiết (am/pm)",
+        "GV GV044 — Cô BThủy: cần 15, sức chứa 6 tiết (am/pm)",
+        "GV GV045 — Cô Nguyệt: cần 12, sức chứa 6 tiết (am/pm)",
+        "GV GV046 — Cô NThủy: cần 8, sức chứa 6 tiết (am/pm)",
+        "GV GV047 — Cô Cường: cần 20, sức chứa 6 tiết (am/pm)",
+        "GV GV048 — Thầy Tài: cần 20, sức chứa 6 tiết (am/pm)",
+        "GV GV049 — Cô Hạnh: cần 7, sức chứa 6 tiết (am/pm)",
+        "GV GV050 — Cô Huế: cần 7, sức chứa 3 tiết (am/pm)",
+        "GV GV051 — T. Trực: cần 9, sức chứa 6 tiết (am/pm)",
+        "GV GV052 — Cô Linh: cần 6, sức chứa 5 tiết (am/pm)",
+        "GV GV056 — T.T Tính: cần 18, sức chứa 6 tiết (am/pm)",
+        "GV GV062 — Cô Trân: cần 15, sức chứa 6 tiết (am/pm)",
+        "Giữ nguyên khối khóa. Có thể đề nghị người quản lý điều chỉnh lịch nền/phòng/giới hạn hoặc ngày học; phần mềm không tự mở khóa."
+      ],
+      "locked_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "locked_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "zero_period_status": "NOT_SOLVED",
+      "grade_optimal_proven": false,
+      "global_optimal_proven": false
+    }
+  ],
+  "production_ready": false
+}

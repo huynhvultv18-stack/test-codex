@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "checks": [
+    "Bootstrap: 37 classes, 64 teachers, 972 PCCM periods",
+    "69 source warnings and 111 unassigned special periods visible",
+    "Per-class shift can be set without changing identity",
+    "Actual XLSX import through browser/API, total row excluded",
+    "Morning capacity infeasibility displayed, no partial schedule",
+    "Restore 37-class CP-SAT result and independently revalidate 972 periods",
+    "CSV download contains teacher IDs, UTF-8 and full schedule",
+    "Separate V3 backup download",
+    "V2 JSON migration + live CP-SAT API solve of technical fixture",
+    "CSRF and cross-origin POST rejected",
+    "Mobile page fits viewport; schedule scroll stays in its container",
+    "Zero native browser errors and zero external requests"
+  ],
+  "errors": [],
+  "external": []
+}

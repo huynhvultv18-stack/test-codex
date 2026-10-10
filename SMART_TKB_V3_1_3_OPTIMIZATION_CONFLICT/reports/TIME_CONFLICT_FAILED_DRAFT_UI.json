@@ -1,0 +1,818 @@
+{
+  "version": "3.1.3-time-conflict",
+  "data": {
+    "classes": [
+      {
+        "id": "C6",
+        "name": "6A1",
+        "grade": 6,
+        "shift": "am"
+      },
+      {
+        "id": "C7",
+        "name": "7A1",
+        "grade": 7,
+        "shift": "am"
+      },
+      {
+        "id": "C8",
+        "name": "8A1",
+        "grade": 8,
+        "shift": "am"
+      },
+      {
+        "id": "C9",
+        "name": "9A1",
+        "grade": 9,
+        "shift": "am"
+      }
+    ],
+    "teachers": [
+      {
+        "id": "T1",
+        "name": "Cùng nhãn",
+        "status": "VERIFIED",
+        "full_name": "GV 1"
+      },
+      {
+        "id": "T2",
+        "name": "Cùng nhãn",
+        "status": "VERIFIED",
+        "full_name": "GV 2"
+      },
+      {
+        "id": "T3",
+        "name": "Cùng nhãn",
+        "status": "VERIFIED",
+        "full_name": "GV 3"
+      }
+    ],
+    "subjects": [
+      {
+        "id": "M:NONE",
+        "base": "M",
+        "name": "Môn"
+      }
+    ],
+    "assignments": [
+      {
+        "id": "A8",
+        "class_id": "C8",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 2,
+        "double_count": 0,
+        "room_ids": [
+          "LAB"
+        ]
+      },
+      {
+        "id": "B8",
+        "class_id": "C8",
+        "teacher": "T2",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": []
+      },
+      {
+        "id": "A9",
+        "class_id": "C9",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": [
+          "LAB"
+        ]
+      },
+      {
+        "id": "A6",
+        "class_id": "C6",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": []
+      },
+      {
+        "id": "A7",
+        "class_id": "C7",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": []
+      }
+    ],
+    "pending_special": [],
+    "issues": []
+  },
+  "config": {
+    "mode": "both",
+    "days": 7,
+    "periods": 5,
+    "max_class_session": 3,
+    "max_teacher_session": 3,
+    "time_limit": 6,
+    "workers": 1,
+    "seed": 19,
+    "technical_only": true,
+    "rooms": [
+      {
+        "id": "LAB"
+      }
+    ],
+    "unavailable": [],
+    "fixed": [],
+    "preferences": [],
+    "priorities": [
+      "gaps",
+      "visits",
+      "distribution",
+      "preferences",
+      "concentration",
+      "changes"
+    ],
+    "phase_fractions": {
+      "gaps": 0.25,
+      "visits": 0.5,
+      "distribution": 0.16,
+      "concentration": 0.06,
+      "preferences": 0.02,
+      "changes": 0.01
+    },
+    "advance_on_incumbent": true,
+    "search_mode": "portfolio",
+    "objective_settings": {
+      "gaps": {
+        "enabled": true,
+        "weight": 1
+      },
+      "visits": {
+        "enabled": true,
+        "weight": 1
+      },
+      "distribution": {
+        "enabled": true,
+        "weight": 1
+      },
+      "preferences": {
+        "enabled": true,
+        "weight": 1
+      },
+      "concentration": {
+        "enabled": true,
+        "weight": 1
+      },
+      "changes": {
+        "enabled": true,
+        "weight": 1
+      }
+    },
+    "subject_rules": [],
+    "subject_hard_limits": [],
+    "heavy_subjects": [],
+    "heavy_run_limit": 2,
+    "heavy_weight": 0,
+    "special_mode": "STRICT",
+    "special_overrides": [],
+    "special_scenario": {},
+    "target_grade": 8,
+    "active_days": [
+      0,
+      1
+    ],
+    "session_periods": {
+      "am": 3,
+      "pm": 2
+    },
+    "allow_incomplete_background": false,
+    "background_assumption": "",
+    "session_config": {
+      "schema_version": 1,
+      "max_periods": 5,
+      "include_sunday": false,
+      "week": [
+        {
+          "am": 3,
+          "pm": 2
+        },
+        {
+          "am": 3,
+          "pm": 2
+        },
+        {
+          "am": 0,
+          "pm": 0
+        },
+        {
+          "am": 0,
+          "pm": 0
+        },
+        {
+          "am": 0,
+          "pm": 0
+        },
+        {
+          "am": 0,
+          "pm": 0
+        },
+        {
+          "am": 0,
+          "pm": 0
+        }
+      ],
+      "class_weeks": {}
+    },
+    "teacher_time": {
+      "enabled": true,
+      "mode": "PROVE_OPTIMAL",
+      "priorities": [
+        "gaps",
+        "visits",
+        "days",
+        "waiting",
+        "fragmentation",
+        "distribution",
+        "preferences",
+        "fairness",
+        "concentration",
+        "changes"
+      ],
+      "waiting_enabled": false,
+      "fairness_enabled": true,
+      "seeds": [],
+      "period_times": [],
+      "lunch_break": null,
+      "phase_weights": {
+        "gaps": 30,
+        "visits": 25,
+        "days": 25,
+        "waiting": 10,
+        "fragmentation": 3,
+        "distribution": 3,
+        "preferences": 2,
+        "fairness": 1,
+        "concentration": 1,
+        "changes": 1
+      }
+    }
+  },
+  "background": {
+    "lessons": [
+      {
+        "assignment": "A9",
+        "class_id": "C9",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": "LAB"
+      },
+      {
+        "assignment": "A6",
+        "class_id": "C6",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "pm",
+        "period": 0,
+        "length": 1,
+        "room": null
+      },
+      {
+        "assignment": "A7",
+        "class_id": "C7",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 1,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": null
+      }
+    ],
+    "config": {
+      "target_grade": 9,
+      "mode": "both",
+      "days": 2,
+      "active_days": [
+        0,
+        1
+      ],
+      "periods": 3,
+      "session_periods": {
+        "am": 3,
+        "pm": 3
+      },
+      "max_class_session": 3,
+      "max_teacher_session": 3,
+      "rooms": [
+        {
+          "id": "LAB"
+        }
+      ],
+      "workers": 1,
+      "time_limit": 2,
+      "seed": 17
+    },
+    "source_label": "Synthetic complete fixture"
+  },
+  "result": {
+    "status": "DRAFT",
+    "lessons": [
+      {
+        "assignment": "A8",
+        "teacher": "T1",
+        "class_id": "C8",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": "LAB",
+        "class_ids": [
+          "C8"
+        ]
+      },
+      {
+        "assignment": "A8",
+        "teacher": "T1",
+        "class_id": "C8",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 2,
+        "length": 1,
+        "room": "LAB",
+        "class_ids": [
+          "C8"
+        ]
+      },
+      {
+        "assignment": "B8",
+        "teacher": "T2",
+        "class_id": "C8",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 1,
+        "shift": "pm",
+        "period": 1,
+        "length": 1,
+        "room": null,
+        "class_ids": [
+          "C8"
+        ]
+      }
+    ],
+    "required": 3,
+    "placed": 3,
+    "unscheduled_special": 0,
+    "phases": [],
+    "proven_priorities": [],
+    "global_optimal_proven": false,
+    "lexicographic_optimal_proven": false,
+    "grade_optimal_proven": false,
+    "selected_scope_optimal_proven": false,
+    "proven_optimal": false,
+    "locked_lessons": [
+      {
+        "assignment": "A9",
+        "class_id": "C9",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": "LAB"
+      },
+      {
+        "assignment": "A6",
+        "class_id": "C6",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "pm",
+        "period": 0,
+        "length": 1,
+        "room": null
+      },
+      {
+        "assignment": "A7",
+        "class_id": "C7",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 1,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": null
+      }
+    ],
+    "locked_hash_before": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+    "locked_hash_after": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+    "grade_scheduling": "FAIL",
+    "cross_grade_conflict": "BLOCKED",
+    "locked_grades": "PASS",
+    "known_cross_grade_conflicts": 2,
+    "school_conflicts": 2,
+    "conflicts": 2,
+    "elapsed_seconds": null,
+    "metrics": {
+      "days": 4,
+      "waiting": 0,
+      "fragmentation": 5,
+      "fairness": 1,
+      "gaps": 1,
+      "visits": 4,
+      "distribution": 1,
+      "concentration": 1,
+      "preferences": 0,
+      "changes": 0
+    },
+    "quality_scores": {},
+    "teacher_visits": [],
+    "diagnostics": [
+      "Bản nháp được hậu kiểm; chưa xác nhận hợp lệ."
+    ],
+    "background": {
+      "complete": true,
+      "known_schedule_valid": true,
+      "source_label": "Synthetic complete fixture",
+      "missing_assignments": [],
+      "missing_assigned_periods": 0,
+      "pending_special_periods": 0,
+      "locked_periods": 3,
+      "hash": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+      "grades": [
+        {
+          "grade": 6,
+          "classes": 1,
+          "source_periods": 1,
+          "locked_periods": 1,
+          "hash": "467901351686012e225076af2fd1f9f2b95360fba017965989d4d12af2b6f83f",
+          "status": "LOCKED"
+        },
+        {
+          "grade": 7,
+          "classes": 1,
+          "source_periods": 1,
+          "locked_periods": 1,
+          "hash": "be9b6cc2ff52c23646c888588a64f98dacda891af765ce430f1d8b38fac08b65",
+          "status": "LOCKED"
+        },
+        {
+          "grade": 9,
+          "classes": 1,
+          "source_periods": 1,
+          "locked_periods": 1,
+          "hash": "3e06c8e5665aadccff3dcf1c7629c8860162c02d41bd95db9ff1b71299f33bbb",
+          "status": "LOCKED"
+        }
+      ],
+      "cross_grade_teachers": [
+        {
+          "teacher_id": "T1",
+          "name": "Cùng nhãn",
+          "grades": [
+            8,
+            9
+          ],
+          "locked_periods": 1,
+          "locked_visits": 1,
+          "identity_verified": true
+        }
+      ],
+      "warnings": []
+    },
+    "simulation": true,
+    "data_accepted": false,
+    "windows_accepted": false,
+    "production_ready": false,
+    "optimality_scope": "draft_no_solver_proof",
+    "teacher_time": {
+      "totals": {
+        "gaps": 1,
+        "visits": 4,
+        "days": 4,
+        "waiting": 0,
+        "fragmentation": 5,
+        "fairness": 1
+      },
+      "teachers": [
+        {
+          "teacher_id": "T1",
+          "name": "Cùng nhãn",
+          "periods": 3,
+          "gaps": 1,
+          "visits": 1,
+          "days": 1,
+          "waiting": 0,
+          "fragmentation": 2,
+          "day_list": [
+            0
+          ],
+          "sessions": [
+            {
+              "day": 0,
+              "shift": "am",
+              "periods": [
+                0,
+                2
+              ],
+              "gaps": 1,
+              "fragmentation": 2
+            }
+          ]
+        },
+        {
+          "teacher_id": "T2",
+          "name": "Cùng nhãn",
+          "periods": 1,
+          "gaps": 0,
+          "visits": 1,
+          "days": 1,
+          "waiting": 0,
+          "fragmentation": 1,
+          "day_list": [
+            1
+          ],
+          "sessions": [
+            {
+              "day": 1,
+              "shift": "pm",
+              "periods": [
+                1
+              ],
+              "gaps": 0,
+              "fragmentation": 1
+            }
+          ]
+        },
+        {
+          "teacher_id": "T3",
+          "name": "Cùng nhãn",
+          "periods": 2,
+          "gaps": 0,
+          "visits": 2,
+          "days": 2,
+          "waiting": 0,
+          "fragmentation": 2,
+          "day_list": [
+            0,
+            1
+          ],
+          "sessions": [
+            {
+              "day": 0,
+              "shift": "pm",
+              "periods": [
+                0
+              ],
+              "gaps": 0,
+              "fragmentation": 1
+            },
+            {
+              "day": 1,
+              "shift": "am",
+              "periods": [
+                0
+              ],
+              "gaps": 0,
+              "fragmentation": 1
+            }
+          ]
+        }
+      ],
+      "locked_baseline": {
+        "gaps": 0,
+        "visits": 3,
+        "days": 3,
+        "waiting": 0,
+        "fragmentation": 3,
+        "fairness": 0
+      },
+      "change_from_locked": {
+        "gaps": 1,
+        "visits": 1,
+        "days": 1,
+        "waiting": 0,
+        "fragmentation": 2,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "waiting_unit": "ô tiết đại diện; không phải phút",
+      "waiting_note": "Chưa đủ giờ thực tế cho miền xếp/lịch khóa hoặc chưa khai báo giờ nghỉ trưa; không tự suy ra thời gian",
+      "fairness_definition": "Maximum weekly internal gaps of one teacher; equal names are separate IDs",
+      "all_rows_scope": "Selected grade + immutable known background; gaps/fragmentation may decrease by filling a locked hole"
+    },
+    "post_check": {
+      "status": "FAIL",
+      "scope": "Selected grade + known frozen grades; full validation only if complete",
+      "target_grade": 8,
+      "context_hash": "3a7ec9198d68a3cce803b52e24a1ce6719c6fe4ece025d0dc02282717293eca1",
+      "checked_at": "2026-10-10T04:58:20.977178+00:00",
+      "counts": {
+        "teacher": 1,
+        "class_id": 0,
+        "room": 1,
+        "cross_grade": 2,
+        "closed_session_periods": 0,
+        "overflow_periods": 0,
+        "hard_violations": 3,
+        "data_warnings": 0
+      },
+      "errors": [
+        {
+          "id": "ERR1",
+          "type": "CROSS_GRADE_TEACHER_COLLISION",
+          "severity": "ERROR",
+          "message": "Trùng giáo viên tại cùng ô thời gian",
+          "events": [
+            {
+              "row_index": null,
+              "locked": true,
+              "assignment": "A9",
+              "teacher_ids": [
+                "T1"
+              ],
+              "teacher_names": [
+                "Cùng nhãn"
+              ],
+              "class_ids": [
+                "C9"
+              ],
+              "class_names": [
+                "9A1"
+              ],
+              "subject": "Môn",
+              "day": 0,
+              "day_name": "Thứ Hai",
+              "shift": "am",
+              "period": 0,
+              "length": 1,
+              "room": "LAB",
+              "grades": [
+                9
+              ]
+            },
+            {
+              "row_index": 0,
+              "locked": false,
+              "assignment": "A8",
+              "teacher_ids": [
+                "T1"
+              ],
+              "teacher_names": [
+                "Cùng nhãn"
+              ],
+              "class_ids": [
+                "C8"
+              ],
+              "class_names": [
+                "8A1"
+              ],
+              "subject": "Môn",
+              "day": 0,
+              "day_name": "Thứ Hai",
+              "shift": "am",
+              "period": 0,
+              "length": 1,
+              "room": "LAB",
+              "grades": [
+                8
+              ]
+            }
+          ],
+          "suggestion": "Sửa tiết của khối đang chọn hoặc dữ liệu/quy tắc tương ứng; giữ nguyên lịch khối khóa.",
+          "resource_id": "T1",
+          "day": 0,
+          "shift": "am",
+          "period": 0
+        },
+        {
+          "id": "ERR2",
+          "type": "CROSS_GRADE_ROOM_COLLISION",
+          "severity": "ERROR",
+          "message": "Trùng phòng tại cùng ô thời gian",
+          "events": [
+            {
+              "row_index": null,
+              "locked": true,
+              "assignment": "A9",
+              "teacher_ids": [
+                "T1"
+              ],
+              "teacher_names": [
+                "Cùng nhãn"
+              ],
+              "class_ids": [
+                "C9"
+              ],
+              "class_names": [
+                "9A1"
+              ],
+              "subject": "Môn",
+              "day": 0,
+              "day_name": "Thứ Hai",
+              "shift": "am",
+              "period": 0,
+              "length": 1,
+              "room": "LAB",
+              "grades": [
+                9
+              ]
+            },
+            {
+              "row_index": 0,
+              "locked": false,
+              "assignment": "A8",
+              "teacher_ids": [
+                "T1"
+              ],
+              "teacher_names": [
+                "Cùng nhãn"
+              ],
+              "class_ids": [
+                "C8"
+              ],
+              "class_names": [
+                "8A1"
+              ],
+              "subject": "Môn",
+              "day": 0,
+              "day_name": "Thứ Hai",
+              "shift": "am",
+              "period": 0,
+              "length": 1,
+              "room": "LAB",
+              "grades": [
+                8
+              ]
+            }
+          ],
+          "suggestion": "Sửa tiết của khối đang chọn hoặc dữ liệu/quy tắc tương ứng; giữ nguyên lịch khối khóa.",
+          "resource_id": "LAB",
+          "day": 0,
+          "shift": "am",
+          "period": 0
+        },
+        {
+          "id": "ERR3",
+          "type": "INDEPENDENT_HARD_RULE",
+          "severity": "ERROR",
+          "message": "2 xung đột với lịch giáo viên/phòng đã khóa",
+          "events": [],
+          "suggestion": "Sửa tiết của khối đang chọn hoặc dữ liệu/quy tắc tương ứng; giữ nguyên lịch khối khóa."
+        }
+      ],
+      "warnings": [],
+      "independent_verification": {
+        "valid": false,
+        "errors": [
+          "2 xung đột với lịch giáo viên/phòng đã khóa"
+        ],
+        "within_grade_conflicts": 0,
+        "known_cross_grade_conflicts": 2,
+        "cross_grade_conflicts": 2,
+        "school_conflicts": 2,
+        "cross_grade_fully_verified": false,
+        "locked_unchanged": true,
+        "locked_hash_before": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+        "locked_hash_after": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+        "required": 3,
+        "placed": 3
+      },
+      "known_conflicts": 2,
+      "school_conflicts": 2,
+      "background_complete": true,
+      "identity_complete": true,
+      "locked_unchanged": true,
+      "can_confirm": false,
+      "production_ready": false
+    },
+    "draft": true,
+    "confirmation": null,
+    "_client_check_snapshot": "{\"background\":{\"config\":{\"active_days\":[0,1],\"days\":2,\"max_class_session\":3,\"max_teacher_session\":3,\"mode\":\"both\",\"periods\":3,\"rooms\":[{\"id\":\"LAB\"}],\"seed\":17,\"session_periods\":{\"am\":3,\"pm\":3},\"target_grade\":9,\"time_limit\":2,\"workers\":1},\"lessons\":[{\"assignment\":\"A9\",\"class_id\":\"C9\",\"day\":0,\"length\":1,\"period\":0,\"room\":\"LAB\",\"shift\":\"am\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"assignment\":\"A6\",\"class_id\":\"C6\",\"day\":0,\"length\":1,\"period\":0,\"room\":null,\"shift\":\"pm\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"},{\"assignment\":\"A7\",\"class_id\":\"C7\",\"day\":1,\"length\":1,\"period\":0,\"room\":null,\"shift\":\"am\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"}],\"source_label\":\"Synthetic complete fixture\"},\"config\":{\"active_days\":[0,1],\"advance_on_incumbent\":true,\"allow_incomplete_background\":false,\"background_assumption\":\"\",\"days\":7,\"fixed\":[],\"heavy_run_limit\":2,\"heavy_subjects\":[],\"heavy_weight\":0,\"max_class_session\":3,\"max_teacher_session\":3,\"mode\":\"both\",\"objective_settings\":{\"changes\":{\"enabled\":true,\"weight\":1},\"concentration\":{\"enabled\":true,\"weight\":1},\"distribution\":{\"enabled\":true,\"weight\":1},\"gaps\":{\"enabled\":true,\"weight\":1},\"preferences\":{\"enabled\":true,\"weight\":1},\"visits\":{\"enabled\":true,\"weight\":1}},\"periods\":5,\"phase_fractions\":{\"changes\":0.01,\"concentration\":0.06,\"distribution\":0.16,\"gaps\":0.25,\"preferences\":0.02,\"visits\":0.5},\"preferences\":[],\"priorities\":[\"gaps\",\"visits\",\"distribution\",\"preferences\",\"concentration\",\"changes\"],\"rooms\":[{\"id\":\"LAB\"}],\"search_mode\":\"portfolio\",\"seed\":19,\"session_config\":{\"class_weeks\":{},\"include_sunday\":false,\"max_periods\":5,\"schema_version\":1,\"week\":[{\"am\":3,\"pm\":2},{\"am\":3,\"pm\":2},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0}]},\"session_periods\":{\"am\":3,\"pm\":2},\"special_mode\":\"STRICT\",\"special_overrides\":[],\"special_scenario\":{},\"subject_hard_limits\":[],\"subject_rules\":[],\"target_grade\":8,\"teacher_time\":{\"enabled\":true,\"fairness_enabled\":true,\"lunch_break\":null,\"mode\":\"PROVE_OPTIMAL\",\"period_times\":[],\"phase_weights\":{\"changes\":1,\"concentration\":1,\"days\":25,\"distribution\":3,\"fairness\":1,\"fragmentation\":3,\"gaps\":30,\"preferences\":2,\"visits\":25,\"waiting\":10},\"priorities\":[\"gaps\",\"visits\",\"days\",\"waiting\",\"fragmentation\",\"distribution\",\"preferences\",\"fairness\",\"concentration\",\"changes\"],\"seeds\":[],\"waiting_enabled\":false},\"technical_only\":true,\"time_limit\":6,\"unavailable\":[],\"workers\":1},\"data\":{\"assignments\":[{\"class_id\":\"C8\",\"count\":2,\"double_count\":0,\"id\":\"A8\",\"room_ids\":[\"LAB\"],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"class_id\":\"C8\",\"count\":1,\"double_count\":0,\"id\":\"B8\",\"room_ids\":[],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T2\"},{\"class_id\":\"C9\",\"count\":1,\"double_count\":0,\"id\":\"A9\",\"room_ids\":[\"LAB\"],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"class_id\":\"C6\",\"count\":1,\"double_count\":0,\"id\":\"A6\",\"room_ids\":[],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"},{\"class_id\":\"C7\",\"count\":1,\"double_count\":0,\"id\":\"A7\",\"room_ids\":[],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"}],\"classes\":[{\"grade\":6,\"id\":\"C6\",\"name\":\"6A1\",\"shift\":\"am\"},{\"grade\":7,\"id\":\"C7\",\"name\":\"7A1\",\"shift\":\"am\"},{\"grade\":8,\"id\":\"C8\",\"name\":\"8A1\",\"shift\":\"am\"},{\"grade\":9,\"id\":\"C9\",\"name\":\"9A1\",\"shift\":\"am\"}],\"issues\":[],\"pending_special\":[],\"subjects\":[{\"base\":\"M\",\"id\":\"M:NONE\",\"name\":\"Môn\"}],\"teachers\":[{\"full_name\":\"GV 1\",\"id\":\"T1\",\"name\":\"Cùng nhãn\",\"status\":\"VERIFIED\"},{\"full_name\":\"GV 2\",\"id\":\"T2\",\"name\":\"Cùng nhãn\",\"status\":\"VERIFIED\"},{\"full_name\":\"GV 3\",\"id\":\"T3\",\"name\":\"Cùng nhãn\",\"status\":\"VERIFIED\"}]},\"lessons\":[{\"assignment\":\"A8\",\"class_id\":\"C8\",\"class_ids\":[\"C8\"],\"day\":0,\"length\":1,\"period\":0,\"room\":\"LAB\",\"shift\":\"am\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"assignment\":\"A8\",\"class_id\":\"C8\",\"class_ids\":[\"C8\"],\"day\":0,\"length\":1,\"period\":2,\"room\":\"LAB\",\"shift\":\"am\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"assignment\":\"B8\",\"class_id\":\"C8\",\"class_ids\":[\"C8\"],\"day\":1,\"length\":1,\"period\":1,\"room\":null,\"shift\":\"pm\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T2\"}]}"
+  },
+  "solvedSnapshot": "{\"background\":{\"config\":{\"active_days\":[0,1],\"days\":2,\"max_class_session\":3,\"max_teacher_session\":3,\"mode\":\"both\",\"periods\":3,\"rooms\":[{\"id\":\"LAB\"}],\"seed\":17,\"session_periods\":{\"am\":3,\"pm\":3},\"target_grade\":9,\"time_limit\":2,\"workers\":1},\"lessons\":[{\"assignment\":\"A9\",\"class_id\":\"C9\",\"day\":0,\"length\":1,\"period\":0,\"room\":\"LAB\",\"shift\":\"am\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"assignment\":\"A6\",\"class_id\":\"C6\",\"day\":0,\"length\":1,\"period\":0,\"room\":null,\"shift\":\"pm\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"},{\"assignment\":\"A7\",\"class_id\":\"C7\",\"day\":1,\"length\":1,\"period\":0,\"room\":null,\"shift\":\"am\",\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"}],\"source_label\":\"Synthetic complete fixture\"},\"config\":{\"active_days\":[0,1],\"advance_on_incumbent\":true,\"allow_incomplete_background\":false,\"background_assumption\":\"\",\"days\":7,\"fixed\":[],\"heavy_run_limit\":2,\"heavy_subjects\":[],\"heavy_weight\":0,\"max_class_session\":3,\"max_teacher_session\":3,\"mode\":\"both\",\"objective_settings\":{\"changes\":{\"enabled\":true,\"weight\":1},\"concentration\":{\"enabled\":true,\"weight\":1},\"distribution\":{\"enabled\":true,\"weight\":1},\"gaps\":{\"enabled\":true,\"weight\":1},\"preferences\":{\"enabled\":true,\"weight\":1},\"visits\":{\"enabled\":true,\"weight\":1}},\"periods\":5,\"phase_fractions\":{\"changes\":0.01,\"concentration\":0.06,\"distribution\":0.16,\"gaps\":0.25,\"preferences\":0.02,\"visits\":0.5},\"preferences\":[],\"priorities\":[\"gaps\",\"visits\",\"distribution\",\"preferences\",\"concentration\",\"changes\"],\"rooms\":[{\"id\":\"LAB\"}],\"search_mode\":\"portfolio\",\"seed\":19,\"session_config\":{\"class_weeks\":{},\"include_sunday\":false,\"max_periods\":5,\"schema_version\":1,\"week\":[{\"am\":3,\"pm\":2},{\"am\":3,\"pm\":2},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0},{\"am\":0,\"pm\":0}]},\"session_periods\":{\"am\":3,\"pm\":2},\"special_mode\":\"STRICT\",\"special_overrides\":[],\"special_scenario\":{},\"subject_hard_limits\":[],\"subject_rules\":[],\"target_grade\":8,\"teacher_time\":{\"enabled\":true,\"fairness_enabled\":true,\"lunch_break\":null,\"mode\":\"PROVE_OPTIMAL\",\"period_times\":[],\"phase_weights\":{\"changes\":1,\"concentration\":1,\"days\":25,\"distribution\":3,\"fairness\":1,\"fragmentation\":3,\"gaps\":30,\"preferences\":2,\"visits\":25,\"waiting\":10},\"priorities\":[\"gaps\",\"visits\",\"days\",\"waiting\",\"fragmentation\",\"distribution\",\"preferences\",\"fairness\",\"concentration\",\"changes\"],\"seeds\":[],\"waiting_enabled\":false},\"technical_only\":true,\"time_limit\":6,\"unavailable\":[],\"workers\":1},\"data\":{\"assignments\":[{\"class_id\":\"C8\",\"count\":2,\"double_count\":0,\"id\":\"A8\",\"room_ids\":[\"LAB\"],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"class_id\":\"C8\",\"count\":1,\"double_count\":0,\"id\":\"B8\",\"room_ids\":[],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T2\"},{\"class_id\":\"C9\",\"count\":1,\"double_count\":0,\"id\":\"A9\",\"room_ids\":[\"LAB\"],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T1\"},{\"class_id\":\"C6\",\"count\":1,\"double_count\":0,\"id\":\"A6\",\"room_ids\":[],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"},{\"class_id\":\"C7\",\"count\":1,\"double_count\":0,\"id\":\"A7\",\"room_ids\":[],\"subject\":\"Môn\",\"subject_id\":\"M:NONE\",\"teacher\":\"T3\"}],\"classes\":[{\"grade\":6,\"id\":\"C6\",\"name\":\"6A1\",\"shift\":\"am\"},{\"grade\":7,\"id\":\"C7\",\"name\":\"7A1\",\"shift\":\"am\"},{\"grade\":8,\"id\":\"C8\",\"name\":\"8A1\",\"shift\":\"am\"},{\"grade\":9,\"id\":\"C9\",\"name\":\"9A1\",\"shift\":\"am\"}],\"issues\":[],\"pending_special\":[],\"subjects\":[{\"base\":\"M\",\"id\":\"M:NONE\",\"name\":\"Môn\"}],\"teachers\":[{\"full_name\":\"GV 1\",\"id\":\"T1\",\"name\":\"Cùng nhãn\",\"status\":\"VERIFIED\"},{\"full_name\":\"GV 2\",\"id\":\"T2\",\"name\":\"Cùng nhãn\",\"status\":\"VERIFIED\"},{\"full_name\":\"GV 3\",\"id\":\"T3\",\"name\":\"Cùng nhãn\",\"status\":\"VERIFIED\"}]}}",
+  "draft": true,
+  "production_ready": false
+}

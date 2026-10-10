@@ -1,0 +1,16 @@
+RUN uniform5am4pm
+uniform5am4pm FEASIBLE 234 {'gaps': 0, 'visits': 223, 'distribution': 107, 'concentration': 8, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 37, 'grade_only_gaps': 16, 'grade_only_visits': 81}
+RUN variable_days
+variable_days FEASIBLE 234 {'gaps': 3, 'visits': 228, 'distribution': 115, 'concentration': 16, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 42, 'grade_only_gaps': 10, 'grade_only_visits': 80}
+RUN reference_rest_sessions
+reference_rest_sessions FEASIBLE 234 {'gaps': 3, 'visits': 224, 'distribution': 116, 'concentration': 18, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 9, 'grade_only_visits': 74}
+RUN different_classes
+different_classes FEASIBLE 234 {'gaps': 3, 'visits': 223, 'distribution': 114, 'concentration': 15, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 37, 'grade_only_gaps': 10, 'grade_only_visits': 77}
+RUN reference_morning
+reference_morning FEASIBLE 234 {'gaps': 9, 'visits': 231, 'distribution': 124, 'concentration': 26, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 45, 'grade_only_gaps': 3, 'grade_only_visits': 70}
+RUN reference_mixed
+reference_mixed FEASIBLE 234 {'gaps': 9, 'visits': 230, 'distribution': 121, 'concentration': 24, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 44, 'grade_only_gaps': 6, 'grade_only_visits': 70}
+RUN incomplete_background_default_blocked
+incomplete_background_default_blocked BLOCKED 0 None
+RUN over_capacity_infeasible
+over_capacity_infeasible INFEASIBLE 0 None

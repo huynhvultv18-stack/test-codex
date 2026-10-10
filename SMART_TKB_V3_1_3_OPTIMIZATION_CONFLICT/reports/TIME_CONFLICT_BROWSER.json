@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    "New default teacher optimization enabled, BALANCED, 10 priorities",
+    "CP-SAT proof profile + automatic PASS in complete synthetic scope",
+    "Valid confirmation rechecks current hash and hard constraints",
+    "Per-teacher days/visits/gaps, explicit PROXY and proven phase scope visible",
+    "Config edit invalidates prior PASS, recheck required",
+    "Manual cross-grade collision auto FAIL, frozen rows unchanged, proof cleared",
+    "Error click locates exact schedule cell",
+    "Server blocks forged PASS and recomputes actual conflict",
+    "Detailed error XLSX downloaded",
+    "Dedicated error print view activated and restored",
+    "FAIL can save explicitly labeled draft, never valid confirmation",
+    "Draft reload reruns independent verification and retains error rows",
+    "Repair then automatic recheck restores PASS",
+    "Waiting toggle, multi-seed warm optimize and automatic post-check",
+    "Excel/CSV exchange automatically rechecks, no historical proof inheritance",
+    "Custom priority and fairness change invalidate certificate",
+    "Actual PCCM234 periods stays INCOMPLETE, identity warnings, no full confirmation",
+    "New time/conflict panels fit mobile/tablet/desktop",
+    "No JavaScript errors"
+  ],
+  "errors": [],
+  "windows_accepted": false,
+  "production_ready": false
+}

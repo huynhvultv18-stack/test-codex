@@ -1,0 +1,5 @@
+**/__pycache__/
+*.pyc
+**/.venv/
+SMART_TKB_V3_1_3_OPTIMIZATION_CONFLICT/windows/runtime/
+SMART_TKB_V3_1_3_OPTIMIZATION_CONFLICT/windows/wheels/

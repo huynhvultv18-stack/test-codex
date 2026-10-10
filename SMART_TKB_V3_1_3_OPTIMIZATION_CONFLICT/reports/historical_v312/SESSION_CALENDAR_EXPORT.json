@@ -1,0 +1,51 @@
+{
+  "version": "3.1.2-session-config",
+  "target_grade": 8,
+  "class_ids": [
+    "C08A01",
+    "C08A02",
+    "C08A03",
+    "C08A04",
+    "C08A05",
+    "C08A06",
+    "C08A07",
+    "C08A08",
+    "C08A09"
+  ],
+  "session_config": {
+    "schema_version": 1,
+    "max_periods": 5,
+    "include_sunday": false,
+    "week": [
+      {
+        "am": 2,
+        "pm": 4
+      },
+      {
+        "am": 5,
+        "pm": 0
+      },
+      {
+        "am": 5,
+        "pm": 4
+      },
+      {
+        "am": 5,
+        "pm": 0
+      },
+      {
+        "am": 5,
+        "pm": 4
+      },
+      {
+        "am": 4,
+        "pm": 0
+      },
+      {
+        "am": 0,
+        "pm": 0
+      }
+    ],
+    "class_weeks": {}
+  }
+}

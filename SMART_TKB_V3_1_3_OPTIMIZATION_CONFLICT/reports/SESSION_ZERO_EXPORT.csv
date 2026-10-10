@@ -1,0 +1,16 @@
+﻿record_type,assignment,teacher,class_id,subject_id,day,shift,period,length,room,class_ids,activity_ids,activity_status,activity_type,shared_teacher_group,is_special,co_teacher_ids,class_name,day_name,periods,state,configured_periods
+LESSON,A8,T1,C8,M:NONE,0,pm,1,1,LAB,"[""C8""]",[],,,,0,[],,,,,
+LESSON,A8,T1,C8,M:NONE,0,pm,2,1,LAB,"[""C8""]",[],,,,0,[],,,,,
+LESSON,B8,T2,C8,M:NONE,2,pm,1,1,,"[""C8""]",[],,,,0,[],,,,,
+CALENDAR,,,C8,,0,am,,,,,,,,,,,8A1,Thứ Hai,0,NGHỈ,0
+CALENDAR,,,C8,,0,pm,,,,,,,,,,,8A1,Thứ Hai,4,HỌC,4
+CALENDAR,,,C8,,1,am,,,,,,,,,,,8A1,Thứ Ba,5,HỌC,5
+CALENDAR,,,C8,,1,pm,,,,,,,,,,,8A1,Thứ Ba,0,NGHỈ,0
+CALENDAR,,,C8,,2,am,,,,,,,,,,,8A1,Thứ Tư,5,HỌC,5
+CALENDAR,,,C8,,2,pm,,,,,,,,,,,8A1,Thứ Tư,4,HỌC,4
+CALENDAR,,,C8,,3,am,,,,,,,,,,,8A1,Thứ Năm,5,HỌC,5
+CALENDAR,,,C8,,3,pm,,,,,,,,,,,8A1,Thứ Năm,0,NGHỈ,0
+CALENDAR,,,C8,,4,am,,,,,,,,,,,8A1,Thứ Sáu,5,HỌC,5
+CALENDAR,,,C8,,4,pm,,,,,,,,,,,8A1,Thứ Sáu,4,HỌC,4
+CALENDAR,,,C8,,5,am,,,,,,,,,,,8A1,Thứ Bảy,4,HỌC,4
+CALENDAR,,,C8,,5,pm,,,,,,,,,,,8A1,Thứ Bảy,0,NGHỈ,0

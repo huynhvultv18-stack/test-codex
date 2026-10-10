@@ -1,0 +1,21 @@
+{
+  "file": "SMART_TKB_THCS_V3_1_3_OPTIMIZATION_CONFLICT_CANDIDATE.zip",
+  "sha256": "07ec61f48ade717d4fe2f0779a1199f4084dd9fe9b719fbfc6a5618f9bddcd02",
+  "bytes": 67293766,
+  "entries": 1696,
+  "manifest_verified": 1695,
+  "crc": "PASS",
+  "extraction": "PASS",
+  "safe_paths": "PASS",
+  "baseline_windows_files_byte_identical": 1334,
+  "extracted_path": "/workspace/v313_package_verification/SMART_TKB_THCS_V3_1_3_OPTIMIZATION_CONFLICT_CANDIDATE",
+  "windows_execution": "UNTESTED",
+  "production_ready": false,
+  "extracted_python_tests": 163,
+  "extracted_python_result": "PASS",
+  "extracted_browser_checks": 55,
+  "extracted_browser_result": "PASS",
+  "extracted_independent_verification": "PASS:8measured schedules;6UI exports;error Excel and failed draft",
+  "windows_release_files_verified": 1419,
+  "github_download": "PENDING"
+}

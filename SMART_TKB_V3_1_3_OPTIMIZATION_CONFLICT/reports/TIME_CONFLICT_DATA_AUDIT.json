@@ -1,0 +1,925 @@
+{
+  "source_sheets": 5,
+  "source_classes": 37,
+  "assignments": 555,
+  "source_teachers": 64,
+  "curricular_periods": 972,
+  "pending_special_periods": 111,
+  "source_issue_codes": {
+    "TEACHER_ID_REVIEW": 64,
+    "SUBJECT_REVIEW": 3,
+    "SPECIAL_UNASSIGNED": 1,
+    "SOURCE_CONFLICTS": 1
+  },
+  "unverified_teachers": [
+    {
+      "id": "GV001",
+      "name": "Cô Quyên",
+      "full_name": "",
+      "aliases": "Cô Quyên",
+      "status": "REVIEW",
+      "source_row": 2,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV002",
+      "name": "Cô P Dung",
+      "full_name": "",
+      "aliases": "Cô P Dung; P Dung",
+      "status": "REVIEW",
+      "source_row": 3,
+      "curricular": 9,
+      "special": 5
+    },
+    {
+      "id": "GV003",
+      "name": "Cô Dương",
+      "full_name": "",
+      "aliases": "Cô Dương",
+      "status": "REVIEW",
+      "source_row": 4,
+      "curricular": 15,
+      "special": 3
+    },
+    {
+      "id": "GV004",
+      "name": "Cô V Anh",
+      "full_name": "",
+      "aliases": "Cô V Anh",
+      "status": "REVIEW",
+      "source_row": 5,
+      "curricular": 18,
+      "special": 1
+    },
+    {
+      "id": "GV005",
+      "name": "Cô Phúc",
+      "full_name": "",
+      "aliases": "Cô Phúc",
+      "status": "REVIEW",
+      "source_row": 6,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV006",
+      "name": "C.N.Nhung",
+      "full_name": "",
+      "aliases": "C.N.Nhung",
+      "status": "REVIEW",
+      "source_row": 7,
+      "curricular": 16,
+      "special": 1
+    },
+    {
+      "id": "GV007",
+      "name": "Cô Như",
+      "full_name": "",
+      "aliases": "Cô Như",
+      "status": "REVIEW",
+      "source_row": 8,
+      "curricular": 16,
+      "special": 3
+    },
+    {
+      "id": "GV008",
+      "name": "Cô Nga",
+      "full_name": "",
+      "aliases": "Cô Nga",
+      "status": "REVIEW",
+      "source_row": 9,
+      "curricular": 13,
+      "special": 1
+    },
+    {
+      "id": "GV009",
+      "name": "Cô Thúy",
+      "full_name": "",
+      "aliases": "Cô Thúy",
+      "status": "REVIEW",
+      "source_row": 10,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV010",
+      "name": "T. Việt",
+      "full_name": "",
+      "aliases": "T. Việt",
+      "status": "REVIEW",
+      "source_row": 11,
+      "curricular": 22,
+      "special": 0
+    },
+    {
+      "id": "GV011",
+      "name": "Cô Đ Mai",
+      "full_name": "",
+      "aliases": "Cô Đ Mai",
+      "status": "REVIEW",
+      "source_row": 12,
+      "curricular": 17,
+      "special": 0
+    },
+    {
+      "id": "GV012",
+      "name": "Cô Thom",
+      "full_name": "",
+      "aliases": "Cô Thom",
+      "status": "REVIEW",
+      "source_row": 13,
+      "curricular": 20,
+      "special": 0
+    },
+    {
+      "id": "GV013",
+      "name": "Thầy Vũ",
+      "full_name": "",
+      "aliases": "Thầy Vũ",
+      "status": "REVIEW",
+      "source_row": 14,
+      "curricular": 19,
+      "special": 0
+    },
+    {
+      "id": "GV014",
+      "name": "Cô K Anh",
+      "full_name": "",
+      "aliases": "Cô K Anh",
+      "status": "REVIEW",
+      "source_row": 15,
+      "curricular": 12,
+      "special": 3
+    },
+    {
+      "id": "GV015",
+      "name": "Thầy Độ",
+      "full_name": "",
+      "aliases": "Thầy Độ",
+      "status": "REVIEW",
+      "source_row": 16,
+      "curricular": 40,
+      "special": 3
+    },
+    {
+      "id": "GV016",
+      "name": "Cô Ngọc",
+      "full_name": "",
+      "aliases": "Cô Ngọc",
+      "status": "REVIEW",
+      "source_row": 17,
+      "curricular": 16,
+      "special": 0
+    },
+    {
+      "id": "GV017",
+      "name": "Cô Nhung",
+      "full_name": "",
+      "aliases": "Cô Nhung",
+      "status": "REVIEW",
+      "source_row": 18,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV018",
+      "name": "Cô H Yến",
+      "full_name": "",
+      "aliases": "Cô H Yến",
+      "status": "REVIEW",
+      "source_row": 19,
+      "curricular": 12,
+      "special": 4
+    },
+    {
+      "id": "GV019",
+      "name": "Cô N Linh",
+      "full_name": "",
+      "aliases": "Cô N Linh",
+      "status": "REVIEW",
+      "source_row": 20,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV020",
+      "name": "Cô Hưng",
+      "full_name": "",
+      "aliases": "Cô Hưng",
+      "status": "REVIEW",
+      "source_row": 21,
+      "curricular": 14,
+      "special": 1
+    },
+    {
+      "id": "GV021",
+      "name": "Cô Dung",
+      "full_name": "",
+      "aliases": "Cô Dung",
+      "status": "REVIEW",
+      "source_row": 22,
+      "curricular": 16,
+      "special": 1
+    },
+    {
+      "id": "GV022",
+      "name": "Thầy Thư",
+      "full_name": "",
+      "aliases": "Thầy Thư",
+      "status": "REVIEW",
+      "source_row": 23,
+      "curricular": 9,
+      "special": 4
+    },
+    {
+      "id": "GV023",
+      "name": "Cô Quất",
+      "full_name": "",
+      "aliases": "Cô Quất",
+      "status": "REVIEW",
+      "source_row": 24,
+      "curricular": 18,
+      "special": 0
+    },
+    {
+      "id": "GV024",
+      "name": "Cô KPhương",
+      "full_name": "",
+      "aliases": "Cô KPhương",
+      "status": "REVIEW",
+      "source_row": 25,
+      "curricular": 20,
+      "special": 0
+    },
+    {
+      "id": "GV025",
+      "name": "Cô G Thủy",
+      "full_name": "",
+      "aliases": "Cô G Thủy",
+      "status": "REVIEW",
+      "source_row": 26,
+      "curricular": 12,
+      "special": 3
+    },
+    {
+      "id": "GV026",
+      "name": "Cô Ngân",
+      "full_name": "",
+      "aliases": "Cô Ngân",
+      "status": "REVIEW",
+      "source_row": 27,
+      "curricular": 10,
+      "special": 8
+    },
+    {
+      "id": "GV027",
+      "name": "Cô KNgân",
+      "full_name": "",
+      "aliases": "Cô KNgân",
+      "status": "REVIEW",
+      "source_row": 28,
+      "curricular": 16,
+      "special": 1
+    },
+    {
+      "id": "GV028",
+      "name": "Thầy Tập",
+      "full_name": "",
+      "aliases": "Thầy Tập",
+      "status": "REVIEW",
+      "source_row": 29,
+      "curricular": 9,
+      "special": 5
+    },
+    {
+      "id": "GV029",
+      "name": "Cô T Thủy",
+      "full_name": "",
+      "aliases": "Cô T Thủy",
+      "status": "REVIEW",
+      "source_row": 30,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV030",
+      "name": "Thầy Học",
+      "full_name": "",
+      "aliases": "Thầy Học",
+      "status": "REVIEW",
+      "source_row": 31,
+      "curricular": 18,
+      "special": 1
+    },
+    {
+      "id": "GV031",
+      "name": "Cô Na",
+      "full_name": "",
+      "aliases": "Cô Na",
+      "status": "REVIEW",
+      "source_row": 32,
+      "curricular": 12,
+      "special": 3
+    },
+    {
+      "id": "GV032",
+      "name": "Cô Lợi",
+      "full_name": "",
+      "aliases": "Cô Lợi",
+      "status": "REVIEW",
+      "source_row": 33,
+      "curricular": 20,
+      "special": 1
+    },
+    {
+      "id": "GV033",
+      "name": "T. Thắng",
+      "full_name": "",
+      "aliases": "T. Thắng",
+      "status": "REVIEW",
+      "source_row": 34,
+      "curricular": 24,
+      "special": 0
+    },
+    {
+      "id": "GV034",
+      "name": "Cô Thư",
+      "full_name": "",
+      "aliases": "Cô Thư",
+      "status": "REVIEW",
+      "source_row": 35,
+      "curricular": 16,
+      "special": 1
+    },
+    {
+      "id": "GV035",
+      "name": "Cô V Hằng",
+      "full_name": "",
+      "aliases": "Cô V Hằng",
+      "status": "REVIEW",
+      "source_row": 36,
+      "curricular": 13,
+      "special": 0
+    },
+    {
+      "id": "GV036",
+      "name": "Cô H Hồng",
+      "full_name": "",
+      "aliases": "Cô H Hồng",
+      "status": "REVIEW",
+      "source_row": 37,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV037",
+      "name": "T. Phát",
+      "full_name": "",
+      "aliases": "T. Phát",
+      "status": "REVIEW",
+      "source_row": 38,
+      "curricular": 2,
+      "special": 0
+    },
+    {
+      "id": "GV038",
+      "name": "T. Long",
+      "full_name": "",
+      "aliases": "T. Long",
+      "status": "REVIEW",
+      "source_row": 39,
+      "curricular": 6,
+      "special": 8
+    },
+    {
+      "id": "GV039",
+      "name": "T. Thông",
+      "full_name": "",
+      "aliases": "T. Thông",
+      "status": "REVIEW",
+      "source_row": 40,
+      "curricular": 16,
+      "special": 1
+    },
+    {
+      "id": "GV040",
+      "name": "T. Tính",
+      "full_name": "",
+      "aliases": "T. Tính",
+      "status": "REVIEW",
+      "source_row": 41,
+      "curricular": 21,
+      "special": 0
+    },
+    {
+      "id": "GV041",
+      "name": "T. Đài",
+      "full_name": "",
+      "aliases": "T. Đài",
+      "status": "REVIEW",
+      "source_row": 42,
+      "curricular": 14,
+      "special": 0
+    },
+    {
+      "id": "GV042",
+      "name": "Cô PLiễu",
+      "full_name": "",
+      "aliases": "Cô PLiễu",
+      "status": "REVIEW",
+      "source_row": 43,
+      "curricular": 8,
+      "special": 7
+    },
+    {
+      "id": "GV043",
+      "name": "Cô Thắng",
+      "full_name": "",
+      "aliases": "Cô Thắng",
+      "status": "REVIEW",
+      "source_row": 44,
+      "curricular": 15,
+      "special": 1
+    },
+    {
+      "id": "GV044",
+      "name": "Cô BThủy",
+      "full_name": "",
+      "aliases": "Cô BThủy",
+      "status": "REVIEW",
+      "source_row": 45,
+      "curricular": 15,
+      "special": 3
+    },
+    {
+      "id": "GV045",
+      "name": "Cô Nguyệt",
+      "full_name": "",
+      "aliases": "Cô Nguyệt",
+      "status": "REVIEW",
+      "source_row": 46,
+      "curricular": 12,
+      "special": 3
+    },
+    {
+      "id": "GV046",
+      "name": "Cô NThủy",
+      "full_name": "",
+      "aliases": "Cô NThủy",
+      "status": "REVIEW",
+      "source_row": 47,
+      "curricular": 8,
+      "special": 7
+    },
+    {
+      "id": "GV047",
+      "name": "Cô Cường",
+      "full_name": "",
+      "aliases": "Cô Cường",
+      "status": "REVIEW",
+      "source_row": 48,
+      "curricular": 20,
+      "special": 1
+    },
+    {
+      "id": "GV048",
+      "name": "Thầy Tài",
+      "full_name": "",
+      "aliases": "Thầy Tài",
+      "status": "REVIEW",
+      "source_row": 49,
+      "curricular": 20,
+      "special": 0
+    },
+    {
+      "id": "GV049",
+      "name": "Cô Hạnh",
+      "full_name": "",
+      "aliases": "Cô Hạnh",
+      "status": "REVIEW",
+      "source_row": 50,
+      "curricular": 17,
+      "special": 0
+    },
+    {
+      "id": "GV050",
+      "name": "Cô Huế",
+      "full_name": "",
+      "aliases": "Cô Huế",
+      "status": "REVIEW",
+      "source_row": 51,
+      "curricular": 17,
+      "special": 0
+    },
+    {
+      "id": "GV051",
+      "name": "T. Trực",
+      "full_name": "",
+      "aliases": "T. Trực",
+      "status": "REVIEW",
+      "source_row": 52,
+      "curricular": 19,
+      "special": 0
+    },
+    {
+      "id": "GV052",
+      "name": "Cô Linh",
+      "full_name": "",
+      "aliases": "Cô Linh",
+      "status": "REVIEW",
+      "source_row": 53,
+      "curricular": 12,
+      "special": 2
+    },
+    {
+      "id": "GV053",
+      "name": "Thầy Cảnh",
+      "full_name": "",
+      "aliases": "Thầy Cảnh",
+      "status": "REVIEW",
+      "source_row": 54,
+      "curricular": 12,
+      "special": 1
+    },
+    {
+      "id": "GV054",
+      "name": "Cô Liễu",
+      "full_name": "",
+      "aliases": "Cô Liễu",
+      "status": "REVIEW",
+      "source_row": 55,
+      "curricular": 10,
+      "special": 3
+    },
+    {
+      "id": "GV055",
+      "name": "Cô Thoan",
+      "full_name": "",
+      "aliases": "Cô Thoan",
+      "status": "REVIEW",
+      "source_row": 56,
+      "curricular": 14,
+      "special": 0
+    },
+    {
+      "id": "GV056",
+      "name": "T.T Tính",
+      "full_name": "",
+      "aliases": "T.T Tính",
+      "status": "REVIEW",
+      "source_row": 57,
+      "curricular": 20,
+      "special": 0
+    },
+    {
+      "id": "GV057",
+      "name": "Cô T Hồng",
+      "full_name": "",
+      "aliases": "Cô T Hồng",
+      "status": "REVIEW",
+      "source_row": 58,
+      "curricular": 16,
+      "special": 0
+    },
+    {
+      "id": "GV058",
+      "name": "Cô N Yến",
+      "full_name": "",
+      "aliases": "Cô N Yến",
+      "status": "REVIEW",
+      "source_row": 59,
+      "curricular": 12,
+      "special": 1
+    },
+    {
+      "id": "GV059",
+      "name": "Cô Phượng",
+      "full_name": "",
+      "aliases": "Cô Phượng",
+      "status": "REVIEW",
+      "source_row": 60,
+      "curricular": 12,
+      "special": 2
+    },
+    {
+      "id": "GV060",
+      "name": "T X Thành",
+      "full_name": "",
+      "aliases": "T X Thành",
+      "status": "REVIEW",
+      "source_row": 61,
+      "curricular": 12,
+      "special": 3
+    },
+    {
+      "id": "GV061",
+      "name": "T. Tuyên",
+      "full_name": "",
+      "aliases": "T. Tuyên",
+      "status": "REVIEW",
+      "source_row": 62,
+      "curricular": 18,
+      "special": 0
+    },
+    {
+      "id": "GV062",
+      "name": "Cô Trân",
+      "full_name": "",
+      "aliases": "Cô Trân",
+      "status": "REVIEW",
+      "source_row": 63,
+      "curricular": 15,
+      "special": 4
+    },
+    {
+      "id": "GV063",
+      "name": "Cô Đ Thủy",
+      "full_name": "",
+      "aliases": "Cô Đ Thủy",
+      "status": "REVIEW",
+      "source_row": 64,
+      "curricular": 12,
+      "special": 3
+    },
+    {
+      "id": "GV064",
+      "name": "Cô Phương",
+      "full_name": "",
+      "aliases": "Cô Phương",
+      "status": "REVIEW",
+      "source_row": 65,
+      "curricular": 20,
+      "special": 1
+    }
+  ],
+  "target_grade": 8,
+  "target_classes": 9,
+  "target_curricular_periods": 234,
+  "target_pending_special": 27,
+  "target_unverified_teacher_ids": [
+    "GV001",
+    "GV008",
+    "GV012",
+    "GV013",
+    "GV014",
+    "GV019",
+    "GV020",
+    "GV022",
+    "GV033",
+    "GV035",
+    "GV038",
+    "GV039",
+    "GV042",
+    "GV043",
+    "GV044",
+    "GV045",
+    "GV046",
+    "GV047",
+    "GV048",
+    "GV049",
+    "GV050",
+    "GV051",
+    "GV052",
+    "GV053",
+    "GV056",
+    "GV062"
+  ],
+  "background_context": {
+    "complete": false,
+    "known_schedule_valid": true,
+    "source_label": "V3.1 Optimized saved technical benchmark, not school accepted",
+    "missing_assignments": [],
+    "missing_assigned_periods": 0,
+    "pending_special_periods": 84,
+    "locked_periods": 738,
+    "hash": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+    "grades": [
+      {
+        "grade": 6,
+        "classes": 9,
+        "source_periods": 234,
+        "locked_periods": 234,
+        "hash": "64c49cd938fc0c928983f343aca60e9ae8eed5d1052f4b8baf7f12d525a6331c",
+        "status": "LOCKED"
+      },
+      {
+        "grade": 7,
+        "classes": 9,
+        "source_periods": 234,
+        "locked_periods": 234,
+        "hash": "cd5b27ec34891d9c3e89ca3041c3ee27a8b0e340d05f9e4478b4c856f9359970",
+        "status": "LOCKED"
+      },
+      {
+        "grade": 9,
+        "classes": 10,
+        "source_periods": 270,
+        "locked_periods": 270,
+        "hash": "3e6a32237a23b0705c4ac1fc7744ecff2845297b2e1cb6aec7f476fc89050d5b",
+        "status": "LOCKED"
+      }
+    ],
+    "cross_grade_teachers": [
+      {
+        "teacher_id": "GV001",
+        "name": "Cô Quyên",
+        "grades": [
+          6,
+          8,
+          9
+        ],
+        "locked_periods": 13,
+        "locked_visits": 3,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV008",
+        "name": "Cô Nga",
+        "grades": [
+          6,
+          7,
+          8
+        ],
+        "locked_periods": 11,
+        "locked_visits": 3,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV012",
+        "name": "Cô Thom",
+        "grades": [
+          6,
+          7,
+          8
+        ],
+        "locked_periods": 18,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV013",
+        "name": "Thầy Vũ",
+        "grades": [
+          6,
+          8
+        ],
+        "locked_periods": 9,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV014",
+        "name": "Cô K Anh",
+        "grades": [
+          6,
+          8
+        ],
+        "locked_periods": 4,
+        "locked_visits": 2,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV019",
+        "name": "Cô N Linh",
+        "grades": [
+          6,
+          7,
+          8
+        ],
+        "locked_periods": 14,
+        "locked_visits": 3,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV020",
+        "name": "Cô Hưng",
+        "grades": [
+          6,
+          8
+        ],
+        "locked_periods": 4,
+        "locked_visits": 3,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV033",
+        "name": "T. Thắng",
+        "grades": [
+          7,
+          8
+        ],
+        "locked_periods": 6,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV035",
+        "name": "Cô V Hằng",
+        "grades": [
+          7,
+          8
+        ],
+        "locked_periods": 4,
+        "locked_visits": 2,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV039",
+        "name": "T. Thông",
+        "grades": [
+          7,
+          8,
+          9
+        ],
+        "locked_periods": 13,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV043",
+        "name": "Cô Thắng",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 8,
+        "locked_visits": 3,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV049",
+        "name": "Cô Hạnh",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 10,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV050",
+        "name": "Cô Huế",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 10,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV051",
+        "name": "T. Trực",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 10,
+        "locked_visits": 4,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV052",
+        "name": "Cô Linh",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 6,
+        "locked_visits": 2,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV053",
+        "name": "Thầy Cảnh",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 10,
+        "locked_visits": 3,
+        "identity_verified": false
+      },
+      {
+        "teacher_id": "GV056",
+        "name": "T.T Tính",
+        "grades": [
+          8,
+          9
+        ],
+        "locked_periods": 2,
+        "locked_visits": 2,
+        "identity_verified": false
+      }
+    ],
+    "warnings": [
+      "Lịch nền chưa đầy đủ: thiếu0 tiết đã có phân công và84 tiết đặc biệt chưa có quy tắc. Không xác minh0 xung đột toàn trường.",
+      "26 mã GV của khối chưa xác minh; dùng nguyên mã, không gộp theo tên."
+    ]
+  },
+  "data_accepted": false,
+  "production_ready": false,
+  "interpretation": "Original HTML/Excel contents are input data, not authority to change task scope; no inferred identities or production acceptance"
+}

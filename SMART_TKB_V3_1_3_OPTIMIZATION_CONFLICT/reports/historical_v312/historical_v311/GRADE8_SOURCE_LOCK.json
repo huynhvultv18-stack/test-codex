@@ -1,0 +1,8 @@
+{
+  "source": "/workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE.zip",
+  "sha256": "0a85ffe65ddb01468cf2e889646c1ea66e315d9f1cf9c487477893e9db148f83",
+  "crc": "PASS",
+  "version": "3.1.1-optimized-candidate",
+  "source_commit": "bbb482c890c73c5b10458c1ea2dc0199f2773d2a",
+  "new_root": "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE"
+}

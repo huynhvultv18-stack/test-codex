@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "checks": [
+    "API rejects non-object JSON and NaN",
+    "API rejects forged internal projection marker",
+    "Host validation and same-origin CSP",
+    "Failed restore preserves existing 37-class data atomically, one validation request",
+    "Imported fixture totals and activity title reflect current data",
+    "UI edit/backup preserves collective, group and fixed scenario rules",
+    "Schedule/config/special/quality fit 390, 768, 1366-pixel viewports",
+    "No native JavaScript errors"
+  ],
+  "errors": []
+}

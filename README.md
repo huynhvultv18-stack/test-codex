@@ -1,3 +1,18 @@
+## SMART TKB THCS V3.1.3 Optimization + Conflict Candidate
+
+CP-SAT tối ưu thời gian GV; hậu kiểm độc lập GV/lớp/phòng với PASS/FAIL/INCOMPLETE/STALE theo hash/version. Chỉ giải khối chọn, giữ nguyên khối khóa. FAST/BALANCED/PROVE_OPTIMAL, tiết trống/buổi/ngày/chờ, warm/LNS/neighborhood/multi-seed, chỉnh tay và báo cáo lỗi.
+
+- [Tải ZIP Windows ngoại tuyến](https://github.com/huynhvultv18-stack/test-codex/raw/refs/heads/smart-tkb-v3-1-3-optimization-conflict-candidate/dist/SMART_TKB_THCS_V3_1_3_OPTIMIZATION_CONFLICT_CANDIDATE.zip)
+- [Hướng dẫn sử dụng](SMART_TKB_V3_1_3_OPTIMIZATION_CONFLICT/HUONG_DAN_SU_DUNG.md)
+- [Mã nguồn](SMART_TKB_V3_1_3_OPTIMIZATION_CONFLICT) · [Benchmark A/B](SMART_TKB_V3_1_3_OPTIMIZATION_CONFLICT/reports/TIME_CONFLICT_BENCHMARK.md)
+- [SHA-256](dist/SMART_TKB_THCS_V3_1_3_OPTIMIZATION_CONFLICT_CANDIDATE.zip.sha256) · [Kiểm tra gói](dist/SMART_TKB_THCS_V3_1_3_PACKAGE_VERIFICATION.json)
+
+163 kiểm thử Python +55checks trình duyệt đạt;288lịch synthetic được exhaustive độc lập đối chiếu CP-SAT OPTIMAL.8lượt benchmark khối8 xếp234/234tiết,0xungđột đã biết,738tiết khóa không đổi. A/B cùng input/budget/worker/seed: Candidate giảm ngày201/203→193, giữ3tiết trống/224buổi; chờ PROXY tăng21/22→28/27, không tuyên bố mọi mục tiêu cải thiện.
+
+PCCM thực tế và nền thiếu dữ liệu: INCOMPLETE, chưa chứng minh tối ưu đầy đủ. DATA ACCEPTED=NO; WINDOWS ACCEPTED=NO; PRODUCTION READY=NO. SOURCE/V3.1.2 giữ nguyên; không merge main hoặc Production. Source Git không kèm runtime/wheels, dùng ZIP đầy đủ để chạy ngoại tuyến Windows.
+
+Các phiên bản trước giữ nguyên để truy xuất:
+
 ## SMART TKB THCS V3.1.2 Session Config Candidate
 
 **0tiết=NGHỈ · lịch riêng ngày/buổi/lớp · khối8 mặc định41ô/9buổi · giữ lịch các khối khóa.**
