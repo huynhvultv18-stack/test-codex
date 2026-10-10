@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "http_status": 200,
+  "url": "https://raw.githubusercontent.com/huynhvultv18-stack/test-codex/32123097400608050dfe087388f36e8e6858297f/dist/SMART_TKB_THCS_V3_1_3_OPTIMIZATION_CONFLICT_CANDIDATE.zip",
+  "payload_commit": "32123097400608050dfe087388f36e8e6858297f",
+  "sha256": "07ec61f48ade717d4fe2f0779a1199f4084dd9fe9b719fbfc6a5618f9bddcd02",
+  "bytes": 67293766,
+  "crc": "PASS",
+  "manifest_files": 1695,
+  "entries": 1696,
+  "windows_accepted": false,
+  "production_ready": false
+}

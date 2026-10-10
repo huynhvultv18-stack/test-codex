@@ -17,5 +17,6 @@
   "extracted_browser_result": "PASS",
   "extracted_independent_verification": "PASS:8measured schedules;6UI exports;error Excel and failed draft",
   "windows_release_files_verified": 1419,
-  "github_download": "PENDING"
+  "github_download": "PASS",
+  "download_verification": "SMART_TKB_THCS_V3_1_3_GITHUB_DOWNLOAD_VERIFICATION.json"
 }
