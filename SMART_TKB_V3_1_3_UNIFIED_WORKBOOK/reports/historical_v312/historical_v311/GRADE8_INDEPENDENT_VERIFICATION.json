@@ -1,0 +1,76 @@
+{
+  "result": "PASS",
+  "feasible_runs_verified": 6,
+  "details": [
+    {
+      "run": "default_strict_blocked",
+      "status": "BLOCKED",
+      "no_false_conflict_claim": true
+    },
+    {
+      "run": "both_cold_s17_t30",
+      "status": "FEASIBLE",
+      "placed": 234,
+      "metrics": "MATCH",
+      "frozen_hash": "MATCH",
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_fully_verified": false
+    },
+    {
+      "run": "both_warm_s17_t30",
+      "status": "FEASIBLE",
+      "placed": 234,
+      "metrics": "MATCH",
+      "frozen_hash": "MATCH",
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_fully_verified": false
+    },
+    {
+      "run": "both_local_C08A01_t10",
+      "status": "OPTIMAL",
+      "placed": 234,
+      "metrics": "MATCH",
+      "frozen_hash": "MATCH",
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_fully_verified": false
+    },
+    {
+      "run": "morning_cold_s17_t10",
+      "status": "FEASIBLE",
+      "placed": 234,
+      "metrics": "MATCH",
+      "frozen_hash": "MATCH",
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_fully_verified": false
+    },
+    {
+      "run": "mixed_am_cold_s17_t10",
+      "status": "FEASIBLE",
+      "placed": 234,
+      "metrics": "MATCH",
+      "frozen_hash": "MATCH",
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_fully_verified": false
+    },
+    {
+      "run": "mixed_pm_capacity_infeasible",
+      "status": "INFEASIBLE",
+      "no_false_conflict_claim": true
+    },
+    {
+      "run": "complete_background_synthetic_fixture",
+      "status": "OPTIMAL",
+      "placed": 3,
+      "metrics": "MATCH",
+      "frozen_hash": "MATCH",
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_fully_verified": true
+    }
+  ]
+}

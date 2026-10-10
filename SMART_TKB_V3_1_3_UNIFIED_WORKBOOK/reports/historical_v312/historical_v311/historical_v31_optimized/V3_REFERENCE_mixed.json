@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "gaps": 0,
+    "visits": 240,
+    "distribution": 703,
+    "concentration": 319,
+    "preferences": 0,
+    "changes": 0
+  },
+  "config": {
+    "mode": "mixed",
+    "days": 6,
+    "periods": 5,
+    "max_class_session": 5,
+    "max_teacher_session": 5,
+    "technical_only": true,
+    "seed": 17,
+    "workers": 4,
+    "time_limit": 30
+  },
+  "file": "reports/fair/mixed_cold_s17_w4_t30_V3.json"
+}

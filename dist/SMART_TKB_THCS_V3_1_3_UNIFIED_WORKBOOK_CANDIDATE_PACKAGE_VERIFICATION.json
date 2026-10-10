@@ -1,0 +1,16 @@
+{
+  "filename": "SMART_TKB_THCS_V3_1_3_UNIFIED_WORKBOOK_CANDIDATE.zip",
+  "sha256": "353a99c6c54704c5dd3e542f82166182e7b61b8f33779cc8314c7bfedb116bd8",
+  "bytes": 68105341,
+  "zip_crc": "PASS",
+  "file_sha256": "PASS",
+  "manifest_files": 1725,
+  "zip_entries": 1726,
+  "production_ready": false,
+  "extraction": "PASS",
+  "extracted_manifest": "PASS",
+  "baseline_v313_zip_unchanged": true,
+  "fresh_extracted_python_tests": 206,
+  "fresh_extracted_workbook_browser_checks": 16,
+  "windows_release_manifest_verified": 1430
+}

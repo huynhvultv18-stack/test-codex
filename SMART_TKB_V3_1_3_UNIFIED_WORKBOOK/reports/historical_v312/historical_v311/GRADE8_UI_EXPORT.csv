@@ -1,0 +1,4 @@
+﻿assignment,teacher,class_id,subject_id,day,shift,period,length,room,class_ids,activity_ids,activity_status,activity_type,shared_teacher_group,is_special
+A8,T1,C8,M:NONE,0,am,1,1,LAB,"[""C8""]",[],,,,0
+A8,T1,C8,M:NONE,0,am,2,1,LAB,"[""C8""]",[],,,,0
+B8,T2,C8,M:NONE,1,pm,0,1,,"[""C8""]",[],,,,0

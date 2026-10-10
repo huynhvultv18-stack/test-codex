@@ -1,0 +1,8 @@
+{
+  "source": "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE.zip",
+  "sha256": "9e80b3708a9d0dcff0151cf1c7100a8672d153a79e094a45a4d4c7cc09805690",
+  "baseline_manifest": "PASS",
+  "baseline_tree": "PASS",
+  "root": "/workspace/SMART_TKB_THCS_V3_1_2_SESSION_CONFIG_CANDIDATE",
+  "immutable": true
+}

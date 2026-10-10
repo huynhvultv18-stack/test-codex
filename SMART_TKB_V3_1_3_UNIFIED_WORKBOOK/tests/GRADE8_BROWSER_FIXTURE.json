@@ -1,0 +1,205 @@
+{
+  "version": "3.1.1-grade",
+  "data": {
+    "classes": [
+      {
+        "id": "C6",
+        "name": "6A1",
+        "grade": 6,
+        "shift": "am"
+      },
+      {
+        "id": "C7",
+        "name": "7A1",
+        "grade": 7,
+        "shift": "am"
+      },
+      {
+        "id": "C8",
+        "name": "8A1",
+        "grade": 8,
+        "shift": "am"
+      },
+      {
+        "id": "C9",
+        "name": "9A1",
+        "grade": 9,
+        "shift": "am"
+      }
+    ],
+    "teachers": [
+      {
+        "id": "T1",
+        "name": "Cùng nhãn",
+        "status": "VERIFIED",
+        "full_name": "GV 1"
+      },
+      {
+        "id": "T2",
+        "name": "Cùng nhãn",
+        "status": "VERIFIED",
+        "full_name": "GV 2"
+      },
+      {
+        "id": "T3",
+        "name": "Cùng nhãn",
+        "status": "VERIFIED",
+        "full_name": "GV 3"
+      }
+    ],
+    "subjects": [
+      {
+        "id": "M:NONE",
+        "base": "M",
+        "name": "Môn"
+      }
+    ],
+    "assignments": [
+      {
+        "id": "A8",
+        "class_id": "C8",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 2,
+        "double_count": 0,
+        "room_ids": [
+          "LAB"
+        ]
+      },
+      {
+        "id": "B8",
+        "class_id": "C8",
+        "teacher": "T2",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": []
+      },
+      {
+        "id": "A9",
+        "class_id": "C9",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": [
+          "LAB"
+        ]
+      },
+      {
+        "id": "A6",
+        "class_id": "C6",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": []
+      },
+      {
+        "id": "A7",
+        "class_id": "C7",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "count": 1,
+        "double_count": 0,
+        "room_ids": []
+      }
+    ],
+    "pending_special": [],
+    "issues": []
+  },
+  "config": {
+    "target_grade": 8,
+    "mode": "both",
+    "days": 2,
+    "active_days": [
+      0,
+      1
+    ],
+    "periods": 3,
+    "session_periods": {
+      "am": 3,
+      "pm": 2
+    },
+    "max_class_session": 3,
+    "max_teacher_session": 3,
+    "rooms": [
+      {
+        "id": "LAB"
+      }
+    ],
+    "workers": 1,
+    "time_limit": 2,
+    "seed": 17
+  },
+  "background": {
+    "lessons": [
+      {
+        "assignment": "A9",
+        "class_id": "C9",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": "LAB"
+      },
+      {
+        "assignment": "A6",
+        "class_id": "C6",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "pm",
+        "period": 0,
+        "length": 1,
+        "room": null
+      },
+      {
+        "assignment": "A7",
+        "class_id": "C7",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 1,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": null
+      }
+    ],
+    "config": {
+      "target_grade": 9,
+      "mode": "both",
+      "days": 2,
+      "active_days": [
+        0,
+        1
+      ],
+      "periods": 3,
+      "session_periods": {
+        "am": 3,
+        "pm": 3
+      },
+      "max_class_session": 3,
+      "max_teacher_session": 3,
+      "rooms": [
+        {
+          "id": "LAB"
+        }
+      ],
+      "workers": 1,
+      "time_limit": 2,
+      "seed": 17
+    },
+    "source_label": "Synthetic complete fixture"
+  }
+}

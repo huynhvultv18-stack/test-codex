@@ -1,0 +1,1273 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "ortools": "9.15.6755",
+  "machine": "x86_64",
+  "logical_cpus": 5,
+  "source_classes": 37,
+  "target_grade": 8,
+  "target_classes": 9,
+  "background_sha256": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+  "runs": [
+    {
+      "name": "ab_reference_s17",
+      "variant": "A_V312",
+      "input_sha256": "b1811d0d63a3d974bcf5dd5a8a8313c4d9b3ef532d94b219a16a147102f107c4",
+      "input_file": "reports/time_conflict/ab_reference_s17_input.json",
+      "output_file": "reports/time_conflict/ab_reference_s17_A_V312.json",
+      "budget_seconds": 20,
+      "workers": 4,
+      "seed": 17,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 201,
+        "waiting": 21,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.011249,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "seconds": 0.235,
+          "objective": 3.0,
+          "best_bound": 3.0,
+          "relative_gap": 0.0,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "seconds": 13.014,
+          "objective": 224.0,
+          "best_bound": 217.0,
+          "relative_gap": 0.03125,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "distribution",
+          "status": "FEASIBLE",
+          "seconds": 3.986,
+          "objective": 116.0,
+          "best_bound": 99.0,
+          "relative_gap": 0.14655172413793102,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "preferences",
+          "status": "CONSTANT",
+          "seconds": 0,
+          "objective": 0,
+          "best_bound": 0
+        },
+        {
+          "name": "concentration",
+          "status": "FEASIBLE",
+          "seconds": 1.818,
+          "objective": 18.0,
+          "best_bound": 1.0,
+          "relative_gap": 0.9444444444444444,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "changes",
+          "status": "UNKNOWN",
+          "seconds": 0.159,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "proof_scope": "conditional_on_incumbent_locks"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [
+        "preferences"
+      ],
+      "elapsed_seconds": 20.126,
+      "wall_seconds": 20.28,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true,
+      "remeasured_alone": true
+    },
+    {
+      "name": "ab_reference_s17",
+      "variant": "B_V313",
+      "input_sha256": "b1811d0d63a3d974bcf5dd5a8a8313c4d9b3ef532d94b219a16a147102f107c4",
+      "input_file": "reports/time_conflict/ab_reference_s17_input.json",
+      "output_file": "reports/time_conflict/ab_reference_s17_B_V313.json",
+      "budget_seconds": 20,
+      "workers": 4,
+      "seed": 17,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 193,
+        "waiting": 28,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.014913,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "solver_status": "OPTIMAL",
+          "seconds": 0.336,
+          "objective": 3.0,
+          "best_bound": 3.0,
+          "relative_gap": 0.0,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "OPTIMAL",
+              "seconds": 0.325,
+              "objective": 3.0,
+              "best_bound": 3.0,
+              "relative_gap": 0.0,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 7.877,
+          "objective": 224.0,
+          "best_bound": 217.0,
+          "relative_gap": 0.03125,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 7.864,
+              "objective": 224.0,
+              "best_bound": 217.0,
+              "relative_gap": 0.03125,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "days",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 7.774,
+          "objective": 193.0,
+          "best_bound": 187.0,
+          "relative_gap": 0.031088082901554404,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 7.764,
+              "objective": 193.0,
+              "best_bound": 187.0,
+              "relative_gap": 0.031088082901554404,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "waiting",
+          "status": "SKIPPED_DISABLED",
+          "seconds": 0
+        },
+        {
+          "name": "fragmentation",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 0.91,
+          "objective": 227.0,
+          "best_bound": 190.0,
+          "relative_gap": 0.16299559471365638,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 0.899,
+              "objective": 227.0,
+              "best_bound": 190.0,
+              "relative_gap": 0.16299559471365638,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "distribution",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 0.848,
+          "objective": 150.0,
+          "best_bound": 51.0,
+          "relative_gap": 0.66,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 0.837,
+              "objective": 150.0,
+              "best_bound": 51.0,
+              "relative_gap": 0.66,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "preferences",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.489,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.489,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "fairness",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.206,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.206,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "concentration",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.15,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.15,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [],
+      "elapsed_seconds": 20.058,
+      "wall_seconds": 20.256,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    },
+    {
+      "name": "ab_reference_s23",
+      "variant": "A_V312",
+      "input_sha256": "945f47489eeffaf079516d3f846839e7a8662e73d8a1f82fbbec2db9c25acecc",
+      "input_file": "reports/time_conflict/ab_reference_s23_input.json",
+      "output_file": "reports/time_conflict/ab_reference_s23_A_V312.json",
+      "budget_seconds": 20,
+      "workers": 4,
+      "seed": 23,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 203,
+        "waiting": 22,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.011245,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "seconds": 0.253,
+          "objective": 3.0,
+          "best_bound": 3.0,
+          "relative_gap": 0.0,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "seconds": 12.896,
+          "objective": 224.0,
+          "best_bound": 217.0,
+          "relative_gap": 0.03125,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "distribution",
+          "status": "FEASIBLE",
+          "seconds": 4.054,
+          "objective": 116.0,
+          "best_bound": 99.0,
+          "relative_gap": 0.14655172413793102,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "preferences",
+          "status": "CONSTANT",
+          "seconds": 0,
+          "objective": 0,
+          "best_bound": 0
+        },
+        {
+          "name": "concentration",
+          "status": "FEASIBLE",
+          "seconds": 1.828,
+          "objective": 18.0,
+          "best_bound": 1.0,
+          "relative_gap": 0.9444444444444444,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "changes",
+          "status": "UNKNOWN",
+          "seconds": 0.16,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "proof_scope": "conditional_on_incumbent_locks"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [
+        "preferences"
+      ],
+      "elapsed_seconds": 20.121,
+      "wall_seconds": 20.291,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    },
+    {
+      "name": "ab_reference_s23",
+      "variant": "B_V313",
+      "input_sha256": "945f47489eeffaf079516d3f846839e7a8662e73d8a1f82fbbec2db9c25acecc",
+      "input_file": "reports/time_conflict/ab_reference_s23_input.json",
+      "output_file": "reports/time_conflict/ab_reference_s23_B_V313.json",
+      "budget_seconds": 20,
+      "workers": 4,
+      "seed": 23,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 193,
+        "waiting": 27,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.016076,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "solver_status": "OPTIMAL",
+          "seconds": 0.341,
+          "objective": 3.0,
+          "best_bound": 3.0,
+          "relative_gap": 0.0,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "OPTIMAL",
+              "seconds": 0.33,
+              "objective": 3.0,
+              "best_bound": 3.0,
+              "relative_gap": 0.0,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 7.855,
+          "objective": 224.0,
+          "best_bound": 217.0,
+          "relative_gap": 0.03125,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "FEASIBLE",
+              "seconds": 7.842,
+              "objective": 224.0,
+              "best_bound": 217.0,
+              "relative_gap": 0.03125,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "days",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 7.734,
+          "objective": 193.0,
+          "best_bound": 182.0,
+          "relative_gap": 0.05699481865284974,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "FEASIBLE",
+              "seconds": 7.723,
+              "objective": 193.0,
+              "best_bound": 182.0,
+              "relative_gap": 0.05699481865284974,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "waiting",
+          "status": "SKIPPED_DISABLED",
+          "seconds": 0
+        },
+        {
+          "name": "fragmentation",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 0.907,
+          "objective": 227.0,
+          "best_bound": 190.0,
+          "relative_gap": 0.16299559471365638,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "FEASIBLE",
+              "seconds": 0.896,
+              "objective": 227.0,
+              "best_bound": 190.0,
+              "relative_gap": 0.16299559471365638,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "distribution",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 0.846,
+          "objective": 149.0,
+          "best_bound": 56.0,
+          "relative_gap": 0.6241610738255033,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "FEASIBLE",
+              "seconds": 0.835,
+              "objective": 149.0,
+              "best_bound": 56.0,
+              "relative_gap": 0.6241610738255033,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "preferences",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.493,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "UNKNOWN",
+              "seconds": 0.493,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "fairness",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.212,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "UNKNOWN",
+              "seconds": 0.212,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "concentration",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.106,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 23,
+              "status": "UNKNOWN",
+              "seconds": 0.106,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [],
+      "elapsed_seconds": 20.064,
+      "wall_seconds": 20.275,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    },
+    {
+      "name": "profile_morning",
+      "variant": "B_V313",
+      "input_sha256": "80e9266be729ac814ed446561720c6d5a5c51cd1ec10a35c65fe85be1fec8653",
+      "input_file": "reports/time_conflict/profile_morning_input.json",
+      "output_file": "reports/time_conflict/profile_morning_B_V313.json",
+      "budget_seconds": 10,
+      "workers": 4,
+      "seed": 17,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 9,
+        "visits": 231,
+        "days": 211,
+        "waiting": 15,
+        "fragmentation": 240,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 9,
+        "visits": 230,
+        "days": 204,
+        "waiting": 28,
+        "fragmentation": 239,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.014159,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "solver_status": "OPTIMAL",
+          "seconds": 0.254,
+          "objective": 9.0,
+          "best_bound": 9.0,
+          "relative_gap": 0.0,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "OPTIMAL",
+              "seconds": 0.244,
+              "objective": 9.0,
+              "best_bound": 9.0,
+              "relative_gap": 0.0,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 3.827,
+          "objective": 230.0,
+          "best_bound": 227.0,
+          "relative_gap": 0.013043478260869565,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 3.818,
+              "objective": 230.0,
+              "best_bound": 227.0,
+              "relative_gap": 0.013043478260869565,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "days",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 3.721,
+          "objective": 204.0,
+          "best_bound": 198.0,
+          "relative_gap": 0.029411764705882353,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 3.712,
+              "objective": 204.0,
+              "best_bound": 198.0,
+              "relative_gap": 0.029411764705882353,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "waiting",
+          "status": "SKIPPED_DISABLED",
+          "seconds": 0
+        },
+        {
+          "name": "fragmentation",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 0.429,
+          "objective": 239.0,
+          "best_bound": 197.0,
+          "relative_gap": 0.17573221757322174,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 0.42,
+              "objective": 239.0,
+              "best_bound": 197.0,
+              "relative_gap": 0.17573221757322174,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "distribution",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.347,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.347,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "preferences",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.153,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.153,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "fairness",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.033,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.033,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [],
+      "elapsed_seconds": 10.027,
+      "wall_seconds": 10.223,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    },
+    {
+      "name": "profile_mixed",
+      "variant": "B_V313",
+      "input_sha256": "c0d731094d40d61af6952a1b03d9c9966696652dcb4dc74c324ccb962a97b80d",
+      "input_file": "reports/time_conflict/profile_mixed_input.json",
+      "output_file": "reports/time_conflict/profile_mixed_B_V313.json",
+      "budget_seconds": 10,
+      "workers": 4,
+      "seed": 17,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 9,
+        "visits": 230,
+        "days": 210,
+        "waiting": 16,
+        "fragmentation": 239,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 9,
+        "visits": 230,
+        "days": 205,
+        "waiting": 34,
+        "fragmentation": 239,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.014355,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "solver_status": "OPTIMAL",
+          "seconds": 0.241,
+          "objective": 9.0,
+          "best_bound": 9.0,
+          "relative_gap": 0.0,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "OPTIMAL",
+              "seconds": 0.231,
+              "objective": 9.0,
+              "best_bound": 9.0,
+              "relative_gap": 0.0,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 3.833,
+          "objective": 230.0,
+          "best_bound": 224.0,
+          "relative_gap": 0.02608695652173913,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 3.823,
+              "objective": 230.0,
+              "best_bound": 224.0,
+              "relative_gap": 0.02608695652173913,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "days",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 3.733,
+          "objective": 205.0,
+          "best_bound": 198.0,
+          "relative_gap": 0.03414634146341464,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 3.724,
+              "objective": 205.0,
+              "best_bound": 198.0,
+              "relative_gap": 0.03414634146341464,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "waiting",
+          "status": "SKIPPED_DISABLED",
+          "seconds": 0
+        },
+        {
+          "name": "fragmentation",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 0.436,
+          "objective": 239.0,
+          "best_bound": 196.0,
+          "relative_gap": 0.1799163179916318,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 0.426,
+              "objective": 239.0,
+              "best_bound": 196.0,
+              "relative_gap": 0.1799163179916318,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "distribution",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.353,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.353,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "preferences",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.171,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.171,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        },
+        {
+          "name": "fairness",
+          "status": "UNKNOWN",
+          "solver_status": "UNKNOWN",
+          "seconds": 0.031,
+          "objective": null,
+          "best_bound": 0.0,
+          "relative_gap": null,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "UNKNOWN",
+              "seconds": 0.031,
+              "objective": null,
+              "best_bound": 0.0,
+              "relative_gap": null
+            }
+          ],
+          "independent_verified": false,
+          "proof_scope": "conditional_on_incumbent_locks"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [],
+      "elapsed_seconds": 10.056,
+      "wall_seconds": 10.246,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    },
+    {
+      "name": "profile_fast",
+      "variant": "B_V313",
+      "input_sha256": "614a8ccf860d25065ee35e58b1d4651cad534dce80fa52002d862b0e347c05fe",
+      "input_file": "reports/time_conflict/profile_fast_input.json",
+      "output_file": "reports/time_conflict/profile_fast_B_V313.json",
+      "budget_seconds": 10,
+      "workers": 4,
+      "seed": 17,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.014905,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        }
+      ],
+      "proven_prefix": [],
+      "conditional_priorities": [],
+      "elapsed_seconds": 0.595,
+      "wall_seconds": 0.814,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    },
+    {
+      "name": "profile_prove_optimal",
+      "variant": "B_V313",
+      "input_sha256": "6fe3725580d6bb9fbddec6afb16779f57bc93803096f28c0dccf97094d646046",
+      "input_file": "reports/time_conflict/profile_prove_optimal_input.json",
+      "output_file": "reports/time_conflict/profile_prove_optimal_B_V313.json",
+      "budget_seconds": 10,
+      "workers": 4,
+      "seed": 17,
+      "required": 234,
+      "placed": 234,
+      "before": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "after": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 203,
+        "waiting": 20,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "waiting_kind": "PROXY",
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "post_check": "INCOMPLETE",
+      "warnings": 135,
+      "solver_status": "FEASIBLE",
+      "phases": [
+        {
+          "name": "feasibility",
+          "status": "VERIFIED_INCUMBENT",
+          "solver_status": null,
+          "seconds": 0.014859,
+          "proof": "Independent hard-constraint verifier; no CP-SAT feasibility call"
+        },
+        {
+          "name": "gaps",
+          "status": "OPTIMAL",
+          "solver_status": "OPTIMAL",
+          "seconds": 0.459,
+          "objective": 3.0,
+          "best_bound": 3.0,
+          "relative_gap": 0.0,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "OPTIMAL",
+              "seconds": 0.448,
+              "objective": 3.0,
+              "best_bound": 3.0,
+              "relative_gap": 0.0,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        },
+        {
+          "name": "visits",
+          "status": "FEASIBLE",
+          "solver_status": "FEASIBLE",
+          "seconds": 8.796,
+          "objective": 224.0,
+          "best_bound": 217.0,
+          "relative_gap": 0.03125,
+          "trials": [
+            {
+              "seed": 17,
+              "status": "FEASIBLE",
+              "seconds": 4.459,
+              "objective": 224.0,
+              "best_bound": 217.0,
+              "relative_gap": 0.03125,
+              "independent_verified": true
+            },
+            {
+              "seed": 23,
+              "status": "FEASIBLE",
+              "seconds": 4.314,
+              "objective": 224.0,
+              "best_bound": 217.0,
+              "relative_gap": 0.03125,
+              "independent_verified": true
+            }
+          ],
+          "independent_verified": true,
+          "proof_scope": "lexicographic_prefix"
+        }
+      ],
+      "proven_prefix": [
+        "gaps"
+      ],
+      "conditional_priorities": [],
+      "elapsed_seconds": 10.055,
+      "wall_seconds": 10.269,
+      "proof_scope": "grade_with_frozen_background",
+      "selected_scope_optimal_proven": false,
+      "global_optimal_proven": false,
+      "locked_unchanged": true
+    }
+  ],
+  "negative_controls": {
+    "default": "BLOCKED",
+    "over_capacity": "INFEASIBLE"
+  },
+  "comparison_policy": "Identical input JSON, hardware and serial wall budget; new default has days/waiting/fragmentation/fairness beyond baseline6 goals. Compare common gaps/visits prefix and measured indicators, not whole lex vectors across policies. Independent small exhaustive oracle proves new full vector separately.",
+  "windows_accepted": false,
+  "data_accepted": false,
+  "production_ready": false
+}

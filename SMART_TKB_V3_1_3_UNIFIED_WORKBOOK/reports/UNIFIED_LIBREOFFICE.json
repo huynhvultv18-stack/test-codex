@@ -1,0 +1,12 @@
+{
+  "libreoffice_version": "LibreOfficeDev 26.8.0.0.alpha0",
+  "opened_saved_template": true,
+  "opened_saved_37_class_workbook": true,
+  "reimport_valid": true,
+  "state_exactly_equal": true,
+  "input_sha256": "93b4f44573d2522fcecf459e51d1512e4dd2741ce7260f69c376f8272d2acc31",
+  "template_sha256": "b1204ca5db92d0ce75a4b1ba9318375962a0f4b4fe0d469e8a908ea866a3a92f",
+  "errors": [],
+  "microsoft_excel_windows_tested": false,
+  "production_ready": false
+}

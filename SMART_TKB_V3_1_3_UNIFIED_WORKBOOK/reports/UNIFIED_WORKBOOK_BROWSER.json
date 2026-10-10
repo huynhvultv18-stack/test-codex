@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Principal unified workbook template button visible",
+    "Actual XLSX template downloads through offline UI",
+    "Empty template guide examples never become official data; precise sheet errors; atomic refusal",
+    "Cell-level error report downloaded as Excel",
+    "37-class export reimports all inputs; preview shows counts and unchanged frozen hash; no mutation",
+    "Cancel keeps current data/config/background",
+    "Preview lists exact modified class ID before replacing live modules",
+    "Server rejects unacknowledged warnings and stale preview context",
+    "Confirmed replacement changes reviewed data, preserves frozen rows, saves undo",
+    "Imported data and undo survive browser reload",
+    "Undo confirmation restores exact original input modules and background",
+    "Successful import clears old solver proof/result only after explicit confirmation",
+    "Undo restores prior timetable and reruns independent hard/post checks",
+    "Missing room reports exact PCCM G2 and preserves current valid timetable",
+    "Storage quota failure does not partially replace data or drop current result",
+    "Unified workbook UI responsive without JavaScript errors"
+  ],
+  "errors": [],
+  "windows_excel_accepted": false,
+  "production_ready": false
+}

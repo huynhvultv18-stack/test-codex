@@ -1,3 +1,17 @@
+## SMART TKB THCS V3.1.3 Unified Workbook Candidate
+
+**Một file Excel 11 sheet cho toàn bộ dữ liệu**, nhập có xem trước/xác nhận/khôi phục, báo lỗi theo sheet–dòng–cột và xuất lại dữ liệu hiện có. Giữ nguyên grade-only CP-SAT, khóa lịch các khối khác và hậu kiểm.
+
+- [Tải ZIP Windows ngoại tuyến](https://github.com/huynhvultv18-stack/test-codex/raw/refs/heads/smart-tkb-v3-1-3-unified-workbook-candidate/dist/SMART_TKB_THCS_V3_1_3_UNIFIED_WORKBOOK_CANDIDATE.zip)
+- [Tải mẫu Excel tổng hợp](https://github.com/huynhvultv18-stack/test-codex/raw/refs/heads/smart-tkb-v3-1-3-unified-workbook-candidate/SMART_TKB_V3_1_3_UNIFIED_WORKBOOK/MAU_DU_LIEU_SMART_TKB_THCS.xlsx)
+- [Hướng dẫn sử dụng workbook](SMART_TKB_V3_1_3_UNIFIED_WORKBOOK/HUONG_DAN_SU_DUNG_WORKBOOK.md)
+- [Mã nguồn](SMART_TKB_V3_1_3_UNIFIED_WORKBOOK) · [Báo cáo kiểm thử](SMART_TKB_V3_1_3_UNIFIED_WORKBOOK/reports/UNIFIED_WORKBOOK_TEST_REPORT.md)
+- [SHA-256 ZIP](dist/SMART_TKB_THCS_V3_1_3_UNIFIED_WORKBOOK_CANDIDATE.zip.sha256)
+
+206 kiểm thử Python + 71 kiểm tra browser đạt; workbook 37 lớp mở/lưu bằng LibreOffice rồi nhập lại không đổi dữ liệu. Ba chế độ xếp khối 8 đủ 234/234 tiết FEASIBLE, 0 xung đột đã biết, giữ hash lịch khóa. Nguồn chưa xác minh/thiếu hoạt động đặc biệt nên hậu kiểm INCOMPLETE, không chứng minh tối ưu toàn cục hay 0 xung đột toàn trường. **PRODUCTION READY = NO**; Microsoft Excel/Windows thực tế chưa nghiệm thu. Không ghi đè baseline/SOURCE, không merge main.
+
+Các Candidate trước giữ nguyên:
+
 ## SMART TKB THCS V3.1.3 Optimization + Conflict Candidate
 
 CP-SAT tối ưu thời gian GV; hậu kiểm độc lập GV/lớp/phòng với PASS/FAIL/INCOMPLETE/STALE theo hash/version. Chỉ giải khối chọn, giữ nguyên khối khóa. FAST/BALANCED/PROVE_OPTIMAL, tiết trống/buổi/ngày/chờ, warm/LNS/neighborhood/multi-seed, chỉnh tay và báo cáo lỗi.

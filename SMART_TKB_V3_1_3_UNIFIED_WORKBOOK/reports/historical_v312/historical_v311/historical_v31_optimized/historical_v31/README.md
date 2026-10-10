@@ -1,0 +1,1 @@
+Bằng chứng kế thừa từ ZIP V3.1 gốc, trước đợt rà soát hiện tại. Không dùng các PASS hoặc số test trong thư mục này làm kết quả của Optimized Candidate. A/B mới: ../AB_BENCHMARK.json và ../AB_LNS_BENCHMARK.json.

@@ -1,0 +1,15 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Looking in links: windows/wheels
+Processing ./windows/wheels/absl_py-2.5.1-py3-none-any.whl (from -r windows/requirements-lock.txt (line 1))
+Processing ./windows/wheels/et_xmlfile-2.0.0-py3-none-any.whl (from -r windows/requirements-lock.txt (line 2))
+Processing ./windows/wheels/immutabledict-4.3.1-py3-none-any.whl (from -r windows/requirements-lock.txt (line 3))
+Processing ./windows/wheels/numpy-2.5.3-cp312-cp312-win_amd64.whl (from -r windows/requirements-lock.txt (line 4))
+Processing ./windows/wheels/openpyxl-3.1.5-py2.py3-none-any.whl (from -r windows/requirements-lock.txt (line 5))
+Processing ./windows/wheels/ortools-9.15.6755-cp312-cp312-win_amd64.whl (from -r windows/requirements-lock.txt (line 6))
+Processing ./windows/wheels/pandas-3.0.6-cp312-cp312-win_amd64.whl (from -r windows/requirements-lock.txt (line 7))
+Processing ./windows/wheels/protobuf-6.33.6-cp310-abi3-win_amd64.whl (from -r windows/requirements-lock.txt (line 8))
+Processing ./windows/wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (from -r windows/requirements-lock.txt (line 9))
+Processing ./windows/wheels/six-1.17.0-py2.py3-none-any.whl (from -r windows/requirements-lock.txt (line 10))
+Processing ./windows/wheels/typing_extensions-4.16.0-py3-none-any.whl (from -r windows/requirements-lock.txt (line 11))
+Processing ./windows/wheels/tzdata-2026.2-py2.py3-none-any.whl (from -r windows/requirements-lock.txt (line 12))
+Would install absl-py-2.5.1 et_xmlfile-2.0.0 immutabledict-4.3.1 numpy-2.5.3 openpyxl-3.1.5 ortools-9.15.6755 pandas-3.0.6 protobuf-6.33.6 python-dateutil-2.9.0.post0 six-1.17.0 typing_extensions-4.16.0 tzdata-2026.2

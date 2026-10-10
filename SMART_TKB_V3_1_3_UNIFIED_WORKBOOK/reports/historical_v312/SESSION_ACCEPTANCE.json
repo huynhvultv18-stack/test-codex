@@ -1,0 +1,25 @@
+{
+  "version": "3.1.2-session-config-candidate",
+  "session_config": "PASS",
+  "zero_period": "PASS",
+  "cross_grade_lock": "PASS",
+  "solver": "PASS",
+  "cross_grade_conflict": "BLOCKED: incomplete background; known occupancy checked",
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false,
+  "global_optimal_proven": false,
+  "python_tests": 121,
+  "browser_regression_checks": 20,
+  "browser_session_checks": 16,
+  "benchmark_runs": 8,
+  "feasible_verified": 6,
+  "source_immutable": true,
+  "package": "See adjacent PACKAGE_VERIFICATION.json after ZIP extraction/download verification",
+  "known_missing": {
+    "grade8_pending_special_periods": 27,
+    "grade8_unverified_teacher_ids": 26,
+    "background_pending_special_periods": 84
+  },
+  "windows_runtime": "UNTESTED"
+}

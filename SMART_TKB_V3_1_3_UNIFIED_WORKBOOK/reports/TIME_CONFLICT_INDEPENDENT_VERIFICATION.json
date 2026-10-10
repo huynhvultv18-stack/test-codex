@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "name": "ab_reference_s17",
+      "variant": "A_V312",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 201,
+        "waiting": 21,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "ab_reference_s17",
+      "variant": "B_V313",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 193,
+        "waiting": 28,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "ab_reference_s23",
+      "variant": "A_V312",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 203,
+        "waiting": 22,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "ab_reference_s23",
+      "variant": "B_V313",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 193,
+        "waiting": 27,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "profile_morning",
+      "variant": "B_V313",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 9,
+        "visits": 230,
+        "days": 204,
+        "waiting": 28,
+        "fragmentation": 239,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "profile_mixed",
+      "variant": "B_V313",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 9,
+        "visits": 230,
+        "days": 205,
+        "waiting": 34,
+        "fragmentation": 239,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "profile_fast",
+      "variant": "B_V313",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 204,
+        "waiting": 18,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    },
+    {
+      "name": "profile_prove_optimal",
+      "variant": "B_V313",
+      "status": "PASS",
+      "metrics": {
+        "gaps": 3,
+        "visits": 224,
+        "days": 203,
+        "waiting": 20,
+        "fragmentation": 227,
+        "fairness": 1
+      },
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "locked_unchanged": true,
+      "closed_session_lessons": 0
+    }
+  ],
+  "valid_ui_exports": 6,
+  "error_excel_verified": true,
+  "failed_draft_rechecked": true,
+  "school_conflicts": "UNKNOWN: incomplete source/background",
+  "production_ready": false,
+  "windows_accepted": false
+}

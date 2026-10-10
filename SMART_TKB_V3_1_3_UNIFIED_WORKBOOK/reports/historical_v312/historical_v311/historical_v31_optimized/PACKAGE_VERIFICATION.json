@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "crc": "PASS",
+  "safe_extract": "PASS",
+  "manifest": "PASS",
+  "fresh_extracted_units": 71,
+  "fresh_extracted_browser_checks": 28,
+  "verified_release_files": 1394,
+  "source_and_baseline_immutable": true,
+  "final_zip_digest_location": "External SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE.zip.sha256; final bytes/CRC verification external delivery record",
+  "windows_runtime": "UNTESTED",
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}

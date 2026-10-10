@@ -1,0 +1,16 @@
+PASS Reference exactly41actualslots,9sessions; TueThuSat afternoons closed; SatAM4
+PASS Selecting0..5creates exact cells only1..N
+PASS Entire day0renders NGHI and no slots
+PASS Per-class override and copy affect selectedclasses only
+PASS Classviewer honors own calendar; reset uses gradecalendar
+PASS Applygrade copies exact displayedcalendar to all selectedclasses
+PASS Save/restore/reload preserve counts including zeros
+PASS Calendar JSON download/import; malformed import atomic
+PASS OptionalSunday defaults0; cannot silentlyerase chosenSunday count
+PASS Newreference CP solve independently verifies fixture and frozen grades
+PASS Changedcalendar persistsreload; coldsolve still needsconfirmation; cancelpreservesrows
+PASS Confirmation startsselectedgradeonly; zero-period and immutablelock verified
+PASS Server blocks unconfirmed affectedschedule before CP
+PASS Schedule CSV/XLSX exports carry explicit rested sessions
+PASS Changingfuturegrade freezes exact perclasszero calendar without anygrade9solve
+PASS No native JavaScript errors

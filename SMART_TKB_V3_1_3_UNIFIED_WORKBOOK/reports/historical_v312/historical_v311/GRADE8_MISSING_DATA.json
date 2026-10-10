@@ -1,0 +1,691 @@
+{
+  "target_grade": 8,
+  "classes": 9,
+  "assigned_periods": 234,
+  "pending_special_periods": 27,
+  "unverified_target_teacher_ids": [
+    "GV001",
+    "GV008",
+    "GV012",
+    "GV013",
+    "GV014",
+    "GV019",
+    "GV020",
+    "GV022",
+    "GV033",
+    "GV035",
+    "GV038",
+    "GV039",
+    "GV042",
+    "GV043",
+    "GV044",
+    "GV045",
+    "GV046",
+    "GV047",
+    "GV048",
+    "GV049",
+    "GV050",
+    "GV051",
+    "GV052",
+    "GV053",
+    "GV056",
+    "GV062"
+  ],
+  "cross_grade_teachers": [
+    {
+      "teacher_id": "GV001",
+      "name": "Cô Quyên",
+      "grades": [
+        6,
+        8,
+        9
+      ],
+      "locked_periods": 13,
+      "locked_visits": 3,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV008",
+      "name": "Cô Nga",
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "locked_periods": 11,
+      "locked_visits": 3,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV012",
+      "name": "Cô Thom",
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "locked_periods": 18,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV013",
+      "name": "Thầy Vũ",
+      "grades": [
+        6,
+        8
+      ],
+      "locked_periods": 9,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV014",
+      "name": "Cô K Anh",
+      "grades": [
+        6,
+        8
+      ],
+      "locked_periods": 4,
+      "locked_visits": 2,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV019",
+      "name": "Cô N Linh",
+      "grades": [
+        6,
+        7,
+        8
+      ],
+      "locked_periods": 14,
+      "locked_visits": 3,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV020",
+      "name": "Cô Hưng",
+      "grades": [
+        6,
+        8
+      ],
+      "locked_periods": 4,
+      "locked_visits": 3,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV033",
+      "name": "T. Thắng",
+      "grades": [
+        7,
+        8
+      ],
+      "locked_periods": 6,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV035",
+      "name": "Cô V Hằng",
+      "grades": [
+        7,
+        8
+      ],
+      "locked_periods": 4,
+      "locked_visits": 2,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV039",
+      "name": "T. Thông",
+      "grades": [
+        7,
+        8,
+        9
+      ],
+      "locked_periods": 13,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV043",
+      "name": "Cô Thắng",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 8,
+      "locked_visits": 3,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV049",
+      "name": "Cô Hạnh",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 10,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV050",
+      "name": "Cô Huế",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 10,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV051",
+      "name": "T. Trực",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 10,
+      "locked_visits": 4,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV052",
+      "name": "Cô Linh",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 6,
+      "locked_visits": 2,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV053",
+      "name": "Thầy Cảnh",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 10,
+      "locked_visits": 3,
+      "identity_verified": false
+    },
+    {
+      "teacher_id": "GV056",
+      "name": "T.T Tính",
+      "grades": [
+        8,
+        9
+      ],
+      "locked_periods": 2,
+      "locked_visits": 2,
+      "identity_verified": false
+    }
+  ],
+  "locked_background_periods": 738,
+  "missing_assigned_background_periods": 0,
+  "pending_background_special_periods": 84,
+  "complete_background": false,
+  "source_grade_special_inventory": [
+    {
+      "activity_id": "SP_C08A01_HD01",
+      "class_id": "C08A01",
+      "class_ids": [
+        "C08A01"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 236,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A01_HD02",
+      "class_id": "C08A01",
+      "class_ids": [
+        "C08A01"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 237,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A02_HD01",
+      "class_id": "C08A02",
+      "class_ids": [
+        "C08A02"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 249,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A02_HD02",
+      "class_id": "C08A02",
+      "class_ids": [
+        "C08A02"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 250,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A03_HD01",
+      "class_id": "C08A03",
+      "class_ids": [
+        "C08A03"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 262,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A03_HD02",
+      "class_id": "C08A03",
+      "class_ids": [
+        "C08A03"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 263,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A04_HD01",
+      "class_id": "C08A04",
+      "class_ids": [
+        "C08A04"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 275,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A04_HD02",
+      "class_id": "C08A04",
+      "class_ids": [
+        "C08A04"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 276,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A05_HD01",
+      "class_id": "C08A05",
+      "class_ids": [
+        "C08A05"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 288,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A05_HD02",
+      "class_id": "C08A05",
+      "class_ids": [
+        "C08A05"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 289,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A06_HD01",
+      "class_id": "C08A06",
+      "class_ids": [
+        "C08A06"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 301,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A06_HD02",
+      "class_id": "C08A06",
+      "class_ids": [
+        "C08A06"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 302,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A07_HD01",
+      "class_id": "C08A07",
+      "class_ids": [
+        "C08A07"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 314,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A07_HD02",
+      "class_id": "C08A07",
+      "class_ids": [
+        "C08A07"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 315,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A08_HD01",
+      "class_id": "C08A08",
+      "class_ids": [
+        "C08A08"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 327,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A08_HD02",
+      "class_id": "C08A08",
+      "class_ids": [
+        "C08A08"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 328,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A09_HD01",
+      "class_id": "C08A09",
+      "class_ids": [
+        "C08A09"
+      ],
+      "activity_type": "EXPERIENTIAL_CAREER",
+      "source_label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "source_subject_id": "HD01:NONE",
+      "weekly_count": 2,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 340,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc tổ chức/cần giáo viên.",
+      "audit_status": "MISSING"
+    },
+    {
+      "activity_id": "SP_C08A09_HD02",
+      "class_id": "C08A09",
+      "class_ids": [
+        "C08A09"
+      ],
+      "activity_type": "CC_SHCN_COMBINED",
+      "source_label": "Chào cờ / Sinh hoạt chủ nhiệm",
+      "source_subject_id": "HD02:NONE",
+      "weekly_count": 1,
+      "teacher_id": null,
+      "teacher_required": null,
+      "shared_teacher_group": null,
+      "fixed_day": null,
+      "fixed_period": null,
+      "shift": null,
+      "room_id": null,
+      "scheduling_policy": "UNRESOLVED",
+      "validation_status": "PENDING",
+      "verification_note": "",
+      "source_row": 341,
+      "source_sheet": "05_SO_TIET_THEO_LOP",
+      "pending_reason": "Chưa có PCCM giáo viên; chưa xác minh quy tắc cần GV, ca/khóa/phòng và loại CC/SHCN ghép.",
+      "audit_status": "MISSING"
+    }
+  ],
+  "warnings": [
+    "Lịch nền chưa đầy đủ: thiếu0 tiết đã có phân công và84 tiết đặc biệt chưa có quy tắc. Không xác minh0 xung đột toàn trường.",
+    "26 mã GV của khối chưa xác minh; dùng nguyên mã, không gộp theo tên."
+  ],
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}

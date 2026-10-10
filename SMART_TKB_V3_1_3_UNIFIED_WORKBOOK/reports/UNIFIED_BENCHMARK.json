@@ -1,0 +1,58 @@
+{
+  "source_classes": 37,
+  "scope": "9 lớp khối 8; các khối khác khóa",
+  "technical_only": true,
+  "results": [
+    {
+      "mode": "morning",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 36,
+      "visits": 258,
+      "elapsed_seconds": 0.42,
+      "frozen_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "frozen_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "post_check": "INCOMPLETE",
+      "optimal_proven": false,
+      "production_ready": false,
+      "known_cross_grade_conflicts": 0
+    },
+    {
+      "mode": "both",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 3,
+      "visits": 224,
+      "elapsed_seconds": 0.449,
+      "frozen_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "frozen_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "post_check": "INCOMPLETE",
+      "optimal_proven": false,
+      "production_ready": false,
+      "known_cross_grade_conflicts": 0
+    },
+    {
+      "mode": "mixed",
+      "status": "FEASIBLE",
+      "required": 234,
+      "placed": 234,
+      "known_conflicts": 0,
+      "school_conflicts": null,
+      "gaps": 36,
+      "visits": 258,
+      "elapsed_seconds": 0.414,
+      "frozen_hash_before": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "frozen_hash_after": "87b239182a99b04fcf1767e2e30b045aac1815b02f538288437f98d782d5cfe4",
+      "post_check": "INCOMPLETE",
+      "optimal_proven": false,
+      "production_ready": false,
+      "known_cross_grade_conflicts": 0
+    }
+  ]
+}

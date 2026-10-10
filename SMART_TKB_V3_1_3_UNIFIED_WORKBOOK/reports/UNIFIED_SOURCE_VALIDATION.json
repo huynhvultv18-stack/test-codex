@@ -1,0 +1,2099 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 2,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D2",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 3,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D3",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 4,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D4",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 5,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D5",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 6,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D6",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 7,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D7",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 8,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D8",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 9,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D9",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 10,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D10",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 11,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D11",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 12,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D12",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 13,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D13",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 14,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D14",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 15,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D15",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 16,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D16",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 17,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D17",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 18,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D18",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 19,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D19",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 20,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D20",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 21,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D21",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 22,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D22",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 23,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D23",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 24,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D24",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 25,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D25",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 26,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D26",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 27,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D27",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 28,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D28",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 29,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D29",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 30,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D30",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 31,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D31",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 32,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D32",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 33,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D33",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 34,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D34",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 35,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D35",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 36,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D36",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 37,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D37",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 38,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D38",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 39,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D39",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 40,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D40",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 41,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D41",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 42,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D42",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 43,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D43",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 44,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D44",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 45,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D45",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 46,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D46",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 47,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D47",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 48,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D48",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 49,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D49",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 50,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D50",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 51,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D51",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 52,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D52",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 53,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D53",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 54,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D54",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 55,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D55",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 56,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D56",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 57,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D57",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 58,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D58",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 59,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D59",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 60,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D60",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 61,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D61",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 62,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D62",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 63,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D63",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 64,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D64",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "DANH_SACH_GV",
+      "row": 65,
+      "column": "D",
+      "column_name": "Trạng thái",
+      "cell": "D65",
+      "code": "TEACHER_ID_REVIEW",
+      "message": "Định danh GV chưa xác minh đầy đủ; giữ nguyên mã, không gộp theo tên",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 2,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J2",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 3,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J3",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 4,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J4",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 5,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J5",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 6,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J6",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 7,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J7",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 8,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J8",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 9,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J9",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 10,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J10",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 11,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J11",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 12,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J12",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 13,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J13",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 14,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J14",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 15,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J15",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 16,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J16",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 17,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J17",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 18,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J18",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 19,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J19",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 20,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J20",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 21,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J21",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 22,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J22",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 23,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J23",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 24,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J24",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 25,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J25",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 26,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J26",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 27,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J27",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 28,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J28",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 29,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J29",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 30,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J30",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 31,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J31",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 32,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J32",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 33,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J33",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 34,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J34",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 35,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J35",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 36,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J36",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 37,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J37",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 38,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J38",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 39,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J39",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 40,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J40",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 41,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J41",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 42,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J42",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 43,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J43",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 44,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J44",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 45,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J45",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 46,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J46",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 47,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J47",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 48,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J48",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 49,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J49",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 50,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J50",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 51,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J51",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 52,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J52",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 53,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J53",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 54,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J54",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 55,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J55",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 56,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J56",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 57,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J57",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 58,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J58",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 59,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J59",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 60,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J60",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 61,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J61",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 62,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J62",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 63,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J63",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 64,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J64",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 65,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J65",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 66,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J66",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 67,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J67",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 68,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J68",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 69,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J69",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 70,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J70",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 71,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J71",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 72,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J72",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 73,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J73",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 74,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J74",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TIET_DAC_BIET",
+      "row": 75,
+      "column": "J",
+      "column_name": "Trạng thái",
+      "cell": "J75",
+      "code": "SPECIAL_PENDING",
+      "message": "Hoạt động chưa xác minh quy tắc, không được nghiệm thu lịch chính thức",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "TKB_LIEN_KHOI",
+      "row": 2,
+      "column": "A",
+      "column_name": "Mã phân công",
+      "cell": "A2",
+      "code": "BACKGROUND_INCOMPLETE",
+      "message": "Lịch nền chưa đủ; không xác minh 0 xung đột toàn trường",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV001 — Cô Quyên: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV002 — Cô P Dung: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV003 — Cô Dương: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV004 — Cô V Anh: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV005 — Cô Phúc: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV006 — C.N.Nhung: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV007 — Cô Như: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV008 — Cô Nga: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV009 — Cô Thúy: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV010 — T. Việt: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV011 — Cô Đ Mai: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV012 — Cô Thom: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV013 — Thầy Vũ: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV014 — Cô K Anh: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV015 — Thầy Độ: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV016 — Cô Ngọc: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV017 — Cô Nhung: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV018 — Cô H Yến: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV019 — Cô N Linh: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV020 — Cô Hưng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV021 — Cô Dung: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV022 — Thầy Thư: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV023 — Cô Quất: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV024 — Cô KPhương: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV025 — Cô G Thủy: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV026 — Cô Ngân: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV027 — Cô KNgân: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV028 — Thầy Tập: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV029 — Cô T Thủy: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV030 — Thầy Học: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV031 — Cô Na: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV032 — Cô Lợi: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV033 — T. Thắng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV034 — Cô Thư: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV035 — Cô V Hằng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV036 — Cô H Hồng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV037 — T. Phát: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV038 — T. Long: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV039 — T. Thông: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV040 — T. Tính: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV041 — T. Đài: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV042 — Cô PLiễu: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV043 — Cô Thắng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV044 — Cô BThủy: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV045 — Cô Nguyệt: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV046 — Cô NThủy: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV047 — Cô Cường: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV048 — Thầy Tài: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV049 — Cô Hạnh: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV050 — Cô Huế: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV051 — T. Trực: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV052 — Cô Linh: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV053 — Thầy Cảnh: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV054 — Cô Liễu: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV055 — Cô Thoan: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV056 — T.T Tính: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV057 — Cô T Hồng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV058 — Cô N Yến: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV059 — Cô Phượng: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV060 — T X Thành: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV061 — T. Tuyên: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV062 — Cô Trân: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV063 — Cô Đ Thủy: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_TEACHER_ID_REVIEW",
+      "message": "GV064 — Cô Phương: định danh chưa xác minh; không tự gộp/đổi tên.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_SUBJECT_REVIEW",
+      "message": "M08:L — giữ ký hiệu phân môn, chờ chú giải chính thức.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_SUBJECT_REVIEW",
+      "message": "M08:H — giữ ký hiệu phân môn, chờ chú giải chính thức.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_SUBJECT_REVIEW",
+      "message": "M08:S — giữ ký hiệu phân môn, chờ chú giải chính thức.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_SPECIAL_UNASSIGNED",
+      "message": "111 tiết hoạt động đặc biệt thiếu PCCM giáo viên; không tự tạo phân công.",
+      "level": "WARNING"
+    },
+    {
+      "sheet": "HUONG_DAN",
+      "row": 2,
+      "column": "C",
+      "column_name": "Hướng dẫn / giá trị JSON",
+      "cell": "C2",
+      "code": "SOURCE_SOURCE_CONFLICTS",
+      "message": "34 ô được đánh dấu trùng giờ trong nguồn; lịch quan sát không phải lịch hợp lệ để khóa mặc định.",
+      "level": "WARNING"
+    }
+  ],
+  "summary": {
+    "classes": 37,
+    "teachers": 64,
+    "subjects": 17,
+    "assignments": 555,
+    "required_periods": 972,
+    "pending_special_periods": 111,
+    "rooms": 0,
+    "background_periods": 972,
+    "unverified_teachers": 64,
+    "workbook_sha256": "93b4f44573d2522fcecf459e51d1512e4dd2741ce7260f69c376f8272d2acc31",
+    "production_ready": false
+  }
+}

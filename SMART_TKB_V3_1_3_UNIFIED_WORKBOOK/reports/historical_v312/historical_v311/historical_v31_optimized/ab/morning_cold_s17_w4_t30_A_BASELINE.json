@@ -1,0 +1,1014 @@
+{
+  "status": "INFEASIBLE",
+  "lessons": [],
+  "required": 972,
+  "placed": 0,
+  "conflicts": null,
+  "elapsed_seconds": 0.024,
+  "diagnostics": [
+    "GV GV015 — Thầy Độ: cần 40, sức chứa 30 tiết (am)"
+  ],
+  "metrics": null,
+  "phases": [],
+  "global_optimal_proven": false,
+  "lexicographic_optimal_proven": false,
+  "optimality_scope": "full_model",
+  "technical_only": true,
+  "production_ready": false,
+  "unscheduled_special": 111,
+  "proof": "Necessary capacity bound",
+  "special_report": {
+    "total": 111,
+    "verified": 0,
+    "scheduled_verified": 0,
+    "scheduled_scenario": 0,
+    "scheduled": 0,
+    "pending": 111,
+    "unscheduled_pending": 111,
+    "pending_details": [
+      {
+        "activity_id": "SP_C06A01_HD01",
+        "class_ids": [
+          "C06A01"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A01_HD02",
+        "class_ids": [
+          "C06A01"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A02_HD01",
+        "class_ids": [
+          "C06A02"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A02_HD02",
+        "class_ids": [
+          "C06A02"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A03_HD01",
+        "class_ids": [
+          "C06A03"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A03_HD02",
+        "class_ids": [
+          "C06A03"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A04_HD01",
+        "class_ids": [
+          "C06A04"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A04_HD02",
+        "class_ids": [
+          "C06A04"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A05_HD01",
+        "class_ids": [
+          "C06A05"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A05_HD02",
+        "class_ids": [
+          "C06A05"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A06_HD01",
+        "class_ids": [
+          "C06A06"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A06_HD02",
+        "class_ids": [
+          "C06A06"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A07_HD01",
+        "class_ids": [
+          "C06A07"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A07_HD02",
+        "class_ids": [
+          "C06A07"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A08_HD01",
+        "class_ids": [
+          "C06A08"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A08_HD02",
+        "class_ids": [
+          "C06A08"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C06A09_HD01",
+        "class_ids": [
+          "C06A09"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C06A09_HD02",
+        "class_ids": [
+          "C06A09"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A01_HD01",
+        "class_ids": [
+          "C07A01"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A01_HD02",
+        "class_ids": [
+          "C07A01"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A02_HD01",
+        "class_ids": [
+          "C07A02"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A02_HD02",
+        "class_ids": [
+          "C07A02"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A03_HD01",
+        "class_ids": [
+          "C07A03"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A03_HD02",
+        "class_ids": [
+          "C07A03"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A04_HD01",
+        "class_ids": [
+          "C07A04"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A04_HD02",
+        "class_ids": [
+          "C07A04"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A05_HD01",
+        "class_ids": [
+          "C07A05"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A05_HD02",
+        "class_ids": [
+          "C07A05"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A06_HD01",
+        "class_ids": [
+          "C07A06"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A06_HD02",
+        "class_ids": [
+          "C07A06"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A07_HD01",
+        "class_ids": [
+          "C07A07"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A07_HD02",
+        "class_ids": [
+          "C07A07"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A08_HD01",
+        "class_ids": [
+          "C07A08"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A08_HD02",
+        "class_ids": [
+          "C07A08"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C07A09_HD01",
+        "class_ids": [
+          "C07A09"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C07A09_HD02",
+        "class_ids": [
+          "C07A09"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A01_HD01",
+        "class_ids": [
+          "C08A01"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A01_HD02",
+        "class_ids": [
+          "C08A01"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A02_HD01",
+        "class_ids": [
+          "C08A02"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A02_HD02",
+        "class_ids": [
+          "C08A02"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A03_HD01",
+        "class_ids": [
+          "C08A03"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A03_HD02",
+        "class_ids": [
+          "C08A03"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A04_HD01",
+        "class_ids": [
+          "C08A04"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A04_HD02",
+        "class_ids": [
+          "C08A04"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A05_HD01",
+        "class_ids": [
+          "C08A05"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A05_HD02",
+        "class_ids": [
+          "C08A05"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A06_HD01",
+        "class_ids": [
+          "C08A06"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A06_HD02",
+        "class_ids": [
+          "C08A06"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A07_HD01",
+        "class_ids": [
+          "C08A07"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A07_HD02",
+        "class_ids": [
+          "C08A07"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A08_HD01",
+        "class_ids": [
+          "C08A08"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A08_HD02",
+        "class_ids": [
+          "C08A08"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C08A09_HD01",
+        "class_ids": [
+          "C08A09"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C08A09_HD02",
+        "class_ids": [
+          "C08A09"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A01_HD01",
+        "class_ids": [
+          "C09A01"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A01_HD02",
+        "class_ids": [
+          "C09A01"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A02_HD01",
+        "class_ids": [
+          "C09A02"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A02_HD02",
+        "class_ids": [
+          "C09A02"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A03_HD01",
+        "class_ids": [
+          "C09A03"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A03_HD02",
+        "class_ids": [
+          "C09A03"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A04_HD01",
+        "class_ids": [
+          "C09A04"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A04_HD02",
+        "class_ids": [
+          "C09A04"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A05_HD01",
+        "class_ids": [
+          "C09A05"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A05_HD02",
+        "class_ids": [
+          "C09A05"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A06_HD01",
+        "class_ids": [
+          "C09A06"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A06_HD02",
+        "class_ids": [
+          "C09A06"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A07_HD01",
+        "class_ids": [
+          "C09A07"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A07_HD02",
+        "class_ids": [
+          "C09A07"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A08_HD01",
+        "class_ids": [
+          "C09A08"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A08_HD02",
+        "class_ids": [
+          "C09A08"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A09_HD01",
+        "class_ids": [
+          "C09A09"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A09_HD02",
+        "class_ids": [
+          "C09A09"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      },
+      {
+        "activity_id": "SP_C09A10_HD01",
+        "class_ids": [
+          "C09A10"
+        ],
+        "count": 2,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Hoạt động trải nghiệm, hướng nghiệp"
+      },
+      {
+        "activity_id": "SP_C09A10_HD02",
+        "class_ids": [
+          "C09A10"
+        ],
+        "count": 1,
+        "reasons": [
+          "Quy tắc chưa được xác minh",
+          "Chưa rõ có cần giáo viên",
+          "Thiếu chính sách tổ chức hợp lệ"
+        ],
+        "source_label": "Chào cờ / Sinh hoạt chủ nhiệm"
+      }
+    ],
+    "mode": "STRICT",
+    "assumptions": [],
+    "official_complete": false,
+    "simulation": false
+  },
+  "simulation": false,
+  "scenario_assumptions": [],
+  "scheduled_class_periods": 0,
+  "model_required": 972,
+  "scenario_placed": 0,
+  "all_source_periods": 1083,
+  "official_complete": false,
+  "data_accepted": false,
+  "windows_accepted": false,
+  "independent_check": null,
+  "observed_performance": {
+    "wall_seconds": 0.03293055200265371,
+    "peak_rss_mb": 89.671875,
+    "model_ready": [],
+    "solver_calls": [],
+    "first_cp_solution_seconds": null
+  }
+}

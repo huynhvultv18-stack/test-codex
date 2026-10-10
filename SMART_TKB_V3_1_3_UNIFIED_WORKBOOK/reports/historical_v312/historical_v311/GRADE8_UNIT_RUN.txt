@@ -1,0 +1,57 @@
+test_asymmetric_periods_and_double_room (test_grade.GradeTests.test_asymmetric_periods_and_double_room) ... ok
+test_background_calendar_wider_than_target (test_grade.GradeTests.test_background_calendar_wider_than_target) ... ok
+test_combined_metric_added_visits_independent_sets (test_grade.GradeTests.test_combined_metric_added_visits_independent_sets) ... ok
+test_corrupt_background_is_rejected_no_cp (test_grade.GradeTests.test_corrupt_background_is_rejected_no_cp) ... ok
+test_defaults_and_source_grade_filter (test_grade.GradeTests.test_defaults_and_source_grade_filter) ... ok
+test_exchange_roundtrip_and_no_inherited_proof (test_grade.GradeTests.test_exchange_roundtrip_and_no_inherited_proof) ... ok
+test_explicit_missing_simulation_stays_unknown (test_grade.GradeTests.test_explicit_missing_simulation_stays_unknown) ... ERROR
+test_frozen_cross_teacher_and_room (test_grade.GradeTests.test_frozen_cross_teacher_and_room) ... ok
+test_immutable_every_field_hash_critical (test_grade.GradeTests.test_immutable_every_field_hash_critical) ... ok
+test_independent_verifier_detects_cross_overlap (test_grade.GradeTests.test_independent_verifier_detects_cross_overlap) ... ok
+test_local_scope_cannot_unlock_other_grade (test_grade.GradeTests.test_local_scope_cannot_unlock_other_grade) ... ok
+test_locked_infeasible_no_unlock (test_grade.GradeTests.test_locked_infeasible_no_unlock) ... ok
+test_max_teacher_load_includes_locked (test_grade.GradeTests.test_max_teacher_load_includes_locked) ... ok
+test_missing_background_blocks_without_cp (test_grade.GradeTests.test_missing_background_blocks_without_cp) ... ERROR
+test_new_global_holiday_rejects_frozen_data (test_grade.GradeTests.test_new_global_holiday_rejects_frozen_data) ... ok
+test_only_grade_decision_variables_exact_ids (test_grade.GradeTests.test_only_grade_decision_variables_exact_ids) ... ok
+test_same_display_name_does_not_merge_teacher (test_grade.GradeTests.test_same_display_name_does_not_merge_teacher) ... ok
+test_shared_room_alone_blocks_other_teacher (test_grade.GradeTests.test_shared_room_alone_blocks_other_teacher) ... ok
+test_simulation_requires_label (test_grade.GradeTests.test_simulation_requires_label) ... ok
+test_source_unknown_is_not_infeasible (test_grade.GradeTests.test_source_unknown_is_not_infeasible) ... ok
+test_three_modes_and_noncontiguous_days (test_grade.GradeTests.test_three_modes_and_noncontiguous_days) ... ok
+test_warm_incumbent_and_local_scope (test_grade.GradeTests.test_warm_incumbent_and_local_scope) ... ok
+
+======================================================================
+ERROR: test_explicit_missing_simulation_stays_unknown (test_grade.GradeTests.test_explicit_missing_simulation_stays_unknown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE/tests/test_grade.py", line 40, in test_explicit_missing_simulation_stays_unknown
+    r=solve_grade(self.d,self.c,None);self.assertIn(r['status'],['FEASIBLE','OPTIMAL']);self.assertTrue(r['simulation']);self.assertIsNone(r['cross_grade_conflicts']);self.assertIsNone(r['school_conflicts']);self.assertEqual(r['cross_grade_conflict'],'BLOCKED')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE/smart_tkb/grade.py", line 151, in solve_grade
+    p=prepare_grade(data,config,background);c=p['config'];ctx=p['special']
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE/smart_tkb/grade.py", line 77, in prepare_grade
+    if errors:raise ValueError('Cấu hình lịch nền không hợp lệ: '+'; '.join(errors))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Cấu hình lịch nền không hợp lệ: Phòng chưa khai báo: LAB
+
+======================================================================
+ERROR: test_missing_background_blocks_without_cp (test_grade.GradeTests.test_missing_background_blocks_without_cp)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE/tests/test_grade.py", line 36, in test_missing_background_blocks_without_cp
+    with patch('smart_tkb.grade._solve_core',side_effect=AssertionError('must not build CP')):r=solve_grade(self.d,self.c,None)
+                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE/smart_tkb/grade.py", line 151, in solve_grade
+    p=prepare_grade(data,config,background);c=p['config'];ctx=p['special']
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE/smart_tkb/grade.py", line 77, in prepare_grade
+    if errors:raise ValueError('Cấu hình lịch nền không hợp lệ: '+'; '.join(errors))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Cấu hình lịch nền không hợp lệ: Phòng chưa khai báo: LAB
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.779s
+
+FAILED (errors=2)

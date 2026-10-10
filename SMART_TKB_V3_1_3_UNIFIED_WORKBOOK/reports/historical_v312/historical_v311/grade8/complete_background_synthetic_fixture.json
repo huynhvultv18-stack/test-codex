@@ -1,0 +1,503 @@
+{
+  "config": {
+    "mode": "both",
+    "days": 2,
+    "periods": 3,
+    "max_class_session": 3,
+    "max_teacher_session": 3,
+    "time_limit": 2,
+    "workers": 1,
+    "seed": 17,
+    "technical_only": true,
+    "rooms": [
+      {
+        "id": "LAB"
+      }
+    ],
+    "unavailable": [],
+    "fixed": [],
+    "preferences": [],
+    "priorities": [
+      "gaps",
+      "visits",
+      "distribution",
+      "preferences",
+      "concentration",
+      "changes"
+    ],
+    "phase_fractions": {
+      "gaps": 0.25,
+      "visits": 0.5,
+      "distribution": 0.16,
+      "concentration": 0.06,
+      "preferences": 0.02,
+      "changes": 0.01
+    },
+    "advance_on_incumbent": true,
+    "search_mode": "portfolio",
+    "objective_settings": {
+      "gaps": {
+        "enabled": true,
+        "weight": 1
+      },
+      "visits": {
+        "enabled": true,
+        "weight": 1
+      },
+      "distribution": {
+        "enabled": true,
+        "weight": 1
+      },
+      "concentration": {
+        "enabled": true,
+        "weight": 1
+      },
+      "preferences": {
+        "enabled": true,
+        "weight": 1
+      },
+      "changes": {
+        "enabled": true,
+        "weight": 1
+      }
+    },
+    "subject_rules": [],
+    "subject_hard_limits": [],
+    "heavy_subjects": [],
+    "heavy_run_limit": 2,
+    "heavy_weight": 0,
+    "special_mode": "STRICT",
+    "special_overrides": [],
+    "special_scenario": {},
+    "target_grade": 8,
+    "active_days": [
+      0,
+      1
+    ],
+    "session_periods": {
+      "am": 3,
+      "pm": 2
+    },
+    "allow_incomplete_background": false,
+    "background_assumption": ""
+  },
+  "result": {
+    "status": "OPTIMAL",
+    "lessons": [
+      {
+        "assignment": "A8",
+        "teacher": "T1",
+        "class_id": "C8",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 1,
+        "length": 1,
+        "room": "LAB",
+        "class_ids": [
+          "C8"
+        ]
+      },
+      {
+        "assignment": "A8",
+        "teacher": "T1",
+        "class_id": "C8",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 2,
+        "length": 1,
+        "room": "LAB",
+        "class_ids": [
+          "C8"
+        ]
+      },
+      {
+        "assignment": "B8",
+        "teacher": "T2",
+        "class_id": "C8",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 1,
+        "shift": "pm",
+        "period": 0,
+        "length": 1,
+        "room": null,
+        "class_ids": [
+          "C8"
+        ]
+      }
+    ],
+    "required": 3,
+    "placed": 3,
+    "conflicts": 0,
+    "metrics": {
+      "gaps": 0,
+      "visits": 4,
+      "distribution": 1,
+      "concentration": 1,
+      "preferences": 0,
+      "changes": 0,
+      "baseline_visits": 3,
+      "added_visits": 1,
+      "grade_only_gaps": 0,
+      "grade_only_visits": 2
+    },
+    "verification": {
+      "valid": true,
+      "errors": [],
+      "within_grade_conflicts": 0,
+      "known_cross_grade_conflicts": 0,
+      "cross_grade_conflicts": 0,
+      "school_conflicts": 0,
+      "cross_grade_fully_verified": true,
+      "locked_unchanged": true,
+      "locked_hash_before": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+      "locked_hash_after": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+      "required": 3,
+      "placed": 3
+    },
+    "initial_metrics": {
+      "gaps": 1,
+      "visits": 5,
+      "distribution": 3,
+      "concentration": 2,
+      "preferences": 0,
+      "changes": 0
+    },
+    "initial_quality_scores": {
+      "distribution_weighted": 3,
+      "concentration_weighted": 2,
+      "daily_concentration": 2,
+      "unnecessary_adjacency": 0,
+      "subject_period_preferences": 0,
+      "heavy_run_penalty": 0,
+      "distribution_upper": 3,
+      "concentration_upper": 2,
+      "distribution_penalty_100": 100.0,
+      "concentration_penalty_100": 100.0,
+      "daily_matrix": [
+        {
+          "class_id": "C8",
+          "subject": "M",
+          "days": [
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    "quality_scores": {
+      "distribution_weighted": 1,
+      "concentration_weighted": 1,
+      "daily_concentration": 1,
+      "unnecessary_adjacency": 0,
+      "subject_period_preferences": 0,
+      "heavy_run_penalty": 0,
+      "distribution_upper": 3,
+      "concentration_upper": 2,
+      "distribution_penalty_100": 33.3333,
+      "concentration_penalty_100": 50.0,
+      "daily_matrix": [
+        {
+          "class_id": "C8",
+          "subject": "M",
+          "days": [
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "teacher_visits": [
+      {
+        "teacher_id": "T1",
+        "name": "Cùng nhãn",
+        "visits": 1,
+        "periods": 3,
+        "sessions": [
+          [
+            0,
+            "am"
+          ]
+        ]
+      },
+      {
+        "teacher_id": "T2",
+        "name": "Cùng nhãn",
+        "visits": 1,
+        "periods": 1,
+        "sessions": [
+          [
+            1,
+            "pm"
+          ]
+        ]
+      },
+      {
+        "teacher_id": "T3",
+        "name": "Cùng nhãn",
+        "visits": 2,
+        "periods": 2,
+        "sessions": [
+          [
+            0,
+            "pm"
+          ],
+          [
+            1,
+            "am"
+          ]
+        ]
+      }
+    ],
+    "visit_lower_bound": 4,
+    "teacher_visit_lower_bounds": {
+      "T1": 1,
+      "T2": 1,
+      "T3": 2
+    },
+    "model_scope": {
+      "class_ids": [
+        "C8"
+      ],
+      "assignment_ids": [
+        "A8",
+        "B8"
+      ],
+      "decision_placements": 19,
+      "locked_lesson_decision_variables": 0
+    },
+    "performance": {
+      "timings": {
+        "warm_validation_seconds": 0.0,
+        "hard_model": {
+          "variables": 22,
+          "constraints": 56
+        },
+        "model_build_seconds": 0.00181,
+        "model": {
+          "variables": 112,
+          "constraints": 192
+        },
+        "first_solution_seconds": 0.003156,
+        "verification_seconds": 0.000247,
+        "optimization_seconds": 0.006
+      },
+      "model": {
+        "variables": 112,
+        "constraints": 202
+      },
+      "warm_incumbent_valid": false,
+      "feasibility_model_cloned": true
+    },
+    "incumbent_locks": {},
+    "conditional_optimal_priorities": [],
+    "elapsed_seconds": 0.013,
+    "phases": [
+      {
+        "name": "feasibility",
+        "status": "OPTIMAL",
+        "seconds": 0.001,
+        "objective": 0.0,
+        "best_bound": 0.0,
+        "relative_gap": 0.0
+      },
+      {
+        "name": "gaps",
+        "status": "OPTIMAL",
+        "seconds": 0.001,
+        "objective": 0.0,
+        "best_bound": 0.0,
+        "relative_gap": 0.0,
+        "proof_scope": "lexicographic_prefix"
+      },
+      {
+        "name": "visits",
+        "status": "OPTIMAL",
+        "seconds": 0.003,
+        "objective": 4.0,
+        "best_bound": 4.0,
+        "relative_gap": 0.0,
+        "proof_scope": "lexicographic_prefix"
+      },
+      {
+        "name": "distribution",
+        "status": "OPTIMAL",
+        "seconds": 0.001,
+        "objective": 1.0,
+        "best_bound": 1.0,
+        "relative_gap": 0.0,
+        "proof_scope": "lexicographic_prefix"
+      },
+      {
+        "name": "preferences",
+        "status": "CONSTANT",
+        "seconds": 0,
+        "objective": 0,
+        "best_bound": 0
+      },
+      {
+        "name": "concentration",
+        "status": "OPTIMAL",
+        "seconds": 0.001,
+        "objective": 1.0,
+        "best_bound": 1.0,
+        "relative_gap": 0.0,
+        "proof_scope": "lexicographic_prefix"
+      },
+      {
+        "name": "changes",
+        "status": "CONSTANT",
+        "seconds": 0,
+        "objective": 0,
+        "best_bound": 0
+      }
+    ],
+    "proven_priorities": [
+      "gaps",
+      "visits",
+      "distribution",
+      "preferences",
+      "concentration",
+      "changes"
+    ],
+    "global_optimal_proven": false,
+    "lexicographic_optimal_proven": true,
+    "optimality_scope": "grade_with_frozen_background",
+    "diagnostics": [],
+    "technical_only": true,
+    "production_ready": false,
+    "unscheduled_special": 0,
+    "grade_optimal_proven": true,
+    "target_grade": 8,
+    "class_count": 1,
+    "scheduled_class_periods": 3,
+    "model_required": 3,
+    "scenario_placed": 0,
+    "special_report": {
+      "total": 0,
+      "verified": 0,
+      "approved": 0,
+      "eligible_strict": 0,
+      "status_counts": {},
+      "scheduled_verified": 0,
+      "scheduled_approved": 0,
+      "scheduled_scenario": 0,
+      "scheduled": 0,
+      "pending": 0,
+      "unscheduled_pending": 0,
+      "pending_details": [],
+      "mode": "STRICT",
+      "assumptions": [],
+      "official_complete": true,
+      "simulation": false
+    },
+    "background": {
+      "complete": true,
+      "known_schedule_valid": true,
+      "source_label": "Synthetic complete fixture",
+      "missing_assignments": [],
+      "missing_assigned_periods": 0,
+      "pending_special_periods": 0,
+      "locked_periods": 3,
+      "hash": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+      "grades": [
+        {
+          "grade": 6,
+          "classes": 1,
+          "source_periods": 1,
+          "locked_periods": 1,
+          "hash": "467901351686012e225076af2fd1f9f2b95360fba017965989d4d12af2b6f83f",
+          "status": "LOCKED"
+        },
+        {
+          "grade": 7,
+          "classes": 1,
+          "source_periods": 1,
+          "locked_periods": 1,
+          "hash": "be9b6cc2ff52c23646c888588a64f98dacda891af765ce430f1d8b38fac08b65",
+          "status": "LOCKED"
+        },
+        {
+          "grade": 9,
+          "classes": 1,
+          "source_periods": 1,
+          "locked_periods": 1,
+          "hash": "3e06c8e5665aadccff3dcf1c7629c8860162c02d41bd95db9ff1b71299f33bbb",
+          "status": "LOCKED"
+        }
+      ],
+      "cross_grade_teachers": [
+        {
+          "teacher_id": "T1",
+          "name": "Cùng nhãn",
+          "grades": [
+            8,
+            9
+          ],
+          "locked_periods": 1,
+          "locked_visits": 1,
+          "identity_verified": true
+        }
+      ],
+      "warnings": []
+    },
+    "locked_lessons": [
+      {
+        "assignment": "A9",
+        "class_id": "C9",
+        "teacher": "T1",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": "LAB"
+      },
+      {
+        "assignment": "A6",
+        "class_id": "C6",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 0,
+        "shift": "pm",
+        "period": 0,
+        "length": 1,
+        "room": null
+      },
+      {
+        "assignment": "A7",
+        "class_id": "C7",
+        "teacher": "T3",
+        "subject_id": "M:NONE",
+        "subject": "Môn",
+        "day": 1,
+        "shift": "am",
+        "period": 0,
+        "length": 1,
+        "room": null
+      }
+    ],
+    "locked_hash_before": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+    "locked_hash_after": "8a7268977e6c414552e763ed84e08fa1ce81e58e4552a93cff991f863fbadeeb",
+    "data_accepted": false,
+    "windows_accepted": false,
+    "official_complete": false,
+    "all_source_periods": 3,
+    "simulation": false,
+    "scenario_assumptions": [],
+    "known_cross_grade_conflicts": 0,
+    "cross_grade_conflicts": 0,
+    "school_conflicts": 0,
+    "grade_scheduling": "PASS",
+    "cross_grade_conflict": "PASS",
+    "locked_grades": "PASS",
+    "selected_scope_optimal_proven": true,
+    "solver_status": "OPTIMAL"
+  }
+}

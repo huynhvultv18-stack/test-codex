@@ -1,0 +1,20 @@
+RUN ab_reference_s17 A_V312
+FEASIBLE 234 {'gaps': 3, 'visits': 224, 'distribution': 119, 'concentration': 20, 'preferences': 0, 'changes': 183, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 10, 'grade_only_visits': 76}
+RUN ab_reference_s17 B_V313
+FEASIBLE 234 {'days': 193, 'waiting': 28, 'fragmentation': 227, 'fairness': 1, 'gaps': 3, 'visits': 224, 'distribution': 150, 'concentration': 59, 'preferences': 0, 'changes': 181, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 10, 'grade_only_visits': 75}
+RUN ab_reference_s23 A_V312
+FEASIBLE 234 {'gaps': 3, 'visits': 224, 'distribution': 116, 'concentration': 18, 'preferences': 0, 'changes': 57, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 9, 'grade_only_visits': 73}
+RUN ab_reference_s23 B_V313
+FEASIBLE 234 {'days': 193, 'waiting': 27, 'fragmentation': 227, 'fairness': 1, 'gaps': 3, 'visits': 224, 'distribution': 149, 'concentration': 59, 'preferences': 0, 'changes': 167, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 7, 'grade_only_visits': 73}
+RUN profile_morning B_V313
+FEASIBLE 234 {'days': 204, 'waiting': 28, 'fragmentation': 239, 'fairness': 1, 'gaps': 9, 'visits': 230, 'distribution': 155, 'concentration': 60, 'preferences': 0, 'changes': 191, 'baseline_visits': 186, 'added_visits': 44, 'grade_only_gaps': 7, 'grade_only_visits': 70}
+RUN profile_mixed B_V313
+FEASIBLE 234 {'days': 205, 'waiting': 34, 'fragmentation': 239, 'fairness': 1, 'gaps': 9, 'visits': 230, 'distribution': 137, 'concentration': 39, 'preferences': 0, 'changes': 85, 'baseline_visits': 186, 'added_visits': 44, 'grade_only_gaps': 7, 'grade_only_visits': 70}
+RUN profile_fast B_V313
+FEASIBLE 234 {'days': 204, 'waiting': 18, 'fragmentation': 227, 'fairness': 1, 'gaps': 3, 'visits': 224, 'distribution': 116, 'concentration': 18, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 9, 'grade_only_visits': 74}
+RUN profile_prove_optimal B_V313
+FEASIBLE 234 {'days': 203, 'waiting': 20, 'fragmentation': 227, 'fairness': 1, 'gaps': 3, 'visits': 224, 'distribution': 121, 'concentration': 25, 'preferences': 0, 'changes': 21, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 9, 'grade_only_visits': 74}
+PASS 8 serial measurements
+
+Final baseline seed17 remeasured alone after regression completion; recorded output/report replaced:
+FEASIBLE 234 {'gaps': 3, 'visits': 224, 'distribution': 116, 'concentration': 18, 'preferences': 0, 'changes': 182, 'baseline_visits': 186, 'added_visits': 38, 'grade_only_gaps': 9, 'grade_only_visits': 75}
