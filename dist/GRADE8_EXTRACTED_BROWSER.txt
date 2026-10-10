@@ -1,0 +1,20 @@
+PASS Default grade8, both, 5am4pm6days, 9classes234periods26IDs
+PASS Three locked grades,17 crossgrade teachers,84missing background specials visible
+PASS Only grade8 inventory27 pending; no automatically selected activities
+PASS CSRF,Host,same-origin offline CSP
+PASS Malformed JSON and forged internal projection rejected
+PASS Default incomplete background BLOCKED; no zero-school-conflict claim
+PASS Failed backup restore is atomic and retains source grade8
+PASS Complete synthetic background solves grade8 only and verifies CROSSGRADE PASS
+PASS Warm optimize button preserves verified feasible incumbent
+PASS Crossgrade teacher viewer shows locked background lessons
+PASS CSV,XLSX,JSON downloads exist
+PASS Reload independently verifies schedule and does not inherit optimal proof
+PASS CSV schedule roundtrip rechecks frozen teacher and room occupancy
+PASS Backup locked hash tampering rejected atomically
+PASS Real9class234period technical backup independently restores; school conflicts remain unknown
+PASS Real grade8 warm optimize retains234verified periods and frozen grades
+PASS Actual grade8 Excel download passes independent cross-background verifier
+PASS Changing grade for a future session freezes the latest grade8 schedule without solving grade9
+PASS Responsive pages fit390/768/1366px
+PASS No native JavaScript errors

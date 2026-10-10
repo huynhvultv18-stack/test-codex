@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "baseline_archive": "a94c50bbe617c72210412ff5fa9b491d1bc2691fd6502fe7a35436ece04029e9",
+  "baseline_tree_manifest": "PASS",
+  "source_checks": [
+    {
+      "file": "SOURCE/PCCM_INPUT_CODEX_5_NHOM.xlsx",
+      "sha256": "a16a18b40388bb22ba2c86d4fabb2807c80a3e9088489d50fbbc017dda3674fd",
+      "immutable": true
+    },
+    {
+      "file": "SOURCE/SMART_TKB_THCS_V2_3_CHE_DO.html",
+      "sha256": "fd4c1d0ac5f4ef98b415ef2d9dc1dc80c539af306192fd7c766f9399d91ba5ba",
+      "immutable": true
+    }
+  ]
+}

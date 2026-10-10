@@ -1,0 +1,14 @@
+V3 morning_cold_s17_w4_t30 INFEASIBLE 0 None
+V3.1 morning_cold_s17_w4_t30 INFEASIBLE 0 None
+V3 both_cold_s17_w4_t30 FEASIBLE 972 {'gaps': 0, 'visits': 218, 'distribution': 624, 'concentration': 238, 'preferences': 0, 'changes': 0}
+V3.1 both_cold_s17_w4_t30 FEASIBLE 972 {'gaps': 0, 'visits': 217, 'distribution': 537, 'concentration': 157, 'preferences': 0, 'changes': 0}
+V3 both_warm_s23_w4_t45 FEASIBLE 972 {'gaps': 0, 'visits': 217, 'distribution': 639, 'concentration': 251, 'preferences': 0, 'changes': 633}
+V3.1 both_warm_s23_w4_t45 FEASIBLE 972 {'gaps': 0, 'visits': 217, 'distribution': 498, 'concentration': 100, 'preferences': 0, 'changes': 625}
+V3 both_warm_s29_w1_t30 FEASIBLE 972 {'gaps': 0, 'visits': 218, 'distribution': 638, 'concentration': 251, 'preferences': 0, 'changes': 0}
+V3.1 both_warm_s29_w1_t30 FEASIBLE 972 {'gaps': 0, 'visits': 217, 'distribution': 634, 'concentration': 247, 'preferences': 0, 'changes': 12}
+V3 mixed_cold_s17_w4_t30 FEASIBLE 972 {'gaps': 0, 'visits': 240, 'distribution': 703, 'concentration': 319, 'preferences': 0, 'changes': 0}
+V3.1 mixed_cold_s17_w4_t30 FEASIBLE 972 {'gaps': 0, 'visits': 248, 'distribution': 644, 'concentration': 273, 'preferences': 0, 'changes': 0}
+V3 mixed_warm_s23_w4_t45 FEASIBLE 972 {'gaps': 0, 'visits': 240, 'distribution': 686, 'concentration': 306, 'preferences': 0, 'changes': 225}
+V3.1 mixed_warm_s23_w4_t45 FEASIBLE 972 {'gaps': 0, 'visits': 239, 'distribution': 615, 'concentration': 256, 'preferences': 0, 'changes': 305}
+V3 mixed_warm_s29_w1_t30 FEASIBLE 972 {'gaps': 0, 'visits': 240, 'distribution': 694, 'concentration': 311, 'preferences': 0, 'changes': 0}
+V3.1 mixed_warm_s29_w1_t30 FEASIBLE 972 {'gaps': 0, 'visits': 240, 'distribution': 694, 'concentration': 311, 'preferences': 0, 'changes': 0}

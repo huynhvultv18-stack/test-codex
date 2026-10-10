@@ -1,0 +1,35 @@
+{
+  "A_BASELINE": {
+    "fractional_day": true,
+    "forged_projection": {
+      "total": 0,
+      "pending": 0
+    },
+    "omitted_special_record": 110,
+    "fractional_excel_day": "FEASIBLE",
+    "nan_phase_fraction": true
+  },
+  "B_OPTIMIZED": {
+    "fractional_day": false,
+    "forged_projection": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "JSON không được chứa dấu hiệu xử lý nội bộ"
+    },
+    "omitted_special_record": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "Không được thêm/bỏ hoạt động trong kiểm kê nguồn"
+    },
+    "fractional_excel_day": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "day phải là số nguyên, không được làm tròn dữ liệu nhập"
+    },
+    "nan_phase_fraction": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "phase_fractions cần đủ 6 mục tiêu và tỷ trọng không âm"
+    }
+  }
+}

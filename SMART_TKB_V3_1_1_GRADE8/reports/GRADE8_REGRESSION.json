@@ -1,0 +1,21 @@
+{
+  "tests": 93,
+  "success": true,
+  "failures": [],
+  "errors": [],
+  "scope_exclusions": [
+    {
+      "test": "test_solver.SolverTests.test_morning_37_class_capacity_diagnosis",
+      "reason": "Legacy whole-school solve is outside authorized grade-only scope; UNKNOWN covered by grade-only test"
+    },
+    {
+      "test": "test_solver.SolverTests.test_unknown_is_not_infeasible",
+      "reason": "Legacy whole-school solve is outside authorized grade-only scope; UNKNOWN covered by grade-only test"
+    },
+    {
+      "test": "test_v3_1.V31Tests.test_unknown_no_conflict_claim",
+      "reason": "Legacy whole-school solve is outside authorized grade-only scope; UNKNOWN covered by grade-only test"
+    }
+  ],
+  "runtime": "Linux Python3.12; not Windows acceptance"
+}

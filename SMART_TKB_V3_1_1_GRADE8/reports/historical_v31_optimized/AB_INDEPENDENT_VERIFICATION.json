@@ -1,0 +1,209 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "file": "reports/ab/morning_cold_s17_w4_t30_A_BASELINE.json",
+      "status": "INFEASIBLE",
+      "proof": "GV015 40>30",
+      "no_schedule": true
+    },
+    {
+      "file": "reports/ab/morning_cold_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "INFEASIBLE",
+      "proof": "GV015 40>30",
+      "no_schedule": true
+    },
+    {
+      "file": "reports/ab/both_cold_s17_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_cold_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_warm_s17_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_warm_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_warm_s23_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_warm_s23_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_warm_s29_w1_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/both_warm_s29_w1_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_cold_s17_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_cold_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_warm_s17_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_warm_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_warm_s23_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_warm_s23_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_warm_s29_w1_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab/mixed_warm_s29_w1_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/both_warm_lns_s17_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/both_warm_lns_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/both_warm_lns_s23_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/both_warm_lns_s23_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/mixed_warm_lns_s17_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/mixed_warm_lns_s17_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/mixed_warm_lns_s23_w4_t30_A_BASELINE.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    },
+    {
+      "file": "reports/ab_lns/mixed_warm_lns_s23_w4_t30_B_OPTIMIZED.json",
+      "status": "FEASIBLE",
+      "valid": true,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true
+    }
+  ]
+}

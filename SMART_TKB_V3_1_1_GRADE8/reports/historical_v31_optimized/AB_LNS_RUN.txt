@@ -1,0 +1,8 @@
+A_BASELINE both_warm_lns_s17_w4_t30 FEASIBLE {'gaps': 0, 'visits': 217, 'distribution': 475, 'concentration': 76, 'preferences': 0, 'changes': 465} 549.8203125
+B_OPTIMIZED both_warm_lns_s17_w4_t30 FEASIBLE {'gaps': 0, 'visits': 217, 'distribution': 466, 'concentration': 61, 'preferences': 0, 'changes': 627} 570.37890625
+A_BASELINE both_warm_lns_s23_w4_t30 FEASIBLE {'gaps': 0, 'visits': 217, 'distribution': 462, 'concentration': 58, 'preferences': 0, 'changes': 569} 567.015625
+B_OPTIMIZED both_warm_lns_s23_w4_t30 FEASIBLE {'gaps': 0, 'visits': 217, 'distribution': 472, 'concentration': 67, 'preferences': 0, 'changes': 611} 553.02734375
+A_BASELINE mixed_warm_lns_s17_w4_t30 FEASIBLE {'gaps': 0, 'visits': 239, 'distribution': 587, 'concentration': 232, 'preferences': 0, 'changes': 494} 480.43359375
+B_OPTIMIZED mixed_warm_lns_s17_w4_t30 FEASIBLE {'gaps': 0, 'visits': 239, 'distribution': 600, 'concentration': 246, 'preferences': 0, 'changes': 227} 481.26953125
+A_BASELINE mixed_warm_lns_s23_w4_t30 FEASIBLE {'gaps': 0, 'visits': 239, 'distribution': 604, 'concentration': 248, 'preferences': 0, 'changes': 406} 446.17578125
+B_OPTIMIZED mixed_warm_lns_s23_w4_t30 FEASIBLE {'gaps': 0, 'visits': 239, 'distribution': 596, 'concentration': 239, 'preferences': 0, 'changes': 316} 484.66796875

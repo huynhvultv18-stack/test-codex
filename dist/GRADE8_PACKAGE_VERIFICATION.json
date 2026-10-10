@@ -1,0 +1,17 @@
+{
+  "zip": "/workspace/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE.zip",
+  "sha256": "9e80b3708a9d0dcff0151cf1c7100a8672d153a79e094a45a4d4c7cc09805690",
+  "bytes": 65102947,
+  "files": 1594,
+  "crc": "PASS",
+  "safe_extract": "PASS",
+  "manifest": "PASS",
+  "extracted": "/workspace/tkb-v3-1-1-grade8-package-verify/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE",
+  "extracted_tests": {
+    "regression": 93,
+    "browser": 20,
+    "independent_benchmark_schedules": 6,
+    "release_files_verified": 1403,
+    "runtime": "Linux; Windows UNTESTED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "grade8_scheduling": "PASS",
+  "cross_grade_conflict": "BLOCKED",
+  "locked_grades": "PASS",
+  "data_accepted": false,
+  "windows_accepted": false,
+  "windows_runtime": "UNTESTED",
+  "production_ready": false,
+  "evidence": "234/234 eligible grade8 periods; 738 known frozen periods byte-exact by canonical row hash; 27 target and 84 background specials unresolved; complete synthetic fixture CROSSGRADE PASS only"
+}

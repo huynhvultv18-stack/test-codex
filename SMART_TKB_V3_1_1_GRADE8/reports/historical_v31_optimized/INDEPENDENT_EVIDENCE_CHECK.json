@@ -1,0 +1,121 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "file": "reports/fair/morning_cold_s17_w4_t30_V3.json",
+      "status": "NO_SCHEDULE_CAPACITY_PROOF"
+    },
+    {
+      "file": "reports/fair/morning_cold_s17_w4_t30_V3.1.json",
+      "status": "NO_SCHEDULE_CAPACITY_PROOF"
+    },
+    {
+      "file": "reports/fair/both_cold_s17_w4_t30_V3.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "ea77e53f497257991ba05f801ad27a4b8b9f86f43d6a58c885f3681b47adbdd9"
+    },
+    {
+      "file": "reports/fair/both_cold_s17_w4_t30_V3.1.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "495e6545f59ce323c27ff828e282735496931f2b5312f8d8c720b299af8cca1c"
+    },
+    {
+      "file": "reports/fair/both_warm_s23_w4_t45_V3.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "99541dca5de26242706bf80d1cb9328bb63e93a102b7c97eb93bcb83186a330d"
+    },
+    {
+      "file": "reports/fair/both_warm_s23_w4_t45_V3.1.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "ba8c2bdbc8d0263eae18b248f88064d320a0fe521b77f0326c4a2da53204901e"
+    },
+    {
+      "file": "reports/fair/both_warm_s29_w1_t30_V3.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "1c313fdc43c1fc0659471290ee7485d93ede998b7ac2e135133ea8b3b19aaea7"
+    },
+    {
+      "file": "reports/fair/both_warm_s29_w1_t30_V3.1.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "65ade06eb58a076524ebcff232f6f8bdfbd3e6f82013183bd08a2c188e83142d"
+    },
+    {
+      "file": "reports/fair/mixed_cold_s17_w4_t30_V3.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "20070ad43c01dfcedaefdc8d66b6882e8b6a9212b6b7ee3a73b5d7a7a63543d0"
+    },
+    {
+      "file": "reports/fair/mixed_cold_s17_w4_t30_V3.1.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "e01c3eb2c812a3e9b5507983b11519000e48090081643aab367f5f71fb9c4ac4"
+    },
+    {
+      "file": "reports/fair/mixed_warm_s23_w4_t45_V3.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "ecea0f901c0279f059c7b572fbf92a6372104eb43ff44cd07d897837a1341dfe"
+    },
+    {
+      "file": "reports/fair/mixed_warm_s23_w4_t45_V3.1.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "2fe83cc00e247f7303d670e6b3c80170abbf78d9427f43eccbed480a6e5bae36"
+    },
+    {
+      "file": "reports/fair/mixed_warm_s29_w1_t30_V3.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "3dedf5220c409f12dcf78a0976f9a5990603ef7e3b589e907d73452a8ae68700"
+    },
+    {
+      "file": "reports/fair/mixed_warm_s29_w1_t30_V3.1.json",
+      "valid": true,
+      "required": 972,
+      "placed": 972,
+      "conflicts": 0,
+      "metrics_match": true,
+      "sha256": "7522a8ce7653604c75bb1b8406644e72dae66829fd210d9c52420b0f56fc5c9c"
+    }
+  ]
+}
