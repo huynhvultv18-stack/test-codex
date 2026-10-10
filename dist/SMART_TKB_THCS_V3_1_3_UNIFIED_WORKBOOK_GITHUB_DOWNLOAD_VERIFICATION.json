@@ -1,0 +1,13 @@
+{
+  "url": "https://raw.githubusercontent.com/huynhvultv18-stack/test-codex/a4c71e84a2605286be7a2c233c08493d55ab1195/dist/SMART_TKB_THCS_V3_1_3_UNIFIED_WORKBOOK_CANDIDATE.zip",
+  "payload_commit": "a4c71e84a2605286be7a2c233c08493d55ab1195",
+  "http_status": 200,
+  "download_bytes": 68105341,
+  "sha256": "353a99c6c54704c5dd3e542f82166182e7b61b8f33779cc8314c7bfedb116bd8",
+  "crc": "PASS",
+  "manifest_files_verified": 1725,
+  "committed_source_files_matching_zip": 392,
+  "main_unchanged": "f670d85a1705176275da95bc91f5a2e562c3e46f",
+  "baseline_v313_unchanged": "a9f412266b565c518c2ee1d5f86b7ce508239a12",
+  "production_ready": false
+}
