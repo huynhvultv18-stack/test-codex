@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "url": "https://raw.githubusercontent.com/huynhvultv18-stack/test-codex/smart-tkb-v3-1-optimized-candidate/dist/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE.zip",
+  "source_commit": "bbb482c890c73c5b10458c1ea2dc0199f2773d2a",
+  "bytes": 64536810,
+  "sha256": "0a85ffe65ddb01468cf2e889646c1ea66e315d9f1cf9c487477893e9db148f83",
+  "crc": "PASS",
+  "safe_extract": "PASS",
+  "manifest": "PASS",
+  "manifest_files_checked": 1546,
+  "archive_entries": 1547,
+  "extracted_code_units": 71,
+  "extracted_browser_checks": 28,
+  "original_v3_v31_archives_unchanged": true,
+  "windows_runtime": "UNTESTED",
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}
