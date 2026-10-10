@@ -1,0 +1,10 @@
+{
+  "zip": "/workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE.zip",
+  "sha256": "0a85ffe65ddb01468cf2e889646c1ea66e315d9f1cf9c487477893e9db148f83",
+  "bytes": 64536810,
+  "files": 1547,
+  "crc": "PASS",
+  "safe_extract": "PASS",
+  "manifest": "PASS",
+  "extracted": "/workspace/tkb-v3-1-package-verify/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE"
+}

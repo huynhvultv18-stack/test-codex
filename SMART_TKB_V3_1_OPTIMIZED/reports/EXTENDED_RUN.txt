@@ -1,0 +1,13 @@
+morning INFEASIBLE 0 0 None
+scenario both CP-SAT: feasibility
+scenario both CP-SAT: gaps
+scenario both CP-SAT: visits
+scenario both CP-SAT: distribution
+scenario both CP-SAT: concentration
+both FEASIBLE 972 111 {'gaps': 0, 'visits': 218, 'distribution': 600, 'concentration': 219, 'preferences': 0, 'changes': 0}
+scenario mixed CP-SAT: feasibility
+scenario mixed CP-SAT: gaps
+scenario mixed CP-SAT: visits
+scenario mixed CP-SAT: distribution
+scenario mixed CP-SAT: concentration
+mixed FEASIBLE 972 111 {'gaps': 0, 'visits': 254, 'distribution': 650, 'concentration': 275, 'preferences': 0, 'changes': 0}

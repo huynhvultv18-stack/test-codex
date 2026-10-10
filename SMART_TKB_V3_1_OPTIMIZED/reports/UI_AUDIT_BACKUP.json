@@ -1,0 +1,182 @@
+{
+  "version": "3.1",
+  "data": {
+    "classes": [
+      {
+        "id": "C1",
+        "name": "6A1",
+        "shift": "am",
+        "grade": 6
+      },
+      {
+        "id": "C2",
+        "name": "6A2",
+        "shift": "pm",
+        "grade": 7
+      }
+    ],
+    "teachers": [
+      {
+        "id": "T1",
+        "name": "A",
+        "status": "VERIFIED",
+        "full_name": "A"
+      },
+      {
+        "id": "T2",
+        "name": "B",
+        "status": "VERIFIED",
+        "full_name": "B"
+      }
+    ],
+    "subjects": [
+      {
+        "id": "M1:NONE",
+        "base": "M1",
+        "name": "Toán"
+      },
+      {
+        "id": "M2:NONE",
+        "base": "M2",
+        "name": "Văn"
+      },
+      {
+        "id": "HD02:NONE",
+        "base": "HD02",
+        "name": "Chào cờ / Sinh hoạt chủ nhiệm"
+      }
+    ],
+    "assignments": [
+      {
+        "id": "A1",
+        "teacher": "T1",
+        "class_id": "C1",
+        "subject_id": "M1:NONE",
+        "subject": "Toán",
+        "count": 2,
+        "double_count": 0,
+        "room_ids": []
+      },
+      {
+        "id": "A2",
+        "teacher": "T1",
+        "class_id": "C2",
+        "subject_id": "M1:NONE",
+        "subject": "Toán",
+        "count": 2,
+        "double_count": 0,
+        "room_ids": []
+      },
+      {
+        "id": "A3",
+        "teacher": "T2",
+        "class_id": "C1",
+        "subject_id": "M2:NONE",
+        "subject": "Văn",
+        "count": 2,
+        "double_count": 0,
+        "room_ids": []
+      }
+    ],
+    "issues": [],
+    "pending_special": [
+      {
+        "class_id": "C1",
+        "subject_id": "HD02:NONE",
+        "subject": "Chào cờ / Sinh hoạt chủ nhiệm",
+        "count": 1,
+        "source_row": 2
+      },
+      {
+        "class_id": "C2",
+        "subject_id": "HD02:NONE",
+        "subject": "Chào cờ / Sinh hoạt chủ nhiệm",
+        "count": 1,
+        "source_row": 3
+      }
+    ]
+  },
+  "config": {
+    "mode": "both",
+    "days": 2,
+    "periods": 3,
+    "max_class_session": 3,
+    "max_teacher_session": 3,
+    "time_limit": 30,
+    "workers": 4,
+    "seed": 17,
+    "technical_only": true,
+    "rooms": [],
+    "unavailable": [],
+    "fixed": [],
+    "preferences": [],
+    "priorities": [
+      "gaps",
+      "visits",
+      "distribution",
+      "concentration",
+      "preferences",
+      "changes"
+    ],
+    "phase_fractions": {
+      "gaps": 0.25,
+      "visits": 0.5,
+      "distribution": 0.16,
+      "concentration": 0.06,
+      "preferences": 0.02,
+      "changes": 0.01
+    },
+    "advance_on_incumbent": true,
+    "search_mode": "portfolio",
+    "objective_settings": {
+      "gaps": {
+        "enabled": true,
+        "weight": 1
+      },
+      "visits": {
+        "enabled": true,
+        "weight": 1
+      },
+      "distribution": {
+        "enabled": true,
+        "weight": 1
+      },
+      "concentration": {
+        "enabled": true,
+        "weight": 1
+      },
+      "preferences": {
+        "enabled": true,
+        "weight": 1
+      },
+      "changes": {
+        "enabled": true,
+        "weight": 1
+      }
+    },
+    "subject_rules": [],
+    "subject_hard_limits": [],
+    "heavy_subjects": [],
+    "heavy_run_limit": 2,
+    "heavy_weight": 0,
+    "special_mode": "SCENARIO",
+    "special_overrides": [],
+    "special_scenario": {
+      "enabled": true,
+      "activity_ids": [
+        "SP_C1_HD02",
+        "SP_C2_HD02"
+      ],
+      "teacher_required": false,
+      "teacher_id": null,
+      "scheduling_policy": "collective",
+      "shared_teacher_group": "EXPLICIT_GROUP",
+      "fixed_day": 0,
+      "fixed_period": 2,
+      "shift": "am",
+      "assumption_label": "Explicit audit fixture, not school rules"
+    }
+  },
+  "result": null,
+  "solvedSnapshot": ""
+}

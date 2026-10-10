@@ -1,0 +1,12 @@
+{
+  "source": "/workspace/SMART_TKB_THCS_V3_1_OPTIMIZATION_CANDIDATE.zip",
+  "sha256": "a94c50bbe617c72210412ff5fa9b491d1bc2691fd6502fe7a35436ece04029e9",
+  "bytes": 63199878,
+  "version": "3.1.0-optimization-candidate",
+  "github_commit": "ac9b34b06ddd13c016a52449a5f7c9e7ea2036c5",
+  "crc": "PASS",
+  "manifest": "PASS",
+  "selection": "Delivered V3.1 ZIP with remote download verification and45/20 extracted tests; no branch mixing",
+  "baseline_execution_copy": "/workspace/tkb-v31-audit-baseline",
+  "workdir": "/workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE"
+}

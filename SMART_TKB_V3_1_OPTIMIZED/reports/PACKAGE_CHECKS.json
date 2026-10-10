@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "archive_name": "SMART_TKB_THCS_V3_1_OPTIMIZATION_CANDIDATE.zip",
+  "zip_crc": "PASS",
+  "safe_extraction": "PASS",
+  "file_manifest_sha256": "PASS",
+  "fresh_extracted_unit_tests": 45,
+  "fresh_extracted_browser_checks": 20,
+  "baseline_v3_unchanged": true,
+  "source_bytes_unchanged": true,
+  "offline_windows_wheel_resolution": "PASS",
+  "windows_executed": false,
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}
