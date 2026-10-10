@@ -1,0 +1,312 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "cpu_count": 5,
+  "ortools": "9.15.6755",
+  "cases": [
+    {
+      "mode": "morning",
+      "config": {
+        "mode": "morning",
+        "days": 6,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30.0,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true
+      },
+      "class_shifts": {
+        "C06A01": "am",
+        "C06A02": "pm",
+        "C06A03": "am",
+        "C06A04": "pm",
+        "C06A05": "am",
+        "C06A06": "pm",
+        "C06A07": "am",
+        "C06A08": "pm",
+        "C06A09": "am",
+        "C07A01": "pm",
+        "C07A02": "am",
+        "C07A03": "pm",
+        "C07A04": "am",
+        "C07A05": "pm",
+        "C07A06": "am",
+        "C07A07": "pm",
+        "C07A08": "am",
+        "C07A09": "pm",
+        "C08A01": "am",
+        "C08A02": "pm",
+        "C08A03": "am",
+        "C08A04": "pm",
+        "C08A05": "am",
+        "C08A06": "pm",
+        "C08A07": "am",
+        "C08A08": "pm",
+        "C08A09": "am",
+        "C09A01": "pm",
+        "C09A02": "am",
+        "C09A03": "pm",
+        "C09A04": "am",
+        "C09A05": "pm",
+        "C09A06": "am",
+        "C09A07": "pm",
+        "C09A08": "am",
+        "C09A09": "pm",
+        "C09A10": "am"
+      },
+      "result": {
+        "status": "INFEASIBLE",
+        "required": 972,
+        "placed": 0,
+        "conflicts": 0,
+        "elapsed_seconds": 0.006,
+        "diagnostics": [
+          "GV GV015 — Thầy Độ: cần 40, sức chứa 30 tiết (am)"
+        ],
+        "metrics": null,
+        "phases": [],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "full_model",
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111,
+        "proof": "Necessary capacity bound"
+      }
+    },
+    {
+      "mode": "both",
+      "config": {
+        "mode": "both",
+        "days": 6,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30.0,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true
+      },
+      "class_shifts": {
+        "C06A01": "am",
+        "C06A02": "pm",
+        "C06A03": "am",
+        "C06A04": "pm",
+        "C06A05": "am",
+        "C06A06": "pm",
+        "C06A07": "am",
+        "C06A08": "pm",
+        "C06A09": "am",
+        "C07A01": "pm",
+        "C07A02": "am",
+        "C07A03": "pm",
+        "C07A04": "am",
+        "C07A05": "pm",
+        "C07A06": "am",
+        "C07A07": "pm",
+        "C07A08": "am",
+        "C07A09": "pm",
+        "C08A01": "am",
+        "C08A02": "pm",
+        "C08A03": "am",
+        "C08A04": "pm",
+        "C08A05": "am",
+        "C08A06": "pm",
+        "C08A07": "am",
+        "C08A08": "pm",
+        "C08A09": "am",
+        "C09A01": "pm",
+        "C09A02": "am",
+        "C09A03": "pm",
+        "C09A04": "am",
+        "C09A05": "pm",
+        "C09A06": "am",
+        "C09A07": "pm",
+        "C09A08": "am",
+        "C09A09": "pm",
+        "C09A10": "am"
+      },
+      "result": {
+        "status": "FEASIBLE",
+        "required": 972,
+        "placed": 972,
+        "conflicts": 0,
+        "metrics": {
+          "gaps": 0,
+          "visits": 218,
+          "distribution": 638,
+          "concentration": 251,
+          "preferences": 0,
+          "changes": 0
+        },
+        "verification": {
+          "valid": true,
+          "conflicts": 0,
+          "errors": [],
+          "required": 972,
+          "placed": 972
+        },
+        "initial_metrics": {
+          "gaps": 51,
+          "visits": 272,
+          "distribution": 804,
+          "concentration": 430,
+          "preferences": 0,
+          "changes": 0
+        },
+        "elapsed_seconds": 30.274,
+        "phases": [
+          {
+            "name": "feasibility",
+            "status": "OPTIMAL",
+            "seconds": 0.953,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "gaps",
+            "status": "OPTIMAL",
+            "seconds": 3.56,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "visits",
+            "status": "FEASIBLE",
+            "seconds": 24.71,
+            "objective": 218.0,
+            "best_bound": 38.0
+          }
+        ],
+        "proven_priorities": [
+          "gaps"
+        ],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "full_model",
+        "diagnostics": [],
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111
+      }
+    },
+    {
+      "mode": "mixed",
+      "config": {
+        "mode": "mixed",
+        "days": 6,
+        "periods": 5,
+        "max_class_session": 5,
+        "max_teacher_session": 5,
+        "time_limit": 30.0,
+        "workers": 4,
+        "seed": 17,
+        "technical_only": true
+      },
+      "class_shifts": {
+        "C06A01": "am",
+        "C06A02": "pm",
+        "C06A03": "am",
+        "C06A04": "pm",
+        "C06A05": "am",
+        "C06A06": "pm",
+        "C06A07": "am",
+        "C06A08": "pm",
+        "C06A09": "am",
+        "C07A01": "pm",
+        "C07A02": "am",
+        "C07A03": "pm",
+        "C07A04": "am",
+        "C07A05": "pm",
+        "C07A06": "am",
+        "C07A07": "pm",
+        "C07A08": "am",
+        "C07A09": "pm",
+        "C08A01": "am",
+        "C08A02": "pm",
+        "C08A03": "am",
+        "C08A04": "pm",
+        "C08A05": "am",
+        "C08A06": "pm",
+        "C08A07": "am",
+        "C08A08": "pm",
+        "C08A09": "am",
+        "C09A01": "pm",
+        "C09A02": "am",
+        "C09A03": "pm",
+        "C09A04": "am",
+        "C09A05": "pm",
+        "C09A06": "am",
+        "C09A07": "pm",
+        "C09A08": "am",
+        "C09A09": "pm",
+        "C09A10": "am"
+      },
+      "result": {
+        "status": "FEASIBLE",
+        "required": 972,
+        "placed": 972,
+        "conflicts": 0,
+        "metrics": {
+          "gaps": 0,
+          "visits": 240,
+          "distribution": 694,
+          "concentration": 311,
+          "preferences": 0,
+          "changes": 0
+        },
+        "verification": {
+          "valid": true,
+          "conflicts": 0,
+          "errors": [],
+          "required": 972,
+          "placed": 972
+        },
+        "initial_metrics": {
+          "gaps": 95,
+          "visits": 370,
+          "distribution": 750,
+          "concentration": 362,
+          "preferences": 0,
+          "changes": 0
+        },
+        "elapsed_seconds": 30.28,
+        "phases": [
+          {
+            "name": "feasibility",
+            "status": "OPTIMAL",
+            "seconds": 0.339,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "gaps",
+            "status": "OPTIMAL",
+            "seconds": 1.533,
+            "objective": 0.0,
+            "best_bound": 0.0
+          },
+          {
+            "name": "visits",
+            "status": "FEASIBLE",
+            "seconds": 27.6,
+            "objective": 240.0,
+            "best_bound": 133.0
+          }
+        ],
+        "proven_priorities": [
+          "gaps"
+        ],
+        "global_optimal_proven": false,
+        "lexicographic_optimal_proven": false,
+        "optimality_scope": "full_model",
+        "diagnostics": [],
+        "technical_only": true,
+        "production_ready": false,
+        "unscheduled_special": 111
+      }
+    }
+  ]
+}

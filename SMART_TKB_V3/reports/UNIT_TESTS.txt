@@ -1,0 +1,28 @@
+test_all_three_modes (test_solver.SolverTests.test_all_three_modes) ... ok
+test_class_conflict_fixed_infeasible (test_solver.SolverTests.test_class_conflict_fixed_infeasible) ... ok
+test_complete_counts_and_no_teacher_class_overlap (test_solver.SolverTests.test_complete_counts_and_no_teacher_class_overlap) ... ok
+test_double_period_and_function_room (test_solver.SolverTests.test_double_period_and_function_room) ... ok
+test_duplicate_and_missing_excel_ids (test_solver.SolverTests.test_duplicate_and_missing_excel_ids) ... ok
+test_empty_local_scope_does_not_turn_into_full_reoptimization (test_solver.SolverTests.test_empty_local_scope_does_not_turn_into_full_reoptimization) ... ok
+test_hard_unavailability_and_fixed (test_solver.SolverTests.test_hard_unavailability_and_fixed) ... ok
+test_invalid_double_count (test_solver.SolverTests.test_invalid_double_count) ... ok
+test_invalid_room_not_silently_ignored (test_solver.SolverTests.test_invalid_room_not_silently_ignored) ... ok
+test_local_reopt_conflicting_freeze_not_relaxed (test_solver.SolverTests.test_local_reopt_conflicting_freeze_not_relaxed) ... ok
+test_max_session_is_hard (test_solver.SolverTests.test_max_session_is_hard) ... ok
+test_morning_37_class_capacity_diagnosis (test_solver.SolverTests.test_morning_37_class_capacity_diagnosis) ... ok
+test_preference_lexicographic_optimal (test_solver.SolverTests.test_preference_lexicographic_optimal) ... ok
+test_reported_objectives_match_independent_metrics (test_solver.SolverTests.test_reported_objectives_match_independent_metrics) ... ok
+test_room_conflict_proven_infeasible (test_solver.SolverTests.test_room_conflict_proven_infeasible) ... ok
+test_source_import_exact_and_totals_not_double_counted (test_solver.SolverTests.test_source_import_exact_and_totals_not_double_counted) ... ok
+test_special_assignment_can_be_supplied_without_inventing_identity (test_solver.SolverTests.test_special_assignment_can_be_supplied_without_inventing_identity) ... ok
+test_teacher_conflict_fixed_infeasible (test_solver.SolverTests.test_teacher_conflict_fixed_infeasible) ... ok
+test_unknown_is_not_infeasible (test_solver.SolverTests.test_unknown_is_not_infeasible) ... ok
+test_unverified_real_use_rejected (test_solver.SolverTests.test_unverified_real_use_rejected) ... ok
+test_v2_migration_separate_state (test_solver.SolverTests.test_v2_migration_separate_state) ... ok
+test_verifier_detects_conflicts_and_missing (test_solver.SolverTests.test_verifier_detects_conflicts_and_missing) ... ok
+test_warm_start_local_freeze_and_minimal_change (test_solver.SolverTests.test_warm_start_local_freeze_and_minimal_change) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.628s
+
+OK
