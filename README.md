@@ -1,3 +1,16 @@
+## SMART TKB THCS V3.1.2 Session Config Candidate
+
+**0tiết=NGHỈ · lịch riêng ngày/buổi/lớp · khối8 mặc định41ô/9buổi · giữ lịch các khối khóa.**
+
+- [Tải ZIP Windows ngoại tuyến](https://github.com/huynhvultv18-stack/test-codex/raw/refs/heads/smart-tkb-v3-1-2-session-config-candidate/dist/SMART_TKB_THCS_V3_1_2_SESSION_CONFIG_CANDIDATE.zip)
+- [Hướng dẫn sử dụng](SMART_TKB_V3_1_2_SESSION_CONFIG/HUONG_DAN_SU_DUNG.md)
+- [Mã nguồn](SMART_TKB_V3_1_2_SESSION_CONFIG) · [Benchmark](SMART_TKB_V3_1_2_SESSION_CONFIG/reports/SESSION_BENCHMARK.md)
+- [SHA-256](dist/SMART_TKB_THCS_V3_1_2_SESSION_CONFIG_CANDIDATE.zip.sha256) · [Kiểm tra ZIP](dist/SMART_TKB_THCS_V3_1_2_PACKAGE_VERIFICATION.json)
+
+121testPython +36browser checks đạt.6nghiệm benchmark khối8 xếp234/234tiết; các khối khóa738tiết giữ nguyên.6nghiệm và5filexuấtUI qua kiểm tra độc lập. Source và baseline V3.1.1 không đổi. Lịch nền thiếu84tiết đặc biệt,khối8 có27tiết PENDING và26mãGV chưa xác minh; CROSS-GRADE cònBLOCKED. DATA/WINDOWS ACCEPTED=NO; PRODUCTION READY=NO. Không merge main/Production.
+
+Các phiên bản dưới đây được giữ để truy xuất:
+
 ## SMART TKB THCS V3.1.1 Grade8 Candidate
 
 **Chỉ xếp khối8 · 5tiết sáng/4tiết chiều · 6ngày · khóa khối6/7/9.**

@@ -1,0 +1,8 @@
+{
+  "source": "https://api.nuget.org/v3/registration5-semver1/python/3.12.10.json",
+  "catalog": "https://api.nuget.org/v3/catalog0/data/2025.04.08.14.01.15/python.3.12.10.json",
+  "version": "3.12.10",
+  "authors": "Python Software Foundation",
+  "package_sha512": "u9pNz2iKlCEbYtUJaKkbOPMF0LjR7NkCafdKhvigpPzrt8oWKgdTpHaR6z3wyWQAm9PYGUxv0Zr66NX9AeHMDw==",
+  "verified": true
+}

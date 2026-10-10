@@ -1,0 +1,778 @@
+{
+  "version": "1",
+  "pip_version": "25.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/absl_py-2.5.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=721200f2f0e9960f2ca9dc3a2a706b201f5f75d812c158f059cbbe29eeafbdb8",
+          "hashes": {
+            "sha256": "721200f2f0e9960f2ca9dc3a2a706b201f5f75d812c158f059cbbe29eeafbdb8"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.5",
+        "name": "absl-py",
+        "version": "2.5.1",
+        "summary": "Abseil Python Common Libraries, see https://github.com/abseil/abseil-py.",
+        "description": "[![Package version](https://img.shields.io/pypi/v/absl-py)](https://pypi.org/project/absl-py)\n[![Supported Python versions](https://img.shields.io/pypi/pyversions/absl-py.svg?style=flat-square)](https://pypi.org/project/absl-py)\n[![License](https://img.shields.io/github/license/abseil/abseil-py)](https://github.com/abseil/abseil-py/blob/main/LICENSE)\n[![Build Status](https://github.com/abseil/abseil-py/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/abseil/abseil-py/actions)\n[![Overall downloads](https://pepy.tech/badge/absl-py)](https://pepy.tech/project/absl-py)\n[![Last month downloads](https://pepy.tech/badge/absl-py/month)](https://pepy.tech/project/absl-py)\n\n# Abseil Python Common Libraries\n\nThis repository is a collection of Python library code for building Python\napplications. The code is collected from Google's own Python code base, and has\nbeen extensively tested and used in production.\n\n## Features\n\n* Simple application startup\n* Distributed commandline flags system\n* Custom logging module with additional features\n* Testing utilities\n\n## Getting Started\n\n### Installation\n\nTo install the package, simply run:\n\n```bash\npip install absl-py\n```\n\nOr install from source:\n\n```bash\npip install .\n```\n\n### Running Tests\n\nTo run Abseil tests, you can clone the git repo and run\n[bazel](https://bazel.build/):\n\n```bash\ngit clone https://github.com/abseil/abseil-py.git\ncd abseil-py\nbazel test absl/...\n```\n\nPlease also validate the type annotations against the latest mypy:\n\n```bash\npip install mypy\nmypy absl\n```\n\n### Example Code\n\nPlease refer to\n[smoke_tests/sample_app.py](https://github.com/abseil/abseil-py/blob/main/smoke_tests/sample_app.py)\nas an example to get started.\n\n## Documentation\n\nSee the [Abseil Python Developer Guide](https://abseil.io/docs/python/).\n\n## Future Releases\n\nThe current repository includes an initial set of libraries for early adoption.\nMore components and interoperability with Abseil C++ Common Libraries\nwill come in future releases.\n\n## License\n\nThe Abseil Python library is licensed under the terms of the Apache\nlicense. See [LICENSE](LICENSE) for more information.\n",
+        "description_content_type": "text/markdown",
+        "author": "The Abseil Authors",
+        "license_expression": "Apache-2.0",
+        "license_file": [
+          "AUTHORS",
+          "LICENSE"
+        ],
+        "classifier": [
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Apache Software License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Changelog, https://github.com/abseil/abseil-py/blob/main/CHANGELOG.md",
+          "Documentation, https://abseil.io/docs/python/",
+          "Issues, https://github.com/abseil/abseil-py/issues",
+          "Source, https://github.com/abseil/abseil-py"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/et_xmlfile-2.0.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+          "hashes": {
+            "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "et_xmlfile",
+        "version": "2.0.0",
+        "summary": "An implementation of lxml.xmlfile for the standard library",
+        "description": ".. image:: https://foss.heptapod.net/openpyxl/et_xmlfile/badges/branch/default/coverage.svg\n    :target: https://coveralls.io/bitbucket/openpyxl/et_xmlfile?branch=default\n    :alt: coverage status\n\net_xmfile\n=========\n\nXML can use lots of memory, and et_xmlfile is a low memory library for creating large XML files\nAnd, although the standard library already includes an incremental parser, `iterparse` it has no equivalent when writing XML. Once an element has been added to the tree, it is written to\nthe file or stream and the memory is then cleared.\n\nThis module is based upon the `xmlfile module from lxml <http://lxml.de/api.html#incremental-xml-generation>`_ with the aim of allowing code to be developed that will work with both libraries.\nIt was developed initially for the openpyxl project, but is now a standalone module.\n\nThe code was written by Elias Rabel as part of the `Python Düsseldorf <http://pyddf.de>`_ openpyxl sprint in September 2014.\n\nProper support for incremental writing was provided by Daniel Hillier in 2024\n\nNote on performance\n-------------------\n\nThe code was not developed with performance in mind, but turned out to be faster than the existing SAX-based implementation but is generally slower than lxml's xmlfile.\nThere is one area where an optimisation for lxml may negatively affect the performance of et_xmfile and that is when using the `.element()` method on the xmlfile context manager. It is, therefore, recommended simply to create Elements write these directly, as in the sample code.\n",
+        "home_page": "https://foss.heptapod.net/openpyxl/et_xmlfile",
+        "author": "See AUTHORS.txt",
+        "author_email": "charlie.clark@clark-consulting.eu",
+        "license": "MIT",
+        "license_file": [
+          "LICENCE.python",
+          "LICENCE.rst",
+          "AUTHORS.txt"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Documentation, https://openpyxl.pages.heptapod.net/et_xmlfile/",
+          "Source, https://foss.heptapod.net/openpyxl/et_xmlfile",
+          "Tracker, https://foss.heptapod.net/openpyxl/et_xmfile/-/issues"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/immutabledict-4.3.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=c9facdc0ff30fdb8e35bd16532026cac472a549e182c94fa201b51b25e4bf7bf",
+          "hashes": {
+            "sha256": "c9facdc0ff30fdb8e35bd16532026cac472a549e182c94fa201b51b25e4bf7bf"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "immutabledict",
+        "version": "4.3.1",
+        "summary": "Immutable wrapper around dictionaries (a fork of frozendict)",
+        "description": "# immutabledict\n\n![PyPI](https://img.shields.io/pypi/v/immutabledict) ![Conda](https://img.shields.io/conda/vn/conda-forge/immutabledict) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/immutabledict)\n\n![License](https://img.shields.io/pypi/l/immutabledict) ![Build](https://img.shields.io/github/actions/workflow/status/corenting/immutabledict/ci.yml?branch=master) ![Codecov](https://img.shields.io/codecov/c/github/corenting/immutabledict) ![PyPI - Downloads](https://img.shields.io/pypi/dm/immutabledict)\n\nAn immutable wrapper around dictionaries. immutabledict implements the complete mapping interface and can be used as a drop-in replacement for dictionaries where immutability is desired.\n\nIt's a fork of slezica's [frozendict](https://github.com/slezica/python-frozendict). This library is a pure Python, MIT-licensed alternative to the new LGPL-3.0 licensed [frozendict](https://github.com/Marco-Sulla/python-frozendict).\n\n## Installation\n\nOfficial release in [on pypi](https://pypi.org/project/immutabledict/) as `immutabledict`.\n\n**Community-maintained** releases are available:\n- On [conda-forge](https://anaconda.org/conda-forge/immutabledict) as `immutabledict`\n- On [various package repositories](https://repology.org/project/python:immutabledict/versions)\n\n## Example\n\n```python\nfrom immutabledict import immutabledict\n\nmy_item = immutabledict({\"a\": \"value\", \"b\": \"other_value\"})\nprint(my_item[\"a\"]) # Print \"value\"\n```\n\n## Differences with the old original frozendict package\n\n- Dropped support of EOL Python versions (older versions of the library may support older Python versions)\n- Fixed `collections.Mapping` deprecation warning\n- Typing\n- [PEP 584 union operators](https://www.python.org/dev/peps/pep-0584/)\n- Keep the same signature for `copy()` as `dict` (starting with immutabledict 3.0.0), don't accept extra keyword arguments.\n- Added `set`, `delete` and `discard` methods\n\n## Donations\n\nIf you wish to support this library, donations are possible [here](https://corenting.fr/donate).\n\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "immutable",
+          "dictionary"
+        ],
+        "author": "Corentin Garcia",
+        "author_email": "corenting@gmail.com",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "requires_python": ">=3.8,<4.0",
+        "project_url": [
+          "Documentation, https://immutabledict.corenting.fr",
+          "Homepage, https://github.com/corenting/immutabledict",
+          "Repository, https://github.com/corenting/immutabledict",
+          "bugtracker, https://github.com/corenting/immutabledict/issues",
+          "changelog, https://github.com/corenting/immutabledict/blob/master/CHANGELOG.md",
+          "donation, https://corenting.fr/donate"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/numpy-2.5.3-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=0a59a421a32580a009e8a1751345bf829631b990dc1794b80514ab722b435def",
+          "hashes": {
+            "sha256": "0a59a421a32580a009e8a1751345bf829631b990dc1794b80514ab722b435def"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "numpy",
+        "version": "2.5.3",
+        "summary": "Fundamental package for array computing in Python",
+        "description": "<h1 align=\"center\">\n<img src=\"https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg\" width=\"300\">\n</h1><br>\n\n\n[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](\nhttps://numfocus.org)\n[![PyPI Downloads](https://img.shields.io/pypi/dm/numpy.svg?label=PyPI%20downloads)](\nhttps://pypi.org/project/numpy/)\n[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy.svg?label=Conda%20downloads)](\nhttps://anaconda.org/conda-forge/numpy)\n[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](\nhttps://stackoverflow.com/questions/tagged/numpy)\n[![Nature Paper](https://img.shields.io/badge/DOI-10.1038%2Fs41586--020--2649--2-blue)](\nhttps://doi.org/10.1038/s41586-020-2649-2)\n[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=numpy)](https://insights.linuxfoundation.org/project/numpy)\n[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/numpy/numpy/badge)](https://securityscorecards.dev/viewer/?uri=github.com/numpy/numpy)\n[![Typing](https://img.shields.io/pypi/types/numpy)](https://pypi.org/project/numpy/)\n\n\nNumPy is the fundamental package for scientific computing with Python.\n\n- **Website:** https://numpy.org\n- **Documentation:** https://numpy.org/doc\n- **Mailing list:** https://mail.python.org/mailman/listinfo/numpy-discussion\n- **Source code:** https://github.com/numpy/numpy\n- **Contributing:** https://numpy.org/devdocs/dev/index.html\n- **Bug reports:** https://github.com/numpy/numpy/issues\n- **Report a security vulnerability:** https://github.com/numpy/numpy/security/policy (via Tidelift)\n\nIt provides:\n\n- a powerful N-dimensional array object\n- sophisticated (broadcasting) functions\n- tools for integrating C/C++ and Fortran code\n- useful linear algebra, Fourier transform, and random number capabilities\n\nTesting:\n\nNumPy requires `pytest` and `hypothesis`.  Tests can then be run after installation with:\n\n    python -c \"import numpy, sys; sys.exit(numpy.test() is False)\"\n\nCode of Conduct\n----------------------\n\nNumPy is a community-driven open source project developed by a diverse group of\n[contributors](https://numpy.org/teams/). The NumPy leadership has made a strong\ncommitment to creating an open, inclusive, and positive community. Please read the\n[NumPy Code of Conduct](https://numpy.org/code-of-conduct/) for guidance on how to interact\nwith others in a way that makes our community thrive.\n\nCall for Contributions\n----------------------\n\nThe NumPy project welcomes your expertise and enthusiasm!\n\nSmall improvements or fixes are always appreciated. If you are considering larger contributions\nto the source code, please contact us through the [mailing\nlist](https://mail.python.org/mailman/listinfo/numpy-discussion) first.\n\nWriting code isn’t the only way to contribute to NumPy. You can also:\n- review pull requests\n- help us stay on top of new and old issues\n- develop tutorials, presentations, and other educational materials\n- maintain and improve [our website](https://github.com/numpy/numpy.org)\n- develop graphic design for our brand assets and promotional materials\n- translate website content\n- help with outreach and onboard new contributors\n- write grant proposals and help with other fundraising efforts\n\nFor more information about the ways you can contribute to NumPy, visit [our website](https://numpy.org/contribute/). \nIf you’re unsure where to start or how your skills fit in, reach out! You can\nask on the mailing list or here, on GitHub, by opening a new issue or leaving a\ncomment on a relevant issue that is already open.\n\nOur preferred channels of communication are all public, but if you’d like to\nspeak to us in private first, contact our community coordinators at\nnumpy-team@googlegroups.com or on Slack (write numpy-team@googlegroups.com for\nan invitation).\n\nWe also have a biweekly community call, details of which are announced on the\nmailing list. You are very welcome to join.\n\nIf you are new to contributing to open source, [this\nguide](https://opensource.guide/how-to-contribute/) helps explain why, what,\nand how to successfully get involved.\n",
+        "description_content_type": "text/markdown",
+        "author": "Travis E. Oliphant et al.",
+        "maintainer_email": "NumPy Developers <numpy-discussion@python.org>",
+        "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+        "license_file": [
+          "LICENSE.txt",
+          "numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "numpy/_core/src/highway/LICENSE",
+          "numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "numpy/_core/src/umath/svml/LICENSE",
+          "numpy/fft/pocketfft/LICENSE.md",
+          "numpy/linalg/lapack_lite/LICENSE.txt",
+          "numpy/ma/LICENSE",
+          "numpy/random/LICENSE.md",
+          "numpy/random/src/distributions/LICENSE.md",
+          "numpy/random/src/mt19937/LICENSE.md",
+          "numpy/random/src/pcg64/LICENSE.md",
+          "numpy/random/src/philox/LICENSE.md",
+          "numpy/random/src/sfc64/LICENSE.md",
+          "numpy/random/src/splitmix64/LICENSE.md"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Software Development",
+          "Topic :: Scientific/Engineering",
+          "Typing :: Typed",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS"
+        ],
+        "requires_python": ">=3.12",
+        "project_url": [
+          "homepage, https://numpy.org",
+          "documentation, https://numpy.org/doc/",
+          "source, https://github.com/numpy/numpy",
+          "download, https://pypi.org/project/numpy/#files",
+          "tracker, https://github.com/numpy/numpy/issues",
+          "release notes, https://numpy.org/doc/stable/release"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/openpyxl-3.1.5-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+          "hashes": {
+            "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "openpyxl",
+        "version": "3.1.5",
+        "summary": "A Python library to read/write Excel 2010 xlsx/xlsm files",
+        "description": ".. image:: https://coveralls.io/repos/bitbucket/openpyxl/openpyxl/badge.svg?branch=default\n    :target: https://coveralls.io/bitbucket/openpyxl/openpyxl?branch=default\n    :alt: coverage status\n\nIntroduction\n------------\n\nopenpyxl is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.\n\nIt was born from lack of existing library to read/write natively from Python\nthe Office Open XML format.\n\nAll kudos to the PHPExcel team as openpyxl was initially based on PHPExcel.\n\n\nSecurity\n--------\n\nBy default openpyxl does not guard against quadratic blowup or billion laughs\nxml attacks. To guard against these attacks install defusedxml.\n\nMailing List\n------------\n\nThe user list can be found on http://groups.google.com/group/openpyxl-users\n\n\nSample code::\n\n    from openpyxl import Workbook\n    wb = Workbook()\n\n    # grab the active worksheet\n    ws = wb.active\n\n    # Data can be assigned directly to cells\n    ws['A1'] = 42\n\n    # Rows can also be appended\n    ws.append([1, 2, 3])\n\n    # Python types will automatically be converted\n    import datetime\n    ws['A2'] = datetime.datetime.now()\n\n    # Save the file\n    wb.save(\"sample.xlsx\")\n\n\nDocumentation\n-------------\n\nThe documentation is at: https://openpyxl.readthedocs.io\n\n* installation methods\n* code examples\n* instructions for contributing\n\nRelease notes: https://openpyxl.readthedocs.io/en/stable/changes.html\n",
+        "home_page": "https://openpyxl.readthedocs.io",
+        "author": "See AUTHORS",
+        "author_email": "charlie.clark@clark-consulting.eu",
+        "license": "MIT",
+        "license_file": [
+          "LICENCE.rst"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11"
+        ],
+        "requires_dist": [
+          "et-xmlfile"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Documentation, https://openpyxl.readthedocs.io/en/stable/",
+          "Source, https://foss.heptapod.net/openpyxl/openpyxl",
+          "Tracker, https://foss.heptapod.net/openpyxl/openpyxl/-/issues"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/ortools-9.15.6755-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=487796301fd9dad55f9cf21f9313c834697f74306d1a59f002e152862f8eb1b5",
+          "hashes": {
+            "sha256": "487796301fd9dad55f9cf21f9313c834697f74306d1a59f002e152862f8eb1b5"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "ortools",
+        "version": "9.15.6755",
+        "summary": "Google OR-Tools python libraries and modules",
+        "description": "This project hosts operations research tools developed at Google and\r\nmade available as open source under the Apache 2.0 License.\r\n\r\nOR-Tools includes solvers for:\r\n\r\n- Constraint Programming\r\n  - CP-SAT solver: A constraint programming solver that uses SAT (satisfiability)\r\n  methods.\r\n  - Original CP solver: A constraint programming solver.\r\n- Linear and Mixed-Integer Programming\r\n  - Glop: A linear optimizer to find the optimal value of a linear objective\r\n  function, given a set of linear inequalities as constraints.\r\n  - MPSolver, ModelBuilder: Wrappers around commercial and other open source\r\n  solvers, including mixed integer solvers: CBC, CLP, GLPK, Gurobi or SCIP.\r\n- Vehicle Routing\r\n  A specialized library for identifying best vehicle routes given constraints.\r\n- Graph Algorithms\r\n  Code for finding shortest paths in graphs, min-cost flows, max flows, and\r\n  linear sum assignments.\r\n",
+        "keywords": [
+          "operations research",
+          "constraint programming",
+          "linear programming",
+          "flow algorithms",
+          "python"
+        ],
+        "home_page": "https://developers.google.com/optimization/",
+        "download_url": "https://github.com/google/or-tools/releases",
+        "author": "Google LLC",
+        "author_email": "or-tools@google.com",
+        "license": "Apache 2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Education",
+          "Intended Audience :: Information Technology",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: Apache Software License",
+          "Operating System :: Unix",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: POSIX :: BSD :: FreeBSD",
+          "Operating System :: POSIX :: BSD :: NetBSD",
+          "Operating System :: POSIX :: BSD :: OpenBSD",
+          "Operating System :: MacOS",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: C++",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Office/Business :: Scheduling",
+          "Topic :: Scientific/Engineering",
+          "Topic :: Scientific/Engineering :: Mathematics",
+          "Topic :: Software Development",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "requires_dist": [
+          "absl-py >=2.0.0",
+          "numpy >=2.0.2",
+          "pandas >=2.0.0",
+          "protobuf <6.34,>=6.33.1",
+          "typing-extensions >=4.12",
+          "immutabledict >=3.0.0"
+        ],
+        "requires_python": ">= 3.9"
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/pandas-3.0.6-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=3ef908d28590b3f42d7070e7ad8f9b34b442b260b7f3c1afb57e0040c58cdb1b",
+          "hashes": {
+            "sha256": "3ef908d28590b3f42d7070e7ad8f9b34b442b260b7f3c1afb57e0040c58cdb1b"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pandas",
+        "version": "3.0.6",
+        "summary": "Powerful data structures for data analysis, time series, and statistics",
+        "description": "<picture align=\"center\">\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pandas.pydata.org/static/img/pandas_white.svg\">\n  <img alt=\"Pandas Logo\" src=\"https://pandas.pydata.org/static/img/pandas.svg\">\n</picture>\n\n-----------------\n\n# pandas: A Powerful Python Data Analysis Toolkit\n\n| | |\n| --- | --- |\n| Testing | [![CI - Test](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml) [![Coverage](https://codecov.io/github/pandas-dev/pandas/coverage.svg?branch=main)](https://codecov.io/gh/pandas-dev/pandas) |\n| Package | [![PyPI Latest Release](https://img.shields.io/pypi/v/pandas.svg)](https://pypi.org/project/pandas/) [![PyPI Downloads](https://img.shields.io/pypi/dm/pandas.svg?label=PyPI%20downloads)](https://pypi.org/project/pandas/) [![Conda Latest Release](https://anaconda.org/conda-forge/pandas/badges/version.svg)](https://anaconda.org/conda-forge/pandas) [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pandas.svg?label=Conda%20downloads)](https://anaconda.org/conda-forge/pandas) |\n| Meta | [![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3509134.svg)](https://doi.org/10.5281/zenodo.3509134) [![License - BSD 3-Clause](https://img.shields.io/pypi/l/pandas.svg)](https://github.com/pandas-dev/pandas/blob/main/LICENSE) [![Slack](https://img.shields.io/badge/join_Slack-information-brightgreen.svg?logo=slack)](https://pandas.pydata.org/docs/dev/development/community.html?highlight=slack#community-slack) [![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=pandas-dev-pandas)](https://insights.linuxfoundation.org/project/pandas-dev-pandas) |\n\n\n## What is it?\n\n**pandas** is a Python package that provides fast, flexible, and expressive data\nstructures designed to make working with \"relational\" or \"labeled\" data both\neasy and intuitive. It aims to be the fundamental high-level building block for\ndoing practical, **real-world** data analysis in Python. Additionally, it has\nthe broader goal of becoming **the most powerful and flexible open-source data\nanalysis/manipulation tool available in any language**. It is already well on\nits way towards this goal.\n\n## Table of Contents\n\n- [Main Features](#main-features)\n- [Where to get it](#where-to-get-it)\n- [Dependencies](#dependencies)\n- [Installation from sources](#installation-from-sources)\n- [License](#license)\n- [Documentation](#documentation)\n- [Background](#background)\n- [Getting Help](#getting-help)\n- [Discussion and Development](#discussion-and-development)\n- [Contributing to pandas](#contributing-to-pandas)\n\n## Main Features\nHere are just a few of the things that pandas does well:\n\n  - Easy handling of [**missing data**][missing-data] (represented as\n    `NaN`, `NA`, or `NaT`) in floating point as well as non-floating point data\n  - Size mutability: columns can be [**inserted and\n    deleted**][insertion-deletion] from DataFrame and higher dimensional\n    objects\n  - Automatic and explicit [**data alignment**][alignment]: objects can\n    be explicitly aligned to a set of labels, or the user can simply\n    ignore the labels and let `Series`, `DataFrame`, etc. automatically\n    align the data for you in computations\n  - Powerful, flexible [**group by**][groupby] functionality to perform\n    split-apply-combine operations on data sets, for both aggregating\n    and transforming data\n  - Make it [**easy to convert**][conversion] ragged,\n    differently-indexed data in other Python and NumPy data structures\n    into DataFrame objects\n  - Intelligent label-based [**slicing**][slicing], [**fancy\n    indexing**][fancy-indexing], and [**subsetting**][subsetting] of\n    large data sets\n  - Intuitive [**merging**][merging] and [**joining**][joining] data\n    sets\n  - Flexible [**reshaping**][reshape] and [**pivoting**][pivot-table] of\n    data sets\n  - [**Hierarchical**][mi] labeling of axes (possible to have multiple\n    labels per tick)\n  - Robust I/O tools for loading data from [**flat files**][flat-files]\n    (CSV and delimited), [**Excel files**][excel], [**databases**][db],\n    and saving/loading data from the ultrafast [**HDF5 format**][hdfstore]\n  - [**Time series**][timeseries]-specific functionality: date range\n    generation and frequency conversion, moving window statistics,\n    date shifting and lagging\n\n\n   [missing-data]: https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html\n   [insertion-deletion]: https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html#column-selection-addition-deletion\n   [alignment]: https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html?highlight=alignment#intro-to-data-structures\n   [groupby]: https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#group-by-split-apply-combine\n   [conversion]: https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html#dataframe\n   [slicing]: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#slicing-ranges\n   [fancy-indexing]: https://pandas.pydata.org/pandas-docs/stable/user_guide/advanced.html#advanced\n   [subsetting]: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing\n   [merging]: https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging\n   [joining]: https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#joining-on-index\n   [reshape]: https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html\n   [pivot-table]: https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html\n   [mi]: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#hierarchical-indexing-multiindex\n   [flat-files]: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files\n   [excel]: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files\n   [db]: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#sql-queries\n   [hdfstore]: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#hdf5-pytables\n   [timeseries]: https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#time-series-date-functionality\n\n## Where to get it\nThe source code is currently hosted on GitHub at:\nhttps://github.com/pandas-dev/pandas\n\nBinary installers for the latest released version are available at the [Python\nPackage Index (PyPI)](https://pypi.org/project/pandas) and on [Conda](https://anaconda.org/conda-forge/pandas).\n\n```sh\n# conda\nconda install -c conda-forge pandas\n```\n\n```sh\n# or PyPI\npip install pandas\n```\n\nThe list of changes to pandas between each release can be found\n[here](https://pandas.pydata.org/pandas-docs/stable/whatsnew/index.html). For full\ndetails, see the commit logs at https://github.com/pandas-dev/pandas.\n\n## Dependencies\n- [NumPy - Adds support for large, multi-dimensional arrays, matrices and high-level mathematical functions to operate on these arrays](https://www.numpy.org)\n- [python-dateutil - Provides powerful extensions to the standard datetime module](https://dateutil.readthedocs.io/en/stable/index.html)\n- [tzdata - Provides an IANA time zone database](https://tzdata.readthedocs.io/en/latest/) (Only required on Windows/Emscripten)\n\nSee the [full installation instructions](https://pandas.pydata.org/pandas-docs/stable/install.html#dependencies) for minimum supported versions of required, recommended and optional dependencies.\n\n## Installation from sources\nTo install pandas from source you need [Cython](https://cython.org/) in addition to the normal\ndependencies above. Cython can be installed from PyPI:\n\n```sh\npip install cython\n```\n\nIn the `pandas` directory (same one where you found this file after\ncloning the git repo), execute:\n\n```sh\npip install .\n```\n\nor for installing in [development mode](https://pip.pypa.io/en/latest/cli/pip_install/#install-editable):\n\n\n```sh\npython -m pip install -ve . --no-build-isolation --config-settings editable-verbose=true\n```\n\nSee the full instructions for [installing from source](https://pandas.pydata.org/docs/dev/development/contributing_environment.html).\n\n## License\n[BSD 3](LICENSE)\n\n## Documentation\nThe official documentation is hosted on [PyData.org](https://pandas.pydata.org/pandas-docs/stable/).\n\n## Background\nWork on ``pandas`` started at [AQR](https://www.aqr.com/) (a quantitative hedge fund) in 2008 and\nhas been under active development since then.\n\n## Getting Help\n\nFor usage questions, the best place to go to is [Stack Overflow](https://stackoverflow.com/questions/tagged/pandas).\nFurther, general questions and discussions can also take place on the [pydata mailing list](https://groups.google.com/forum/?fromgroups#!forum/pydata).\n\n## Discussion and Development\nMost development discussions take place on GitHub in this repo, via the [GitHub issue tracker](https://github.com/pandas-dev/pandas/issues).\n\nFurther, the [pandas-dev mailing list](https://mail.python.org/mailman/listinfo/pandas-dev) can also be used for specialized discussions or design issues, and a [Slack channel](https://pandas.pydata.org/docs/dev/development/community.html?highlight=slack#community-slack) is available for quick development related questions.\n\nThere are also frequent [community meetings](https://pandas.pydata.org/docs/dev/development/community.html#community-meeting) for project maintainers open to the community as well as monthly [new contributor meetings](https://pandas.pydata.org/docs/dev/development/community.html#new-contributor-meeting) to help support new contributors.\n\nAdditional information on the communication channels can be found on the [contributor community](https://pandas.pydata.org/docs/development/community.html) page.\n\n## Contributing to pandas\n\n[![Open Source Helpers](https://www.codetriage.com/pandas-dev/pandas/badges/users.svg)](https://www.codetriage.com/pandas-dev/pandas)\n\nAll contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.\n\nA detailed overview on how to contribute can be found in the **[contributing guide](https://pandas.pydata.org/docs/dev/development/contributing.html)**.\n\nIf you are simply looking to start working with the pandas codebase, navigate to the [GitHub \"issues\" tab](https://github.com/pandas-dev/pandas/issues) and start looking through interesting issues. There are a number of issues listed under [Docs](https://github.com/pandas-dev/pandas/issues?q=is%3Aissue%20state%3Aopen%20label%3ADocs%20sort%3Aupdated-desc) and [good first issue](https://github.com/pandas-dev/pandas/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22%20sort%3Aupdated-desc) where you could start out.\n\nYou can also triage issues which may include reproducing bug reports, or asking for vital information such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to pandas on CodeTriage](https://www.codetriage.com/pandas-dev/pandas).\n\nOr maybe through using pandas you have an idea of your own or are looking for something in the documentation and thinking ‘this can be improved’... you can do something about it!\n\nFeel free to ask questions on the [mailing list](https://groups.google.com/forum/?fromgroups#!forum/pydata) or on [Slack](https://pandas.pydata.org/docs/dev/development/community.html?highlight=slack#community-slack).\n\nAs contributors and maintainers to this project, you are expected to abide by pandas' code of conduct. More information can be found at: [Contributor Code of Conduct](https://github.com/pandas-dev/.github/blob/master/CODE_OF_CONDUCT.md)\n\n<hr>\n\n[Go to Top](#table-of-contents)\n",
+        "description_content_type": "text/markdown",
+        "author_email": "The Pandas Development Team <pandas-dev@python.org>",
+        "license": "BSD 3-Clause License\n\n Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\n All rights reserved.\n\n Copyright (c) 2011-2026, Open source contributors.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n * Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Cython",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_dist": [
+          "numpy>=1.26.0; python_version < \"3.14\"",
+          "numpy>=2.3.3; python_version >= \"3.14\"",
+          "python-dateutil>=2.8.2",
+          "tzdata; sys_platform == \"win32\"",
+          "tzdata; sys_platform == \"emscripten\"",
+          "hypothesis>=6.116.0; extra == \"test\"",
+          "pytest<9.1,>=8.3.4; extra == \"test\"",
+          "pytest-xdist>=3.6.1; extra == \"test\"",
+          "pyarrow>=13.0.0; extra == \"pyarrow\"",
+          "bottleneck>=1.4.2; extra == \"performance\"",
+          "numba>=0.60.0; extra == \"performance\"",
+          "numexpr>=2.10.2; extra == \"performance\"",
+          "scipy>=1.14.1; extra == \"computation\"",
+          "xarray>=2024.10.0; extra == \"computation\"",
+          "fsspec>=2024.10.0; extra == \"fss\"",
+          "s3fs>=2024.10.0; extra == \"aws\"",
+          "gcsfs>=2024.10.0; extra == \"gcp\"",
+          "odfpy>=1.4.1; extra == \"excel\"",
+          "openpyxl>=3.1.5; extra == \"excel\"",
+          "python-calamine>=0.3.0; extra == \"excel\"",
+          "pyxlsb>=1.0.10; extra == \"excel\"",
+          "xlrd>=2.0.1; extra == \"excel\"",
+          "xlsxwriter>=3.2.0; extra == \"excel\"",
+          "pyarrow>=13.0.0; extra == \"parquet\"",
+          "pyarrow>=13.0.0; extra == \"feather\"",
+          "pyiceberg>=0.8.1; extra == \"iceberg\"",
+          "tables>=3.10.1; extra == \"hdf5\"",
+          "pyreadstat>=1.2.8; extra == \"spss\"",
+          "SQLAlchemy>=2.0.36; extra == \"postgresql\"",
+          "psycopg2>=2.9.10; extra == \"postgresql\"",
+          "adbc-driver-postgresql>=1.2.0; extra == \"postgresql\"",
+          "SQLAlchemy>=2.0.36; extra == \"mysql\"",
+          "pymysql>=1.1.1; extra == \"mysql\"",
+          "SQLAlchemy>=2.0.36; extra == \"sql-other\"",
+          "adbc-driver-postgresql>=1.2.0; extra == \"sql-other\"",
+          "adbc-driver-sqlite>=1.2.0; extra == \"sql-other\"",
+          "beautifulsoup4>=4.12.3; extra == \"html\"",
+          "html5lib>=1.1; extra == \"html\"",
+          "lxml>=5.3.0; extra == \"html\"",
+          "lxml>=5.3.0; extra == \"xml\"",
+          "matplotlib>=3.9.3; extra == \"plot\"",
+          "jinja2>=3.1.5; extra == \"output-formatting\"",
+          "tabulate>=0.9.0; extra == \"output-formatting\"",
+          "PyQt5>=5.15.9; extra == \"clipboard\"",
+          "qtpy>=2.4.2; extra == \"clipboard\"",
+          "zstandard>=0.23.0; extra == \"compression\"",
+          "pytz>=2020.1; extra == \"timezone\"",
+          "adbc-driver-postgresql>=1.2.0; extra == \"all\"",
+          "adbc-driver-sqlite>=1.2.0; extra == \"all\"",
+          "beautifulsoup4>=4.12.3; extra == \"all\"",
+          "bottleneck>=1.4.2; extra == \"all\"",
+          "fastparquet>=2024.11.0; extra == \"all\"",
+          "fsspec>=2024.10.0; extra == \"all\"",
+          "gcsfs>=2024.10.0; extra == \"all\"",
+          "html5lib>=1.1; extra == \"all\"",
+          "hypothesis>=6.116.0; extra == \"all\"",
+          "jinja2>=3.1.5; extra == \"all\"",
+          "lxml>=5.3.0; extra == \"all\"",
+          "matplotlib>=3.9.3; extra == \"all\"",
+          "numba>=0.60.0; extra == \"all\"",
+          "numexpr>=2.10.2; extra == \"all\"",
+          "odfpy>=1.4.1; extra == \"all\"",
+          "openpyxl>=3.1.5; extra == \"all\"",
+          "psycopg2>=2.9.10; extra == \"all\"",
+          "pyarrow>=13.0.0; extra == \"all\"",
+          "pyiceberg>=0.8.1; extra == \"all\"",
+          "pymysql>=1.1.1; extra == \"all\"",
+          "PyQt5>=5.15.9; extra == \"all\"",
+          "pyreadstat>=1.2.8; extra == \"all\"",
+          "pytest>=8.3.4; extra == \"all\"",
+          "pytest-xdist>=3.6.1; extra == \"all\"",
+          "python-calamine>=0.3.0; extra == \"all\"",
+          "pytz>=2020.1; extra == \"all\"",
+          "pyxlsb>=1.0.10; extra == \"all\"",
+          "qtpy>=2.4.2; extra == \"all\"",
+          "scipy>=1.14.1; extra == \"all\"",
+          "s3fs>=2024.10.0; extra == \"all\"",
+          "SQLAlchemy>=2.0.36; extra == \"all\"",
+          "tables>=3.10.1; extra == \"all\"",
+          "tabulate>=0.9.0; extra == \"all\"",
+          "xarray>=2024.10.0; extra == \"all\"",
+          "xlrd>=2.0.1; extra == \"all\"",
+          "xlsxwriter>=3.2.0; extra == \"all\"",
+          "zstandard>=0.23.0; extra == \"all\""
+        ],
+        "requires_python": ">=3.11",
+        "project_url": [
+          "homepage, https://pandas.pydata.org",
+          "documentation, https://pandas.pydata.org/docs/",
+          "repository, https://github.com/pandas-dev/pandas"
+        ],
+        "provides_extra": [
+          "test",
+          "pyarrow",
+          "performance",
+          "computation",
+          "fss",
+          "aws",
+          "gcp",
+          "excel",
+          "parquet",
+          "feather",
+          "iceberg",
+          "hdf5",
+          "spss",
+          "postgresql",
+          "mysql",
+          "sql-other",
+          "html",
+          "xml",
+          "plot",
+          "output-formatting",
+          "clipboard",
+          "compression",
+          "timezone",
+          "all"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/protobuf-6.33.6-cp310-abi3-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=0cd27b587afca21b7cfa59a74dcbd48a50f0a6400cfb59391340ad729d91d326",
+          "hashes": {
+            "sha256": "0cd27b587afca21b7cfa59a74dcbd48a50f0a6400cfb59391340ad729d91d326"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "protobuf",
+        "version": "6.33.6",
+        "description": "UNKNOWN\n",
+        "home_page": "https://developers.google.com/protocol-buffers/",
+        "author": "protobuf@googlegroups.com",
+        "author_email": "protobuf@googlegroups.com",
+        "license": "3-Clause BSD License",
+        "classifier": [
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13"
+        ],
+        "requires_python": ">=3.9"
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+          "hashes": {
+            "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "python-dateutil",
+        "version": "2.9.0.post0",
+        "summary": "Extensions to the standard Python datetime module",
+        "description": "dateutil - powerful extensions to datetime\n==========================================\n\n|pypi| |support| |licence|\n\n|gitter| |readthedocs|\n\n|travis| |appveyor| |pipelines| |coverage|\n\n.. |pypi| image:: https://img.shields.io/pypi/v/python-dateutil.svg?style=flat-square\n    :target: https://pypi.org/project/python-dateutil/\n    :alt: pypi version\n\n.. |support| image:: https://img.shields.io/pypi/pyversions/python-dateutil.svg?style=flat-square\n    :target: https://pypi.org/project/python-dateutil/\n    :alt: supported Python version\n\n.. |travis| image:: https://img.shields.io/travis/dateutil/dateutil/master.svg?style=flat-square&label=Travis%20Build\n    :target: https://travis-ci.org/dateutil/dateutil\n    :alt: travis build status\n\n.. |appveyor| image:: https://img.shields.io/appveyor/ci/dateutil/dateutil/master.svg?style=flat-square&logo=appveyor\n    :target: https://ci.appveyor.com/project/dateutil/dateutil\n    :alt: appveyor build status\n\n.. |pipelines| image:: https://dev.azure.com/pythondateutilazure/dateutil/_apis/build/status/dateutil.dateutil?branchName=master\n    :target: https://dev.azure.com/pythondateutilazure/dateutil/_build/latest?definitionId=1&branchName=master\n    :alt: azure pipelines build status\n\n.. |coverage| image:: https://codecov.io/gh/dateutil/dateutil/branch/master/graphs/badge.svg?branch=master\n    :target: https://codecov.io/gh/dateutil/dateutil?branch=master\n    :alt: Code coverage\n\n.. |gitter| image:: https://badges.gitter.im/dateutil/dateutil.svg\n   :alt: Join the chat at https://gitter.im/dateutil/dateutil\n   :target: https://gitter.im/dateutil/dateutil\n\n.. |licence| image:: https://img.shields.io/pypi/l/python-dateutil.svg?style=flat-square\n    :target: https://pypi.org/project/python-dateutil/\n    :alt: licence\n\n.. |readthedocs| image:: https://img.shields.io/readthedocs/dateutil/latest.svg?style=flat-square&label=Read%20the%20Docs\n   :alt: Read the documentation at https://dateutil.readthedocs.io/en/latest/\n   :target: https://dateutil.readthedocs.io/en/latest/\n\nThe `dateutil` module provides powerful extensions to\nthe standard `datetime` module, available in Python.\n\nInstallation\n============\n`dateutil` can be installed from PyPI using `pip` (note that the package name is\ndifferent from the importable name)::\n\n    pip install python-dateutil\n\nDownload\n========\ndateutil is available on PyPI\nhttps://pypi.org/project/python-dateutil/\n\nThe documentation is hosted at:\nhttps://dateutil.readthedocs.io/en/stable/\n\nCode\n====\nThe code and issue tracker are hosted on GitHub:\nhttps://github.com/dateutil/dateutil/\n\nFeatures\n========\n\n* Computing of relative deltas (next month, next year,\n  next Monday, last week of month, etc);\n* Computing of relative deltas between two given\n  date and/or datetime objects;\n* Computing of dates based on very flexible recurrence rules,\n  using a superset of the `iCalendar <https://www.ietf.org/rfc/rfc2445.txt>`_\n  specification. Parsing of RFC strings is supported as well.\n* Generic parsing of dates in almost any string format;\n* Timezone (tzinfo) implementations for tzfile(5) format\n  files (/etc/localtime, /usr/share/zoneinfo, etc), TZ\n  environment string (in all known formats), iCalendar\n  format files, given ranges (with help from relative deltas),\n  local machine timezone, fixed offset timezone, UTC timezone,\n  and Windows registry-based time zones.\n* Internal up-to-date world timezone information based on\n  Olson's database.\n* Computing of Easter Sunday dates for any given year,\n  using Western, Orthodox or Julian algorithms;\n* A comprehensive test suite.\n\nQuick example\n=============\nHere's a snapshot, just to give an idea about the power of the\npackage. For more examples, look at the documentation.\n\nSuppose you want to know how much time is left, in\nyears/months/days/etc, before the next easter happening on a\nyear with a Friday 13th in August, and you want to get today's\ndate out of the \"date\" unix system command. Here is the code:\n\n.. code-block:: python3\n\n    >>> from dateutil.relativedelta import *\n    >>> from dateutil.easter import *\n    >>> from dateutil.rrule import *\n    >>> from dateutil.parser import *\n    >>> from datetime import *\n    >>> now = parse(\"Sat Oct 11 17:13:46 UTC 2003\")\n    >>> today = now.date()\n    >>> year = rrule(YEARLY,dtstart=now,bymonth=8,bymonthday=13,byweekday=FR)[0].year\n    >>> rdelta = relativedelta(easter(year), today)\n    >>> print(\"Today is: %s\" % today)\n    Today is: 2003-10-11\n    >>> print(\"Year with next Aug 13th on a Friday is: %s\" % year)\n    Year with next Aug 13th on a Friday is: 2004\n    >>> print(\"How far is the Easter of that year: %s\" % rdelta)\n    How far is the Easter of that year: relativedelta(months=+6)\n    >>> print(\"And the Easter of that year is: %s\" % (today+rdelta))\n    And the Easter of that year is: 2004-04-11\n\nBeing exactly 6 months ahead was **really** a coincidence :)\n\nContributing\n============\n\nWe welcome many types of contributions - bug reports, pull requests (code, infrastructure or documentation fixes). For more information about how to contribute to the project, see the ``CONTRIBUTING.md`` file in the repository.\n\n\nAuthor\n======\nThe dateutil module was written by Gustavo Niemeyer <gustavo@niemeyer.net>\nin 2003.\n\nIt is maintained by:\n\n* Gustavo Niemeyer <gustavo@niemeyer.net> 2003-2011\n* Tomi Pieviläinen <tomi.pievilainen@iki.fi> 2012-2014\n* Yaron de Leeuw <me@jarondl.net> 2014-2016\n* Paul Ganssle <paul@ganssle.io> 2015-\n\nStarting with version 2.4.1 and running until 2.8.2, all source and binary\ndistributions will be signed by a PGP key that has, at the very least, been\nsigned by the key which made the previous release. A table of release signing\nkeys can be found below:\n\n===========  ============================\nReleases     Signing key fingerprint\n===========  ============================\n2.4.1-2.8.2  `6B49 ACBA DCF6 BD1C A206 67AB CD54 FCE3 D964 BEFB`_\n===========  ============================\n\nNew releases *may* have signed tags, but binary and source distributions\nuploaded to PyPI will no longer have GPG signatures attached.\n\nContact\n=======\nOur mailing list is available at `dateutil@python.org <https://mail.python.org/mailman/listinfo/dateutil>`_. As it is hosted by the PSF, it is subject to the `PSF code of\nconduct <https://www.python.org/psf/conduct/>`_.\n\nLicense\n=======\n\nAll contributions after December 1, 2017 released under dual license - either `Apache 2.0 License <https://www.apache.org/licenses/LICENSE-2.0>`_ or the `BSD 3-Clause License <https://opensource.org/licenses/BSD-3-Clause>`_. Contributions before December 1, 2017 - except those those explicitly relicensed - are released only under the BSD 3-Clause License.\n\n\n.. _6B49 ACBA DCF6 BD1C A206 67AB CD54 FCE3 D964 BEFB:\n   https://pgp.mit.edu/pks/lookup?op=vindex&search=0xCD54FCE3D964BEFB\n",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://github.com/dateutil/dateutil",
+        "author": "Gustavo Niemeyer",
+        "author_email": "gustavo@niemeyer.net",
+        "maintainer": "Paul Ganssle",
+        "maintainer_email": "dateutil@python.org",
+        "license": "Dual License",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.3",
+          "Programming Language :: Python :: 3.4",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Software Development :: Libraries"
+        ],
+        "requires_dist": [
+          "six >=1.5"
+        ],
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+        "project_url": [
+          "Documentation, https://dateutil.readthedocs.io/en/stable/",
+          "Source, https://github.com/dateutil/dateutil"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/six-1.17.0-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+          "hashes": {
+            "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "six",
+        "version": "1.17.0",
+        "summary": "Python 2 and 3 compatibility utilities",
+        "description": ".. image:: https://img.shields.io/pypi/v/six.svg\n   :target: https://pypi.org/project/six/\n   :alt: six on PyPI\n\n.. image:: https://readthedocs.org/projects/six/badge/?version=latest\n   :target: https://six.readthedocs.io/\n   :alt: six's documentation on Read the Docs\n\n.. image:: https://img.shields.io/badge/license-MIT-green.svg\n   :target: https://github.com/benjaminp/six/blob/master/LICENSE\n   :alt: MIT License badge\n\nSix is a Python 2 and 3 compatibility library.  It provides utility functions\nfor smoothing over the differences between the Python versions with the goal of\nwriting Python code that is compatible on both Python versions.  See the\ndocumentation for more information on what is provided.\n\nSix supports Python 2.7 and 3.3+.  It is contained in only one Python\nfile, so it can be easily copied into your project. (The copyright and license\nnotice must be retained.)\n\nOnline documentation is at https://six.readthedocs.io/.\n\nBugs can be reported to https://github.com/benjaminp/six.  The code can also\nbe found there.\n",
+        "home_page": "https://github.com/benjaminp/six",
+        "author": "Benjamin Peterson",
+        "author_email": "benjamin@python.org",
+        "license": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 3",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Utilities"
+        ],
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/typing_extensions-4.16.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+          "hashes": {
+            "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "typing_extensions",
+        "version": "4.16.0",
+        "summary": "Backported and Experimental Type Hints for Python 3.9+",
+        "description": "# Typing Extensions\n\n[![Chat at https://gitter.im/python/typing](https://badges.gitter.im/python/typing.svg)](https://gitter.im/python/typing)\n\n[Documentation](https://typing-extensions.readthedocs.io/en/latest/#) –\n[PyPI](https://pypi.org/project/typing-extensions/)\n\n## Overview\n\nThe `typing_extensions` module serves two related purposes:\n\n- Enable use of new type system features on older Python versions. For example,\n  `typing.TypeGuard` is new in Python 3.10, but `typing_extensions` allows\n  users on previous Python versions to use it too.\n- Enable experimentation with new type system PEPs before they are accepted and\n  added to the `typing` module.\n\n`typing_extensions` is treated specially by static type checkers such as\nmypy and pyright. Objects defined in `typing_extensions` are treated the same\nway as equivalent forms in `typing`.\n\n`typing_extensions` uses\n[Semantic Versioning](https://semver.org/). The\nmajor version will be incremented only for backwards-incompatible changes.\nTherefore, it's safe to depend\non `typing_extensions` like this: `typing_extensions ~=x.y`,\nwhere `x.y` is the first version that includes all features you need.\n[This](https://packaging.python.org/en/latest/specifications/version-specifiers/#compatible-release)\nis equivalent to `typing_extensions >=x.y, <(x+1)`. Do not depend on `~= x.y.z`\nunless you really know what you're doing; that defeats the purpose of\nsemantic versioning.\n\n## Included items\n\nSee [the documentation](https://typing-extensions.readthedocs.io/en/latest/#) for a\ncomplete listing of module contents.\n\n## Contributing\n\nSee [CONTRIBUTING.md](https://github.com/python/typing_extensions/blob/main/CONTRIBUTING.md)\nfor how to contribute to `typing_extensions`.\n\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "annotations",
+          "backport",
+          "checker",
+          "checking",
+          "function",
+          "hinting",
+          "hints",
+          "type",
+          "typechecking",
+          "typehinting",
+          "typehints",
+          "typing"
+        ],
+        "author_email": "\"Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee\" <levkivskyi@gmail.com>",
+        "license_expression": "PSF-2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Topic :: Software Development"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Bug Tracker, https://github.com/python/typing_extensions/issues",
+          "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+          "Documentation, https://typing-extensions.readthedocs.io/",
+          "Home, https://github.com/python/typing_extensions",
+          "Q & A, https://github.com/python/typing/discussions",
+          "Repository, https://github.com/python/typing_extensions"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///workspace/SMART_TKB_THCS_V3_1_OPTIMIZED_CANDIDATE/windows/wheels/tzdata-2026.2-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=bbe9af844f658da81a5f95019480da3a89415801f6cc966806612cc7169bffe7",
+          "hashes": {
+            "sha256": "bbe9af844f658da81a5f95019480da3a89415801f6cc966806612cc7169bffe7"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "tzdata",
+        "version": "2026.2",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Provider of IANA time zone data",
+        "description": "tzdata: Python package providing IANA time zone data\n====================================================\n\nThis is a Python package containing ``zic``-compiled binaries for the IANA time\nzone database. It is intended to be a fallback for systems that do not have\nsystem time zone data installed (or don't have it installed in a standard\nlocation), as a part of `PEP 615 <https://www.python.org/dev/peps/pep-0615/>`_\n\nThis repository generates a ``pip``-installable package, published on PyPI as\n`tzdata <https://pypi.org/project/tzdata>`_.\n\nFor more information, see `the documentation <https://tzdata.python.org>`_.\n",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://github.com/python/tzdata",
+        "author": "Python Software Foundation",
+        "author_email": "datetime-sig@python.org",
+        "license": "Apache-2.0",
+        "license_file": [
+          "LICENSE",
+          "licenses/LICENSE_APACHE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 3"
+        ],
+        "requires_python": ">=2",
+        "project_url": [
+          "Bug Reports, https://github.com/python/tzdata/issues",
+          "Source, https://github.com/python/tzdata",
+          "Documentation, https://tzdata.python.org"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.14",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "6.18.44",
+    "platform_system": "Linux",
+    "platform_version": "#1 SMP Sat Sep 26 20:02:31 UTC 2026",
+    "python_full_version": "3.12.14",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "linux"
+  }
+}

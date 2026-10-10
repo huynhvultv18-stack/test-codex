@@ -1,0 +1,1 @@
+Báo cáo hiện tại: FULL_AUDIT.md, BUGFIX.md, OPTIMIZATION.md, AB_BENCHMARK.md, REGRESSION.md, ACCEPTANCE.json. Các báo cáo FAIR_BENCHMARK/fair và baseline_v3 thuộc so sánh V3→V3.1 lịch sử; không thay cho A/B baseline V3.1→Optimized. V3_REFERENCE phục vụ tính năng đối chiếu lịch sử trong UI. Source audit/PCCM audit kế thừa được đối chiếu lại bằng SOURCE_LOCK và unit tests.

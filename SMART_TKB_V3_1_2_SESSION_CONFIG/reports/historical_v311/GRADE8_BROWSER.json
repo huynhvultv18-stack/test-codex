@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "checks": [
+    "Default grade8, both, 5am4pm6days, 9classes234periods26IDs",
+    "Three locked grades,17 crossgrade teachers,84missing background specials visible",
+    "Only grade8 inventory27 pending; no automatically selected activities",
+    "CSRF,Host,same-origin offline CSP",
+    "Malformed JSON and forged internal projection rejected",
+    "Default incomplete background BLOCKED; no zero-school-conflict claim",
+    "Failed backup restore is atomic and retains source grade8",
+    "Complete synthetic background solves grade8 only and verifies CROSSGRADE PASS",
+    "Warm optimize button preserves verified feasible incumbent",
+    "Crossgrade teacher viewer shows locked background lessons",
+    "CSV,XLSX,JSON downloads exist",
+    "Reload independently verifies schedule and does not inherit optimal proof",
+    "CSV schedule roundtrip rechecks frozen teacher and room occupancy",
+    "Backup locked hash tampering rejected atomically",
+    "Real9class234period technical backup independently restores; school conflicts remain unknown",
+    "Real grade8 warm optimize retains234verified periods and frozen grades",
+    "Actual grade8 Excel download passes independent cross-background verifier",
+    "Changing grade for a future session freezes the latest grade8 schedule without solving grade9",
+    "Responsive pages fit390/768/1366px",
+    "No native JavaScript errors"
+  ],
+  "errors": []
+}

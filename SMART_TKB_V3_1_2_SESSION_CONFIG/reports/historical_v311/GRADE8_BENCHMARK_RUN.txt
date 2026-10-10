@@ -1,0 +1,16 @@
+RUN default_strict_blocked
+default_strict_blocked BLOCKED 0 None
+RUN both_cold_s17_t30
+both_cold_s17_t30 FEASIBLE 234 {'gaps': 0, 'visits': 222, 'distribution': 112, 'concentration': 13, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 36, 'grade_only_gaps': 11, 'grade_only_visits': 79}
+RUN both_warm_s17_t30
+both_warm_s17_t30 FEASIBLE 234 {'gaps': 0, 'visits': 221, 'distribution': 112, 'concentration': 13, 'preferences': 0, 'changes': 198, 'baseline_visits': 186, 'added_visits': 35, 'grade_only_gaps': 11, 'grade_only_visits': 79}
+RUN both_local_C08A01_t10
+both_local_C08A01_t10 OPTIMAL 234 {'gaps': 0, 'visits': 221, 'distribution': 112, 'concentration': 13, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 35, 'grade_only_gaps': 11, 'grade_only_visits': 79}
+RUN morning_cold_s17_t10
+morning_cold_s17_t10 FEASIBLE 234 {'gaps': 9, 'visits': 229, 'distribution': 118, 'concentration': 21, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 43, 'grade_only_gaps': 5, 'grade_only_visits': 68}
+RUN mixed_am_cold_s17_t10
+mixed_am_cold_s17_t10 FEASIBLE 234 {'gaps': 9, 'visits': 229, 'distribution': 126, 'concentration': 32, 'preferences': 0, 'changes': 0, 'baseline_visits': 186, 'added_visits': 43, 'grade_only_gaps': 7, 'grade_only_visits': 68}
+RUN mixed_pm_capacity_infeasible
+mixed_pm_capacity_infeasible INFEASIBLE 0 None
+RUN complete_background_synthetic_fixture
+complete_background_synthetic_fixture OPTIMAL 3 {'gaps': 0, 'visits': 4, 'distribution': 1, 'concentration': 1, 'preferences': 0, 'changes': 0, 'baseline_visits': 3, 'added_visits': 1, 'grade_only_gaps': 0, 'grade_only_visits': 2}

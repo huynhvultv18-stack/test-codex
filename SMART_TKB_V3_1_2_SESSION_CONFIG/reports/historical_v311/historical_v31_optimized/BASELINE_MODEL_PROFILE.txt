@@ -1,0 +1,30 @@
+         1974851 function calls (1865233 primitive calls) in 0.646 seconds
+
+   Ordered by: cumulative time
+   List reduced from 143 to 22 due to restriction <22>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+109804/43204    0.031    0.000    0.146    0.000 {built-in method builtins.any}
+10951/8971    0.092    0.000    0.131    0.000 {built-in method builtins.sum}
+    99900    0.032    0.000    0.129    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/solver.py:65(<genexpr>)
+    76500    0.027    0.000    0.103    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/validation.py:102(blocked)
+    34188    0.044    0.000    0.090    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/quality.py:12(rule_for)
+        1    0.030    0.030    0.086    0.086 /workspace/smart-tkb-tools/lib/python3.12/site-packages/ortools/sat/python/cp_model.py:372(new_bool_var)
+    76500    0.059    0.000    0.059    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/validation.py:103(<genexpr>)
+        1    0.000    0.000    0.056    0.056 /workspace/tkb-v31-audit-baseline/smart_tkb/special.py:32(prepare_special)
+   518789    0.056    0.000    0.056    0.000 {method 'get' of 'dict' objects}
+ 38704/80    0.028    0.000    0.056    0.001 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py:118(deepcopy)
+  1908/80    0.009    0.000    0.055    0.001 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py:217(_deepcopy_dict)
+  663/108    0.001    0.000    0.052    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py:191(_deepcopy_list)
+   128205    0.026    0.000    0.039    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/quality.py:4(class_ids)
+   301352    0.035    0.000    0.035    0.000 {method 'append' of 'list' objects}
+    34188    0.006    0.000    0.035    0.000 {built-in method builtins.next}
+    68376    0.031    0.000    0.034    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/quality.py:13(<genexpr>)
+     8225    0.023    0.000    0.023    0.000 /workspace/smart-tkb-tools/lib/python3.12/site-packages/ortools/sat/python/cp_model.py:1039(add_max_equality)
+     6060    0.021    0.000    0.021    0.000 /workspace/smart-tkb-tools/lib/python3.12/site-packages/ortools/sat/python/cp_model.py:961(add_at_most_one)
+    33300    0.011    0.000    0.017    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/validation.py:105(signature)
+     6105    0.008    0.000    0.015    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/quality.py:6(allowed_shifts)
+    67812    0.014    0.000    0.014    0.000 /workspace/tkb-v31-audit-baseline/smart_tkb/solver.py:88(<genexpr>)
+    66814    0.012    0.000    0.012    0.000 {method 'split' of 'str' objects}
+
+

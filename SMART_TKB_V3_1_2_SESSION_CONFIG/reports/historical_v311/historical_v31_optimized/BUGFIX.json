@@ -1,0 +1,128 @@
+[
+  {
+    "id": "A01",
+    "severity": "CRITICAL",
+    "problem": "JSON giả _special_prepared bỏ qua kiểm kê và quy tắc",
+    "module": "special.py",
+    "fix": "PreparedData nội bộ; từ chối dấu nội bộ từ JSON",
+    "evidence": "BUG_REPRODUCTIONS.json + test_public_markers_cannot_bypass_inventory",
+    "state": "FIXED"
+  },
+  {
+    "id": "A02",
+    "severity": "HIGH",
+    "problem": "Verifier chấp nhận ngày phân số ngoài ô lịch nguyên",
+    "module": "validation.py",
+    "fix": "Kiểm kiểu nguyên nghiêm ngặt trước tính toán; định dạng dòng/list",
+    "evidence": "BUG_REPRODUCTIONS.json + 4 malformed schedule tests",
+    "state": "FIXED"
+  },
+  {
+    "id": "A03",
+    "severity": "HIGH",
+    "problem": "special_activities có thể bỏ một bản ghi nguồn, còn 110 thay 111",
+    "module": "special.py/validation.py",
+    "fix": "Khớp bất biến loại/lớp/định mức và tổng nguồn/định mức từng lớp",
+    "evidence": "BUG_REPRODUCTIONS.json + inventory/metadata tests",
+    "state": "FIXED"
+  },
+  {
+    "id": "A04",
+    "severity": "HIGH",
+    "problem": "Nhập Excel dùng int() làm tròn ngày 0.5 thành 0",
+    "module": "exchange.py",
+    "fix": "Chỉ nhận số nguyên hoặc chuỗi nguyên đúng định dạng",
+    "evidence": "BUG_REPRODUCTIONS.json + Excel fractional test",
+    "state": "FIXED"
+  },
+  {
+    "id": "A05",
+    "severity": "HIGH",
+    "problem": "Khôi phục JSON thay data/config trước yêu cầu hậu kiểm thứ hai",
+    "module": "web/app.js",
+    "fix": "Một yêu cầu kiểm cả cấu hình và lịch; apply sau khi thành công",
+    "evidence": "UI_AUDIT_TESTS.json: failed restore giữ 37 lớp",
+    "state": "FIXED"
+  },
+  {
+    "id": "A06",
+    "severity": "MEDIUM",
+    "problem": "Warm start hợp lệ phải tìm lại nghiệm, có thể mất khi ngân sách rất nhỏ",
+    "module": "solver.py",
+    "fix": "Hậu kiểm nghiệm trước; dùng làm incumbent, bỏ clone/call feasibility",
+    "evidence": "test_warm_valid_schedule_survives_tiny_budget + A/B",
+    "state": "FIXED"
+  },
+  {
+    "id": "A07",
+    "severity": "MEDIUM",
+    "problem": "CSV bảo vệ công thức làm mất dấu apostrophe/không đảo ngược ID",
+    "module": "exchange.py",
+    "fix": "Escape đảo ngược được; Excel ghi literal text, không ghi formula",
+    "evidence": "test_csv_formula_escape_is_reversible",
+    "state": "FIXED"
+  },
+  {
+    "id": "A08",
+    "severity": "MEDIUM",
+    "problem": "NaN phase fractions/bool weight hoặc cấu hình sai kiểu được nhận",
+    "module": "validation.py/server.py",
+    "fix": "Số hữu hạn/kiểu chính xác; request JSON object, từ chối NaN/Infinity",
+    "evidence": "BUG_REPRODUCTIONS.json + API/browser tests",
+    "state": "FIXED"
+  },
+  {
+    "id": "A09",
+    "severity": "MEDIUM",
+    "problem": "UI ghi đè collective/fixed rules thành independent khi readConfig",
+    "module": "web/app.js",
+    "fix": "Giữ cấu hình special_scenario; thêm chọn policy và mã nhóm",
+    "evidence": "UI_AUDIT_TESTS.json",
+    "state": "FIXED"
+  },
+  {
+    "id": "A10",
+    "severity": "MEDIUM",
+    "problem": "UI ô priorities gây trang tràn ở 390 px; async inventory có thể về sai thứ tự; tiêu đề111/tổng nguồn sai khi nhập fixture khác",
+    "module": "web/style.css/app.js",
+    "fix": "Giới hạn rộng select; bỏ phản hồi cũ bằng request generation; tiêu đề và tổng đối chiếu theo dữ liệu hiện hành",
+    "evidence": "UI_AUDIT_TESTS.json: 4 tabs × 3 viewports",
+    "state": "FIXED"
+  },
+  {
+    "id": "A11",
+    "severity": "MEDIUM",
+    "problem": "Kiểm kê chưa phân biệt quy tắc phê duyệt, thiếu và mâu thuẫn",
+    "module": "special.py",
+    "fix": "audit_status VERIFIED/APPROVED/MISSING/CONFLICT; giữ PENDING nguồn",
+    "evidence": "test_approved_rule_requires_explicit_note + conflict/missing test",
+    "state": "FIXED"
+  },
+  {
+    "id": "A12",
+    "severity": "MEDIUM",
+    "problem": "Importer không cảnh báo thiếu/trùng dòng tổng",
+    "module": "importer.py",
+    "fix": "Cần đúng một dòng tổng sheet 04 và 05; giữ đối chiếu chi tiết",
+    "evidence": "duplicate/missing total row tests",
+    "state": "FIXED"
+  },
+  {
+    "id": "A13",
+    "severity": "LOW",
+    "problem": "Lặp lookup môn/khối và lịch nghỉ ở hàng chục nghìn placement; chỉ mục không dùng",
+    "module": "quality.py/solver.py",
+    "fix": "Cache rule theo lớp/môn; index nghỉ; bỏ daily index/dead hints",
+    "evidence": "BASELINE_MODEL_PROFILE.txt + A/B model_ready",
+    "state": "FIXED"
+  },
+  {
+    "id": "A14",
+    "severity": "LOW",
+    "problem": "Thiếu đo mô hình và quá ít phạm vi kiểm tra mobile",
+    "module": "solver.py/tests",
+    "fix": "Timing/vars/constraints, CPU phase, peak RSS fresh-process, browser nhiều viewport",
+    "evidence": "AB_BENCHMARK.json + UI_AUDIT_TESTS.json",
+    "state": "FIXED"
+  }
+]

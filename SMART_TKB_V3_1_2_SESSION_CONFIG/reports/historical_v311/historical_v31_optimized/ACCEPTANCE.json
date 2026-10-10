@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "AUDIT": {
+      "status": "PASS",
+      "evidence": "FULL_AUDIT.md + BUGFIX.md"
+    },
+    "SOLVER": {
+      "status": "PASS",
+      "evidence": "AB_INDEPENDENT_VERIFICATION.json + UNIT_REGRESSION.txt"
+    },
+    "REGRESSION": {
+      "status": "PASS",
+      "evidence": "71 unit +28 browser; CRITICAL/HIGH known unresolved=0"
+    },
+    "SPECIAL_ACTIVITY": {
+      "status": "PASS",
+      "evidence": "source111 MISSING/PENDING, APPROVED/VERIFIED/SCENARIO tests"
+    },
+    "OPTIMIZATION": {
+      "status": "PASS",
+      "scope": "6/12 feasible pairs improve lexicographically without worsening higher-priority goals in those winning pairs; not general superiority",
+      "worse_pairs": 5,
+      "equal_pairs": 1,
+      "evidence": "AB_BENCHMARK.md + OPTIMIZATION.md"
+    },
+    "BASELINE_DOMINANCE_ALL_PROFILES": {
+      "status": "FAIL",
+      "reason": "5 worse pairs; best-of-seeds A distribution462/587 vs B466/596"
+    },
+    "PACKAGE": {
+      "status": "PASS",
+      "evidence": "CRC, safe extraction, full SHA manifest; fresh extracted71 unit/28 browser; final ZIP SHA external .zip.sha256",
+      "windows_runtime": "UNTESTED"
+    },
+    "WINDOWS_RUNTIME": {
+      "status": "BLOCKED",
+      "runtime": "UNTESTED",
+      "reason": "Linux environment; no real Windows execution"
+    }
+  },
+  "data_accepted": false,
+  "windows_accepted": false,
+  "production_ready": false
+}
