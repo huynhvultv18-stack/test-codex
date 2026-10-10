@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "url": "https://github.com/huynhvultv18-stack/test-codex/raw/refs/heads/smart-tkb-v3-1-1-grade8-candidate/dist/SMART_TKB_THCS_V3_1_1_GRADE8_CANDIDATE.zip",
+  "source_commit": "4725d57",
+  "sha256": "9e80b3708a9d0dcff0151cf1c7100a8672d153a79e094a45a4d4c7cc09805690",
+  "bytes": 65102947,
+  "crc": "PASS",
+  "safe_extraction": "PASS",
+  "manifest": "PASS",
+  "manifest_files": 1593,
+  "identical_to_tested_zip": true,
+  "main_unchanged": true,
+  "remote_main": "f670d85a1705176275da95bc91f5a2e562c3e46f",
+  "extracted_regression_tests": 93,
+  "extracted_browser_checks": 20,
+  "windows_accepted": false,
+  "production_ready": false
+}
